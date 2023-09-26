@@ -1,0 +1,24 @@
+Package: chromConverterExtraTests
+Type: Package
+Title: Additional Chromatography Test Files for chromConverter
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0002-6175-6739")),
+    person(given = "Susan", family = "Whitehead",
+                  role = c("ctb"),
+                  comment = c(ORCID = "0000-0002-7089-4594")),
+    person(given = "Silas", family = "Mellor", role = c("ctb")),
+    person(given = "Carla", family = "Restrepo", role = c("ctb")),
+    person(given = "Benjamin", family = "Reisman", role = c("ctb"),
+                  comment = c(ORCID = "0000-0001-7847-2612")),
+    person(given = "James", family = "Campbell", role = c("ctb")),
+    person(given = "Randy", family = "Julian", role = c("ctb"))
+            )
+Maintainer: Ethan Bass <ethanbass@gmail.com>
+Description: Additional test data for chromConverter <https://github.com/ethanbass/chromConverter>.
+License: NA
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3

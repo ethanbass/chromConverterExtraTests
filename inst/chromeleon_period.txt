@@ -1,0 +1,53 @@
+File Path	chrom://pc-99hx762/ChromeleonLocal/Instrument Data/PC-99HX762_1/Sequenzen/CarboPac-PA1/20170526_MME_Angel.seq/850.smp/ED_1.channel/ED_1.chm
+Channel	ED_1
+
+Injection Information:
+Data Vault	ChromeleonLocal
+Injection	20170526_MME_AA_STD-Mix2
+Injection Number	5
+Position	5
+Comment	
+Processing Method	
+Instrument Method	0-400 mM NaAc 40 min_OHNE_PORT_B 1HZ
+Type	Unknown
+Status	Finished
+Injection Date	26.05.2017
+Injection Time	16:52:02
+Injection Volume (µl)	25.0
+Dilution Factor	1.0000
+Weight	1.0000
+
+Chromatogram Data Information:
+Time Min. (min)	0.000000
+Time Max. (min)	54.000000
+Data Points	3241
+Detector	EDet1
+Generating Data System	Chromeleon 7.2.3.7553
+Exporting Data System	Chromeleon 7.2.3.0
+Operator	Instrument Controller
+Signal Quantity	
+Signal Unit	nC
+Signal Min.	-0.774900
+Signal Max.	210.061603
+Channel	ED_1
+Driver Name	DC-3000
+Channel Type	Evaluation
+Min. Step (s)	1
+Max. Step (s)	1
+Average Step (s)	1
+
+Signal Parameter Information:
+Signal Info	
+
+Chromatogram Data:
+Time (min)	Step (s)	Value (nC)
+0.000000	n.a.	-0.089600
+0.016667	1	-0.038750
+0.033333	1	-0.019900
+0.050000	1	-0.010700
+0.066667	1	-0.004400
+0.083333	1	-0.013550
+0.100000	1	-0.007050
+0.116667	1	-0.011600
+0.133333	1	-0.014200
+0.150000	1	-0.025100
