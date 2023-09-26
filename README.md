@@ -1,6 +1,6 @@
 This repository contains additional chromatography test files for the [chromConverter](https://ethanbass.github.io/chromConverter/) package.
 
-| File | Format | Source | URL | LICENSE |
+| File | Format | Source | SOURCE URL | LICENSE |
 | ----- | --------- | ---------  | ------ | ------------- |
 agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx | GPL3 |
 210325_1402_Sample10_6.mdf | | | 
@@ -15,9 +15,9 @@ chemstation_179.ch | 'Agilent Chemstation' (version 179) |[YADG: yet another dat
 chemstation_181.CH | | |
 chromeleon_comma.txt |  'Thermo Fisher Scientific Chromeleon' (comma-separated decimals) | [TRACEview](https://github.com/angelovangel/TRACEview) | https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip | MIT Copyright (c) 2017 Angel Angelov |
 chromeleon_period.txt | 'Thermo Fisher Scientific Chromeleon' (period-separated decimals) | This file was produced by altering the comma separated file above | - | Copyright (c) 2017 Angel Angelov |
-DCM1.SMS | 'Varian' SMS | Ethan Bass | - | - | GPL3 |
+DCM1.SMS | 'Varian' SMS | Ethan Bass | - | - | CC0 |
 masshunter.d | 'Agilent' Masshunter DAD (.D) | Roderick Bovee | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example | MIT Copyright (c) 2014 Roderick Bovee |
-varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | - | GPL3 |
+varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | - | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | LGPLv2 |
 waters_pda.arw | 'Waters' PDA (.arw) | [Carla Restrepo](https://github.com/crestre)  | https://github.com/ethanbass/chromatographR/issues/26 | unknown license |
 waters.arw | 'Waters' UV (.arw) | [Appia](https://github.com/PlethoraChutney/Appia) | https://github.com/PlethoraChutney/Appia/tree/main/test-files | MIT Copyright (c) 2021 Richard Posert |
