@@ -19,6 +19,7 @@ DCM1.SMS | 'Varian' SMS | Ethan Bass | -- | [CC0](https://creativecommons.org/pu
 masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example | MIT (c) 2014 Roderick Bovee |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | -- | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
+HP_MS.CDF | "ANDI" (Analytical Data Interchange) MS (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
 waters_blue.raw | 'Waters' RAW (.raw) | [rainbow](https://github.com/evanyeyeye/rainbow/tree/main) | https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw | GPL3|
 waters_pda.arw | 'Waters' PDA (.arw) | [Carla Restrepo](https://github.com/crestre)  | https://github.com/ethanbass/chromatographR/issues/26 | -- |
 waters.arw | 'Waters' UV (.arw) | [Appia](https://github.com/PlethoraChutney/Appia) | https://github.com/PlethoraChutney/Appia/tree/main/test-files | MIT (c) 2021 Richard Posert |
