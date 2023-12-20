@@ -12,7 +12,8 @@ chemstation_81.ch | 'Agilent ChemStation' (version 81) | [Roderick Bovee](https:
 chemstation_130.ch | 'Agilent ChemStation' (version 130) | [Susan Whitehead](https://github.com/susanrw) | -- | -- |
 chemstation_179_mustang.ch | 'Agilent ChemStation' ('Mustang' version 179, 8-byte format) | [zrolfs](https://github.com/zrolfs) | https://github.com/ethanbass/chromConverter/issues/22 | -- |
 chemstation_179_asterix.ch | 'Agilent ChemStation' ('Asterix' version 179, 4-byte format) | [PyExpLabSys](https://github.com/CINF/PyExpLabSys) | https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC%202015-01-13%2011-16-24/NV-F0101.D | GPL3 |
-openlab_179.ch | 'Agilent ChemStation' (version 179) |[YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH | GPL3 |
+chemstation_MSD.MS | 'Agilent ChemStation' (.MS) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d | MIT (c) 2014 Roderick Bovee |
+openlab_179.ch | 'Agilent OpenLab' (version 179) |[YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH | GPL3 |
 chromeleon_comma.txt |  'Thermo Fisher Scientific Chromeleon' (comma-separated decimals) | [TRACEview](https://github.com/angelovangel/TRACEview) | https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip | MIT (c) 2017 Angel Angelov |
 chromeleon_period.txt | 'Thermo Fisher Scientific Chromeleon' (period-separated decimals) | This file was produced by altering the comma-separated file above | -- | MIT (c) 2017 Angel Angelov |
 DCM1.SMS | 'Varian' SMS | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
