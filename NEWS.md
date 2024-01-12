@@ -1,3 +1,7 @@
+# chromConverterExtraTests 0.3.0
+
+* Added additional "Shimadzu DAD" (comma-separated) ascii file.
+
 # chromConverterExtraTests 0.2.0
 
 * Added "Agilent ChemStation" MSD file.

@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
@@ -12,10 +12,13 @@ Authors@R: c(
             comment = "Copyright holder, 'chemstation_81.ch', 'masshunter.d'"),
     person(given = "James", family = "Campbell", role = c("ctb", "cph"),
             comment = "Copyright holder, 'chemstation_30.ch', 'chemstation_31.ch'"),
-    person(given = "Peter", family = "Krauss", role = c("ctb", "cph"),
-          comment = "Copyright holder, 'chemstation_179.ch', 'agilent.dx'"),
     person(given = "Randy", family = "Julian", role = c("ctb", "cph"),
             comment = "Copyright holder, 'VARIAN1.CDF'"),
+    person(given = "Todd", family = "Johnson", role = c("ctb", "cph"),
+            comment = c(ORCID = "0000-0002-6170-5077",
+                        "Copyright holder, 'shimadzuDAD_comma.txt'")),
+    person(given = "Peter", family = "Krauss", role = c("ctb", "cph"),
+          comment = "Copyright holder, 'chemstation_179.ch', 'agilent.dx'"),
     person(given = "Silas", family = "Mellor", role = c("ctb", "cph"),
             comment = "Copyright holder, 'Anthocyanin.lcd', 'shimadzuDAD_Anthocyanin.txt'"),
     person(given = "Benjamin", family = "Reisman", role = c("ctb"),

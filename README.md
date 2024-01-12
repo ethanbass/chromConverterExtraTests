@@ -6,10 +6,11 @@ agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/d
 20220404_CirA_D2_04.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
 Anthocyanin.lcd | 'Shimadzu' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_Anthocyanin.txt |  'Shimadzu' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
+shimadzuDAD_comma.txt |  'Shimadzu' ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
 chemstation_30.ch | 'Agilent ChemStation' (version 30)  | James Campbell | -- | -- |
 chemstation_31.uv | 'Agilent ChemStation' (version 31) | James Campbell | -- | -- |
 chemstation_81.ch | 'Agilent ChemStation' (version 81) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch | [MIT](https://opensource.org/license/mit/) (c) 2014 Roderick Bovee |
-chemstation_130.ch | 'Agilent ChemStation' (version 130) | [Susan Whitehead](https://github.com/susanrw) | -- | -- |
+chemstation_130.ch | 'Agilent ChemStation' (version 130) | [Susan Whitehead](https://orcid.org/0000-0002-7089-4594) | -- | -- |
 chemstation_179_mustang.ch | 'Agilent ChemStation' ('Mustang' version 179, 8-byte format) | [zrolfs](https://github.com/zrolfs) | https://github.com/ethanbass/chromConverter/issues/22 | -- |
 chemstation_179_asterix.ch | 'Agilent ChemStation' ('Asterix' version 179, 4-byte format) | [PyExpLabSys](https://github.com/CINF/PyExpLabSys) | https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC%202015-01-13%2011-16-24/NV-F0101.D | GPL3 |
 chemstation_MSD.MS | 'Agilent ChemStation' (.MS) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d | MIT (c) 2014 Roderick Bovee |
