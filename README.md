@@ -7,6 +7,7 @@ agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/d
 Anthocyanin.lcd | 'Shimadzu' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_Anthocyanin.txt |  'Shimadzu' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_comma.txt |  'Shimadzu' ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
+FS19_214.gcd |  'Shimadzu' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | -- |
 chemstation_30.ch | 'Agilent ChemStation' (version 30)  | James Campbell | -- | -- |
 chemstation_31.uv | 'Agilent ChemStation' (version 31) | James Campbell | -- | -- |
 chemstation_81.ch | 'Agilent ChemStation' (version 81) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch | [MIT](https://opensource.org/license/mit/) (c) 2014 Roderick Bovee |
