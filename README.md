@@ -7,7 +7,7 @@ agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/d
 Anthocyanin.lcd | 'Shimadzu' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_Anthocyanin.txt |  'Shimadzu' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_comma.txt |  'Shimadzu' ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
-FS19_214.gcd |  'Shimadzu' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | -- |
+FS19_214.gcd |  'Shimadzu' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
 chemstation_30.ch | 'Agilent ChemStation' (version 30)  | James Campbell | -- | -- |
 chemstation_31.uv | 'Agilent ChemStation' (version 31) | James Campbell | -- | -- |
 chemstation_81.ch | 'Agilent ChemStation' (version 81) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch | [MIT](https://opensource.org/license/mit/) (c) 2014 Roderick Bovee |
@@ -18,7 +18,7 @@ chemstation_MSD.MS | 'Agilent ChemStation' (.MS) | [Roderick Bovee](https://gith
 openlab_179.ch | 'Agilent OpenLab' (version 179) |[YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH | GPL3 |
 chromeleon_comma.txt |  'Thermo Fisher Scientific Chromeleon' (comma-separated decimals) | [TRACEview](https://github.com/angelovangel/TRACEview) | https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip | MIT (c) 2017 Angel Angelov |
 chromeleon_period.txt | 'Thermo Fisher Scientific Chromeleon' (period-separated decimals) | This file was produced by altering the comma-separated file above | -- | MIT (c) 2017 Angel Angelov |
-DCM1.SMS | 'Varian' SMS | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
+DCM1.SMS | 'Varian' SMS | Ethan Bass | -- | CC0 |
 masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example | MIT (c) 2014 Roderick Bovee |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | -- | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
