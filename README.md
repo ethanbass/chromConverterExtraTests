@@ -4,6 +4,7 @@ This repository contains additional chromatography test files for the [chromConv
 | ----- | ----- | ------ | --- | ------- |
 agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx | [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) |
 20220404_CirA_D2_04.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
+small.raw | Thermo Raw (.raw) | [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) | https://github.com/compomics/ThermoRawFileParser/blob/master/ThermoRawFileParserTest/Data/small.RAW | -- |
 Anthocyanin.lcd | 'Shimadzu' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_Anthocyanin.txt |  'Shimadzu' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_comma.txt |  'Shimadzu' ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
@@ -15,6 +16,7 @@ chemstation_130.ch | 'Agilent ChemStation' (version 130) | [Susan Whitehead](htt
 chemstation_179_mustang.ch | 'Agilent ChemStation' ('Mustang' version 179, 8-byte format) | [zrolfs](https://github.com/zrolfs) | https://github.com/ethanbass/chromConverter/issues/22 | -- |
 chemstation_179_asterix.ch | 'Agilent ChemStation' ('Asterix' version 179, 4-byte format) | [PyExpLabSys](https://github.com/CINF/PyExpLabSys) | https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC%202015-01-13%2011-16-24/NV-F0101.D | GPL3 |
 chemstation_MSD.MS | 'Agilent ChemStation' (.MS) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d | MIT (c) 2014 Roderick Bovee |
+openlab_131.ch | 'Agilent OpenLab' (version 131) |[anyaling2022](https://github.com/anyaling2022) | https://github.com/evanyeyeye/rainbow/issues/3 | -- |
 openlab_179.ch | 'Agilent OpenLab' (version 179) |[YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH | GPL3 |
 chromeleon_comma.txt |  'Thermo Fisher Scientific Chromeleon' (comma-separated decimals) | [TRACEview](https://github.com/angelovangel/TRACEview) | https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip | MIT (c) 2017 Angel Angelov |
 chromeleon_period.txt | 'Thermo Fisher Scientific Chromeleon' (period-separated decimals) | This file was produced by altering the comma-separated file above | -- | MIT (c) 2017 Angel Angelov |

@@ -1,3 +1,8 @@
+# # chromConverterExtraTests 0.4.1
+
+* Added `small.raw` Thermo Raw file from ThermoRawFileParser test data directory.
+* Added "Agilent OpenLab" v131 file courtesy of "Anyaling2022".
+
 # chromConverterExtraTests 0.4.0
 
 * Added "Shimadzu GCD" file courtesy of Andrew Legan.
