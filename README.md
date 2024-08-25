@@ -20,7 +20,9 @@ openlab_131.ch | 'Agilent OpenLab' (version 131) |[anyaling2022](https://github.
 openlab_179.ch | 'Agilent OpenLab' (version 179) |[YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH | GPL3 |
 chromeleon_comma.txt |  'Thermo Fisher Scientific Chromeleon' (comma-separated decimals) | [TRACEview](https://github.com/angelovangel/TRACEview) | https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip | MIT (c) 2017 Angel Angelov |
 chromeleon_period.txt | 'Thermo Fisher Scientific Chromeleon' (period-separated decimals) | This file was produced by altering the comma-separated file above | -- | MIT (c) 2017 Angel Angelov |
-DCM1.SMS | 'Varian' SMS | Ethan Bass | -- | CC0 |
+DCM1.SMS | 'Varian Workstation' SMS | Ethan Bass | -- | CC0 |
+STRD15.SMS | 'Varian Workstation' SMS | Ethan Bass | -- | CC0 |
+STRD15.mzML | The above chromatogram in mzML (converted by OpenChrom) | Ethan Bass | -- | CC0 |
 masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example | MIT (c) 2014 Roderick Bovee |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | -- | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |

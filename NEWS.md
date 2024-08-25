@@ -2,6 +2,7 @@
 
 * Added `small.raw` Thermo Raw file from ThermoRawFileParser test data directory.
 * Added "Agilent OpenLab" v131 file courtesy of "Anyaling2022".
+* Added mzML translation of 'DCM1.SMS'.
 
 # chromConverterExtraTests 0.4.0
 
