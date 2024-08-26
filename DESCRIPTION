@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.4.1
+Version: 0.4.2
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
