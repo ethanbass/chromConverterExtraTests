@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.4.2
+Version: 0.4.3
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
@@ -31,6 +31,9 @@ Authors@R: c(
             comment = "Copyright holder, 'waters.arw'"),
     person(given = "Carla", family = "Restrepo", role = c("ctb", "cph"),
             comment = "Copyright holder, 'waters_pda.arw'"),
+    person(given = "Andrew", family = "Tolonen", role = c("ctb", "cph"),
+	    comment = c(ORCID = "https://orcid.org/0000-0001-5907-4504",
+	    "Copyright holder, 'multichannel_chrom.lcd', 'multichannel_chrom.txt'")),
     person(given = "Susan", family = "Whitehead", role = c("ctb", "cph"),
             comment = c(ORCID = "0000-0002-7089-4594",
                         "Copyright holder, 'chemstation_130.ch'"))

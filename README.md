@@ -5,10 +5,12 @@ This repository contains additional chromatography test files for the [chromConv
 agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx | [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) |
 20220404_CirA_D2_04.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
 small.raw | Thermo Raw (.raw) | [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) | https://github.com/compomics/ThermoRawFileParser/blob/master/ThermoRawFileParserTest/Data/small.RAW | -- |
-Anthocyanin.lcd | 'Shimadzu' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
-shimadzuDAD_Anthocyanin.txt |  'Shimadzu' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
-shimadzuDAD_comma.txt |  'Shimadzu' ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
-FS19_214.gcd |  'Shimadzu' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
+Anthocyanin.lcd | 'Shimadzu LabSolutions' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
+shimadzuDAD_Anthocyanin.txt |  'Shimadzu LabSolutions' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
+shimadzuDAD_comma.txt |  'Shimadzu' LabSolutions ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
+FS19_214.gcd |  'Shimadzu LabSolutions' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
+multichannel_chrom.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
+multichannel_chrom.txt | 'Shimadzu LabSolutions' ascii (.txt) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
 chemstation_30.ch | 'Agilent ChemStation' (version 30)  | James Campbell | -- | -- |
 chemstation_31.uv | 'Agilent ChemStation' (version 31) | James Campbell | -- | -- |
 chemstation_81.ch | 'Agilent ChemStation' (version 81) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch | [MIT](https://opensource.org/license/mit/) (c) 2014 Roderick Bovee |
