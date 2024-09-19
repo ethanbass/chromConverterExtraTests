@@ -1,3 +1,9 @@
+# chromConverterExtraTests 0.4.4
+
+* Added Shimadzu QGD GC-MS file courtesy of Enikő Csata and colleagues.
+* Added Allotrope Simple Model (ASM) LC and GC 2d chromatogram files courtesy of the Allotrope Foundation®.
+* Added chemstation181.D demo file from GC2ASM.
+
 # chromConverterExtraTests 0.4.3
 
 * Added three-channel `Shimadzu` LCD chromatogram and the associated ascii txt file courtesy of Andrew Tolonen.
