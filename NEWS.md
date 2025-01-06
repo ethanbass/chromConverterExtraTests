@@ -1,3 +1,7 @@
+# chromConverterExtraTests 0.4.5
+
+* Added 'Chromeleon' 3D ascii file courtesy of Harrison Leedham.
+
 # chromConverterExtraTests 0.4.4
 
 * Added Shimadzu QGD GC-MS file courtesy of Enikő Csata and colleagues.

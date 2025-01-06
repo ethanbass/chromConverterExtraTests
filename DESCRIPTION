@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.4.4
+Version: 0.4.5
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
@@ -19,6 +19,9 @@ Authors@R: c(
                         "Copyright holder, 'shimadzuDAD_comma.txt'")),
     person(given = "Peter", family = "Krauss", role = c("ctb", "cph"),
           comment = "Copyright holder, 'chemstation_179.ch', 'agilent.dx'"),
+    person(given = "Harrison", family = "Leedham", role = c("ctb", "cph"),
+            comment = c(ORCID = "https://orcid.org/0009-0005-0486-8418",
+                        "Copyright holder, 'chromeleon_3D.txt'")),
     person(given = "Andrew", family = "Legan", role = c("ctb", "cph"), 
             comment = c(ORCID = "https://orcid.org/0000-0001-7049-9837",
 	    "Copyright holder, 'FS19_214.gcd'")),
