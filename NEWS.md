@@ -1,3 +1,8 @@
+# chromConverterExtraTests 0.4.6
+
+* Added .Rd files for data.
+* Shortened name of `20220404_CirA_D2_04.raw` to `CirA.raw` because `.Rd` files can't begin with a number.
+
 # chromConverterExtraTests 0.4.5
 
 * Added 'Chromeleon' 3D ascii file courtesy of Harrison Leedham.

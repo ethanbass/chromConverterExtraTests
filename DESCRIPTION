@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.4.5
+Version: 0.4.6
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
@@ -46,4 +46,4 @@ Description: Additional test data for chromConverter <https://github.com/ethanba
 License: NA
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2.9000
