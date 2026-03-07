@@ -15,7 +15,7 @@ A minimal example of an 'Agilent Common Analytical Markup
 Language' \code{.acaml} file.
 }
 \examples{
-system.file("minimal.acaml",package = "chromConverterExtraTests")
+system.file("minimal.acaml", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent OpenLab files: 
