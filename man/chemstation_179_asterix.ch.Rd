@@ -11,11 +11,11 @@
 \href{https://github.com/CINF/PyExpLabSys}{PyExpLabSys}:
 \url{https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC\%202015-01-13\%2011-16-24/NV-F0101.D}
 }
-\usage{
-system.file("chemstation_179_asterix.ch", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_179_asterix.ch
+}
+\examples{
+system.file("chemstation_179_asterix.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

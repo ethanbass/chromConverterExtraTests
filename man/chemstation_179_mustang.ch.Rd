@@ -11,11 +11,11 @@
 \href{https://github.com/zrolfs}{zrolfs}:
 \url{https://github.com/ethanbass/chromConverter/issues/22}
 }
-\usage{
-system.file("chemstation_179_mustang.ch", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_179_mustang.ch
+}
+\examples{
+system.file("chemstation_179_mustang.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

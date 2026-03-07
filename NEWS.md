@@ -1,3 +1,8 @@
+# chromConverterExtraTests 0.4.7
+
+* Added new Agilent OpenLab `.dx` file (`MeOH1.dx`) with DAD data.
+* Added Agilent Common Analytical Markup Language (`.acaml`) file.
+
 # chromConverterExtraTests 0.4.6
 
 * Added .Rd files for data.

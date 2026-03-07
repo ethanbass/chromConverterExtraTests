@@ -10,11 +10,11 @@
 \source{
 Ethan Bass
 }
-\usage{
-system.file("varian_peaklist.csv", package = "chromConverterExtraTests")
-}
 \description{
 varian_peaklist.csv
+}
+\examples{
+system.file("varian_peaklist.csv", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Varian files: 

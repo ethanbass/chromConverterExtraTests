@@ -10,11 +10,11 @@
 \source{
 \href{https://orcid.org/0000-0002-7089-4594}{Susan Whitehead}
 }
-\usage{
-system.file("chemstation_130.ch", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_130.ch
+}
+\examples{
+system.file("chemstation_130.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

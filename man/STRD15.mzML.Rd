@@ -10,11 +10,11 @@ Chromatogram in mzML format
 \source{
 Converted from \code{\link{STRD15.SMS}} in OpenChrom.
 }
-\usage{
-system.file("STRD15.mzML", package = "chromConverterExtraTests")
-}
 \description{
 STRD15.mzML
+}
+\examples{
+system.file("STRD15.mzML", package = "chromConverterExtraTests")
 }
 \concept{mzML files}
 \keyword{data}

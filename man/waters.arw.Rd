@@ -11,11 +11,11 @@
 \href{https://github.com/PlethoraChutney/Appia}{Appia}:
 \url{https://github.com/PlethoraChutney/Appia/tree/main/test-files}
 }
-\usage{
-system.file("waters.arw", package = "chromConverterExtraTests")
-}
 \description{
 waters.arw
+}
+\examples{
+system.file("waters.arw", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Waters files: 

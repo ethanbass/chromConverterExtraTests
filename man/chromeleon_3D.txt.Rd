@@ -10,11 +10,11 @@
 \source{
 \href{https://orcid.org/0009-0005-0486-8418}{Harrison Leedham}
 }
-\usage{
-system.file("chromeleon_3D.txt", package = "chromConverterExtraTests")
-}
 \description{
 chromeleon_3D.txt
+}
+\examples{
+system.file("chromeleon_3D.txt", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Chromeleon files: 

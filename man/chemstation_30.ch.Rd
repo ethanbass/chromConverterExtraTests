@@ -10,11 +10,11 @@
 \source{
 James Campbell
 }
-\usage{
-system.file("chemstation_30.ch", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_30.ch
+}
+\examples{
+system.file("chemstation_30.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

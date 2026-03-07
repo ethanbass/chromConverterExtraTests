@@ -1,0 +1,1214 @@
+<?xml version="1.0"?>
+<ACAML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversion="2.1.30.999" xmlns="urn:schemas-agilent-com:acaml21">
+  <Checksum Algorithm="MD5">
+    <Value>PsjL6y+ctG5OP/co9D40QQ==</Value>
+  </Checksum>
+  <MigrationHistory>
+    <MigrationStep>
+      <FromNamespace>urn:schemas-agilent-com:acaml21</FromNamespace>
+      <ToNamespace>urn:schemas-agilent-com:acaml21v2.1.30.999</ToNamespace>
+      <Date>2026-01-30T17:23:38.9164579-06:00</Date>
+      <Application>Agilent.Acaml.Core, Assembly Version: 1.0.0.0, File Version: 2.1.63.3</Application>
+    </MigrationStep>
+  </MigrationHistory>
+  <Doc>
+    <DocID>f97cd09b-605f-4cb0-afab-649fd206545d</DocID>
+    <DocInfo>
+      <Description>Norbert II-2026-01-30 17-23-38-06-00</Description>
+      <CreatedByUser>SYSTEM (SYSTEM)</CreatedByUser>
+      <CreatedByApplication>
+        <AgilentApp>
+          <Name>IntelligentDataAnalysis</Name>
+          <Version>Version 2.8 - Build 2.208.0.1473</Version>
+        </AgilentApp>
+      </CreatedByApplication>
+      <CreationDate>2026-01-30T23:23:38.9154527Z</CreationDate>
+      <ClientName>EE-PC-11</ClientName>
+      <CustomField Name="CreatedByUserDisplayName">
+        <Value>SYSTEM (SYSTEM)</Value>
+      </CustomField>
+      <CustomField Name="OriginalApplicationName">
+        <Value>IntelligentDataAnalysis</Value>
+      </CustomField>
+      <CustomField Name="InjectionMetaDataItems">
+        <Xml>
+          <ArrayOfInjectionMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <InjectionMetaData AcqMethodName="poroshell_50mm_2.7_glucosinolates1sH3" DaMethodName="" ExpectedBarcode="" InjectionAcqDateTime="2026-01-30T23:24:33.296Z" InjectionId="bc710732-9210-4118-9342-e5124f4a69f5" InjectorPosition="Front" InstrumentName="Norbert II" LastModifiedDateTime="2026-01-30T17:57:27.6863519-06:00" BracketingType="Undefined" RawDataFileName="RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx" SampleDescription="" SampleLabel="" SampleName="RP_Frt_37C_0.5x" SampleSetupId="f950e836-da8e-4b0f-ac63-9d0b53a8f6c6" SampleType="Sample" SequenceName="Norbert II-2026-01-30 17-23-38-06-00" VialNumber="D2B-G9">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="1" />
+              <SampleAmount val="0" unit="" />
+              <SampleInjectionsCount val="1" />
+              <SampleOrderNumber val="1" />
+            </InjectionMetaData>
+          </ArrayOfInjectionMetaData>
+        </Xml>
+      </CustomField>
+    </DocInfo>
+    <Content>
+      <Resources>
+        <Instrument id="5017ad1d-f97c-44ae-a144-5a79bd643564" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:23:38.9197806-06:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="IsCombined">
+              <Value>False</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <Name>Norbert II</Name>
+          <Technique>LiquidChromatography</Technique>
+          <Module id="a13d105b-13b8-4f31-a64a-7b6cb801c2b5">
+            <Name>Fraction Collector</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>FractionCollector</Type>
+            <PartNo>G1364F</PartNo>
+            <SerialNo>DEAGS03006</SerialNo>
+            <FirmwareRevision>D.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="2fa659db-84c2-472d-9ebe-66392b0e9932">
+            <Name>Quat. Pump</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Pump</Type>
+            <PartNo>G7104C</PartNo>
+            <SerialNo>DEAG201131</SerialNo>
+            <FirmwareRevision>B.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="254300e3-2aea-4ed0-a989-33cabf1014e9">
+            <Name>DAD</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Detector</Type>
+            <PartNo>G7115A</PartNo>
+            <SerialNo>DEAC608045</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="4e023f16-c9a2-4e9e-90f4-0d47be9e5673">
+            <Name>Column Comp.</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>ColumnCompartment</Type>
+            <PartNo>G7116A</PartNo>
+            <SerialNo>DEGFA00578</SerialNo>
+            <FirmwareRevision>C.07.40 [0003] (Host: D.07.40 [0003])</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="ffb6f780-7eef-4dae-8107-c4d253abcc74">
+            <Name>Multisampler</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Sampler</Type>
+            <PartNo>G7167A</PartNo>
+            <SerialNo>DEAGY00628</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+        </Instrument>
+        <SampleContainerInfo id="ede49d22-7918-4e5b-87fa-854ccdda443b" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:26:21.7768129-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:26:21.7768129-06:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>Multisampler</Name>
+          <Description>G7167A, DEAGY00628, Agilent</Description>
+          <FilePath>Sampler_1_DEAGY00628_55.scml</FilePath>
+        </SampleContainerInfo>
+        <SampleContainerInfo id="225c7d3b-74e0-489a-8302-68980542a019" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:57:27.4963901-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.4963901-06:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>Fraction Collector</Name>
+          <Description>G1364F, DEAGS03006, Agilent</Description>
+          <FilePath>FractionCollector_1_DEAGS03006_8.scml</FilePath>
+          <SamplerDeviceType>FractionContainerDevice</SamplerDeviceType>
+        </SampleContainerInfo>
+      </Resources>
+      <Method id="f60da3e4-554b-41c7-b198-fd833c52d1ed" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </CreatedBy>
+          <CreatedDate>2026-01-30T17:05:25.7703551-06:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2026-01-30T17:05:25.7713532-06:00</LastModifiedDate>
+          <AuditTrail />
+        </Info>
+        <ComplexCustomFields />
+        <BinaryData>
+          <DataItem>
+            <Name>poroshell_50mm_2.7_glucosinolates1sH3.amx</Name>
+            <OriginalFilePath>poroshell_50mm_2.7_glucosinolates1sH3.amx</OriginalFilePath>
+            <Data>
+              <DataFileReference>
+                <Path>poroshell_50mm_2.7_glucosinolates1sH3.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>poroshell_50mm_2.7_glucosinolates1sH3</Name>
+        <Description />
+        <OriginalVersion>2026-0130-2305-25771</OriginalVersion>
+      </Method>
+      <SampleContexts>
+        <Setup id="eb36d904-8dbf-48ab-9559-4bbdc35f7f01" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:23:38.9197806-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.6873507-06:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <BinaryData>
+            <DataItem>
+              <Name>eb_01302026.sqx</Name>
+              <OriginalFilePath>eb_01302026.sqx</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>eb_01302026.sqx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <IdentParam>
+            <Name>Norbert II-2026-01-30 17-23-38-06-00</Name>
+            <ContextInfo>
+              <ContentType>Sequence</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Complete</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="5017ad1d-f97c-44ae-a144-5a79bd643564" ver="0" />
+          </AcqParam>
+          <DAParam>
+            <BracketingMode>None</BracketingMode>
+          </DAParam>
+          <SampleSetup_ID id="f950e836-da8e-4b0f-ac63-9d0b53a8f6c6" ver="0" />
+          <PackagingMode>FullResultSet</PackagingMode>
+          <Authors>
+            <User>
+              <Username>SYSTEM</Username>
+              <UserID>1</UserID>
+            </User>
+          </Authors>
+        </Setup>
+        <MeasData id="ceb0981a-3fbb-44a9-b350-4eb373f9f4e9" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:23:38.9197806-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.6873507-06:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <SampleSetupContext_ID id="eb36d904-8dbf-48ab-9559-4bbdc35f7f01" ver="0" />
+          <IdentParam>
+            <Name>Norbert II-2026-01-30 17-23-38-06-00</Name>
+            <ContextInfo>
+              <ContentType>Undefined</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Undefined</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="5017ad1d-f97c-44ae-a144-5a79bd643564" ver="0" />
+          </AcqParam>
+          <SampleMeasData_ID id="42128ee6-a075-4637-aa71-b191fb3a0dd1" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </SampleContexts>
+      <Samples>
+        <Setup id="f950e836-da8e-4b0f-ac63-9d0b53a8f6c6" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:26:21.7563705-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.4873881-06:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields" />
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name>RP_Frt_37C_0.5x</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode />
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="1" />
+            <VialNumber>D2B-G9</VialNumber>
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="5" unit="µL" />
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit="" />
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <MeasData id="42128ee6-a075-4637-aa71-b191fb3a0dd1" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T17:26:21.7563705-06:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.4873881-06:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>RP_Frt_37C_0.5x</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode />
+          </IdentParam>
+          <AcqParam>
+            <VialNumber>D2B-G9</VialNumber>
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="5" unit="µL" />
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <SampleSetup_ID id="f950e836-da8e-4b0f-ac63-9d0b53a8f6c6" ver="0" />
+          <InjectionMeasData_ID id="bc710732-9210-4118-9342-e5124f4a69f5" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </Samples>
+      <Injections>
+        <MeasData id="bc710732-9210-4118-9342-e5124f4a69f5" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-01-30T23:24:33.296Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-01-30T17:57:27.6863519-06:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <BinaryData>
+            <DataItem>
+              <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+              <OriginalFilePath>C:\CDSProjects\Glucosinolates\Results\Norbert II-2026-01-30 17-23-38-06-00.rslt</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="f60da3e4-554b-41c7-b198-fd833c52d1ed" ver="0" />
+            <OrderNo val="1" />
+          </AcqParam>
+          <Signal id="c0c79353-234f-497d-972a-4836e8dfc892" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1A</Name>
+            <Description>THM1A,Left Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>aa56bb92-72e6-4205-8779-d06fffd285b7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="4e023f16-c9a2-4e9e-90f4-0d47be9e5673" />
+          </Signal>
+          <Signal id="2aafad91-d9eb-4f5b-b1a3-81ec926ef6e1" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>AFC1C</Name>
+            <Description>AFC1C,Delay Sensor</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>295216bd-d07d-4256-9b1e-e09e27d137f8</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>AFC</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="a13d105b-13b8-4f31-a64a-7b6cb801c2b5" />
+          </Signal>
+          <Signal id="f70307e9-a6a0-4496-a7c2-2a44b88e0faa" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1F</Name>
+            <Description>PMP1F,Solvent Ratio D</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>b710d1d4-fc0f-47b4-a8ba-86f979402b8b</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>F</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="94aa483e-3833-4d81-9933-f7e8211f51ad" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1C</Name>
+            <Description>PMP1C,Solvent Ratio A</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>e098755c-f157-4bb4-8829-38ca158f0d12</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="ea579fc0-8da6-438d-8259-32f8bf7eba8f" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1G</Name>
+            <Description>PMP1G,Tuning</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>4303caaf-c62d-4ed9-82c2-fd3fc7ec6431</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>G</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="d5af0ac6-61e0-40d1-8a94-904e46fa1a1b" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1E</Name>
+            <Description>PMP1E,Solvent Ratio C</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>f5502361-9667-43a7-8c76-77a3c15f48ad</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>E</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="62eefa2b-b27b-4ed4-8ec5-3b8b359ec17c" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1A</Name>
+            <Description>DAD1A,Sig=229,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>353416bc-cebc-444e-9cea-82a7b49e10c3</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="5e4df01f-f99a-498e-8bf5-37cd7853a2de" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1U</Name>
+            <Description>DAD1U,Optical Unit Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>64cdf52e-1bbe-48e3-b821-9af7247fca7b</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>U</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="9055f64b-7b96-46a1-a08e-1862523d9f28" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1C</Name>
+            <Description>DAD1C,Sig=260,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>0d7d85b0-aa0c-4940-8564-e9426e6e26fe</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="7c900216-16f3-49a1-9a34-ce8c5a1b9043" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1B</Name>
+            <Description>PMP1B,Flow</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>8efef91e-1bd7-4802-97a3-c8607b9d0cd3</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="ab32f7e8-f728-4a72-b0dd-f5d9627ecbdb" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1A</Name>
+            <Description>PMP1A,Pressure</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>8ad22f0e-44de-44a3-a599-f70cf4a1d556</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <Signal id="158e54ef-af5b-4cf4-badd-3a05c67ac852" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1T</Name>
+            <Description>DAD1T,Board Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>0acaa8c3-477d-4006-baae-a98e82a562ae</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>T</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="3667fe57-fe5b-40c6-954d-39b312e398d8" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Fraction Collector1B,G1364F:Delay Volume Calibration Data</Name>
+            <Description>Fraction Collector1B,Delay Volume Calibration Data</Description>
+            <Type>Generic</Type>
+            <TraceID>2f6c1c89-2570-4000-b974-a67a430e8c51</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Fraction Collector</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <GenericDataInfo>
+              <DataChannelId>Generic</DataChannelId>
+              <DataChannelName>Fraction Collector1B,G1364F:Delay Volume Calibration Data</DataChannelName>
+              <DataChannelDescription>Fraction Collector1B,Delay Volume Calibration Data</DataChannelDescription>
+            </GenericDataInfo>
+            <InstrumentModule_ID id="a13d105b-13b8-4f31-a64a-7b6cb801c2b5" />
+          </Signal>
+          <Signal id="136a9a40-54bc-46e7-a75f-94cf20b11a59" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4873881-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1I</Name>
+            <Description>DAD1I,DAD: Spectrum</Description>
+            <Type>Spectra</Type>
+            <TraceID>ef738668-81e0-43f3-a213-b5820e32e33a</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>I</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="9d694a88-5480-4257-9097-47d268e306fd" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1V</Name>
+            <Description>DAD1V,UV Lamp Anode Voltage</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>ce0cce1e-d5ed-4b49-abe1-ea04bbf2961b</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>V</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="f61b3282-c355-4a12-ad46-d3e34cc0c771" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1B</Name>
+            <Description>DAD1B,Sig=200,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>b8eef534-b1a3-47c8-9d5c-3b6e5bb53aa6</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="9944a59a-d020-4889-9192-bbef7a6eea36" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1B</Name>
+            <Description>THM1B,Right Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>a4166471-5813-4428-8bcd-d608dde06941</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="4e023f16-c9a2-4e9e-90f4-0d47be9e5673" />
+          </Signal>
+          <Signal id="76e79580-b40b-42f4-8384-a0fb950b9882" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>WPS1A</Name>
+            <Description>WPS1A,Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>62d1b96c-ff60-48f1-8c60-9500f0f178a7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>WPS</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="ffb6f780-7eef-4dae-8107-c4d253abcc74" />
+          </Signal>
+          <Signal id="d2dc26cd-44a0-4de9-ac41-ad0b344b33bd" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1D</Name>
+            <Description>DAD1D,Sig=360,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>a11e0843-9c5d-4bd9-bbbc-573c2f0eb290</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="254300e3-2aea-4ed0-a989-33cabf1014e9" />
+          </Signal>
+          <Signal id="f787b018-47b5-4df7-9c6c-fe319d69ca03" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-01-30T17:57:27.4883896-06:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Name>
+                <OriginalFilePath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1D</Name>
+            <Description>PMP1D,Solvent Ratio B</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>a0f6a479-2d65-4425-b6a8-06dc21c07b15</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="2fa659db-84c2-472d-9ebe-66392b0e9932" />
+          </Signal>
+          <InjectionVolume val="5" unit="µL" />
+          <DiagnosticData>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Fraction Collector : 1" Description="Fraction Collector" />
+              <CustomField Name="Quat. Pump : 1" Description="Quat. Pump" />
+              <CustomField Name="DAD : 1" Description="DAD" />
+              <CustomField Name="Column Comp. : 1" Description="Column Comp." />
+              <CustomField Name="Multisampler : 1" Description="Multisampler" />
+            </Item>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Fraction Collector : 1" Description="Fraction Collector" />
+              <CustomField Name="Quat. Pump : 1" Description="Quat. Pump">
+                <CustomField Name="RunStart_Pressure_Actual" Description="Run start - Pressure">
+                  <Value unit="bar">370.98</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Flow_Actual" Description="Run start - Flow">
+                  <Value unit="mL/min">1.000</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Pressure_Actual" Description="Run stop - Pressure">
+                  <Value unit="bar">177.79</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Flow_Actual" Description="Run stop - Flow">
+                  <Value unit="mL/min">1.000</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="DAD : 1" Description="DAD">
+                <CustomField Name="RunStart_UVLamp_OnTime" Description="Run Start - Dad - UV Lamp On time">
+                  <Value unit="h">28.37</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_BurnTime" Description="Run Start - Dad - UV Lamp Burn time">
+                  <Value unit="h">256.87</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_OnTime" Description="Run Start - Dad - Vis Lamp On time">
+                  <Value unit="h">0.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_BurnTime" Description="Run Start - Dad - Vis Lamp Burn time">
+                  <Value unit="h">8.66</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellLength" Description="Run Start - Dad - Cell Length">
+                  <Value unit="mm">10.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_ProductNumber" Description="Run Start - Dad - Lamp tag - Product Number">
+                  <Value>2140-0820</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_SerialNumber" Description="Run Start - Dad - Lamp tag - Serial Number">
+                  <Value>O43387</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_ProductNumber" Description="Run Start - Dad - Cell Tag - Product Number">
+                  <Value>G1315-60022</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_SerialNumber" Description="Run Start - Dad - Cell Tag - Serial Number">
+                  <Value>DESAB01546</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_OnTime" Description="Run Stop - Dad - UV Lamp On time">
+                  <Value unit="h">28.47</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_BurnTime" Description="Run Stop - Dad - UV Lamp Burn time">
+                  <Value unit="h">256.97</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_OnTime" Description="Run Stop - Dad - Vis Lamp On time">
+                  <Value unit="h">0.00</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_BurnTime" Description="Run Stop - Dad - Vis Lamp Burn time">
+                  <Value unit="h">8.66</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Column Comp. : 1" Description="Column Comp.">
+                <CustomField Name="RunStart_TemperatureControl_Actual" Description="Run start - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_TemperatureControl2_Actual" Description="Run start - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl_Actual" Description="Run stop - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl2_Actual" Description="Run stop - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run start - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run start - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run stop - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run stop - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Multisampler : 1" Description="Multisampler">
+                <CustomField Name="RunStart_Temperature_Actual" Description="Run start - Actual Temperature">
+                  <Value unit="°C">4</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Temperature_Setpoint" Description="Run start - Temperature setpoint">
+                  <Value unit="°C">4</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Actual" Description="Run stop - Actual Temperature">
+                  <Value unit="°C">4</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Setpoint" Description="Run stop - Temperature setpoint">
+                  <Value unit="°C">4</Value>
+                </CustomField>
+                <CustomField Name="Injection_Position" Description="Injection - Position">
+                  <Value>D2B-G9</Value>
+                </CustomField>
+                <CustomField Name="Injection_Volume" Description="Injection - Volume">
+                  <Value unit="µL">5.0</Value>
+                </CustomField>
+                <CustomField Name="Injection_UsedNeedle" Description="Injection - Used needle">
+                  <Value>Right needle</Value>
+                </CustomField>
+              </CustomField>
+            </Item>
+          </DiagnosticData>
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.8 - Build  2.8.0-REL_2.8.0.1330</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.8 - Build  2.8.0-REL_2.8.0.1330 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2026-0130-2305-25771</AcquisitionMethodVersion>
+          <ExternalResultPath>RP_Frt_37C_0.5x_poroshell_50mm_2.7_glucosinolates1sH3.amx.rx</ExternalResultPath>
+          <SampleLabel />
+          <SampleContainerInfo_ID id="ede49d22-7918-4e5b-87fa-854ccdda443b" ver="0" />
+          <FractionContainerInfo_ID id="225c7d3b-74e0-489a-8302-68980542a019" ver="0" />
+          <SampleLocationIdentifier>
+            <LocationXML>
+              <SampleLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="1.0.0" xmlns="">
+                <SampleContainerDeviceAddress>
+                  <Index>4</Index>
+                </SampleContainerDeviceAddress>
+                <SampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>7</Row>
+                  <Column>9</Column>
+                </SampleContainerAddress>
+                <RelativeSampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>7</Row>
+                  <Column>9</Column>
+                </RelativeSampleContainerAddress>
+              </SampleLocation>
+            </LocationXML>
+          </SampleLocationIdentifier>
+        </MeasData>
+      </Injections>
+      <Actions />
+    </Content>
+  </Doc>
+</ACAML>

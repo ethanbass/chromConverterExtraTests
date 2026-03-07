@@ -10,11 +10,11 @@
 \source{
 This file was produced by modifying \code{\link{chromeleon_comma.txt}}.
 }
-\usage{
-system.file("chromeleon_period.txt", package = "chromConverterExtraTests")
-}
 \description{
 chromeleon_period.txt
+}
+\examples{
+system.file("chromeleon_period.txt", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Chromeleon files: 

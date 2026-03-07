@@ -11,11 +11,11 @@
 \href{https://github.com/evanyeyeye/rainbow/tree/main}{rainbow}:
 \url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw}
 }
-\usage{
-system.file("waters_blue.raw", package = "chromConverterExtraTests")
-}
 \description{
 waters_blue.raw
+}
+\examples{
+system.file("waters_blue.raw", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Waters files: 

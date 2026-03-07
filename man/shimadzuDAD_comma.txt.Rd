@@ -10,11 +10,11 @@
 \source{
 \href{https://orcid.org/0000-0002-6170-5077}{Todd Johnson}
 }
-\usage{
-system.file("shimadzuDAD_comma.txt", package = "chromConverterExtraTests")
-}
 \description{
 shimadzuDAD_comma.txt
+}
+\examples{
+system.file("shimadzuDAD_comma.txt", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Shimadzu files: 

@@ -10,11 +10,11 @@
 \source{
 \href{https://github.com/bjreisman}{Benjamin Reisman}
 }
-\usage{
-system.file("CirA.raw", package = "chromConverterExtraTests")
-}
 \description{
 CirA.raw
+}
+\examples{
+system.file("CirA.raw", package = "chromConverterExtraTests")
 }
 \seealso{
 Other ThermoRaw files: 

@@ -11,11 +11,11 @@
 \href{https://github.com/bovee/}{Roderick Bovee}:
 \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}
 }
-\usage{
-system.file("chemstation_MSD.MS", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_MSD.MS
+}
+\examples{
+system.file("chemstation_MSD.MS", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

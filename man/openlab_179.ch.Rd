@@ -11,14 +11,15 @@
 \href{https://github.com/dgbowl/yadg}{YADG: yet another datagram}:
 \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH}
 }
-\usage{
-system.file("openlab_179.ch", package = "chromConverterExtraTests")
-}
 \description{
 openlab_179.ch
 }
+\examples{
+system.file("openlab_179.ch", package = "chromConverterExtraTests")
+}
 \seealso{
 Other Agilent OpenLab files: 
+\code{\link{minimal.acaml}},
 \code{\link{openlab_131.ch}}
 }
 \concept{Agilent OpenLab files}

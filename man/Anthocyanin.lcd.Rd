@@ -11,11 +11,11 @@
 \href{https://github.com/silasmellor}{Silas Mellor}:
 \url{https://github.com/ethanbass/chromConverter/issues/11}
 }
-\usage{
-system.file("Anthocyanin.lcd", package = "chromConverterExtraTests")
-}
 \description{
 Anthocyanin.lcd
+}
+\examples{
+system.file("Anthocyanin.lcd", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Shimadzu files: 

@@ -11,11 +11,11 @@
 \href{https://github.com/crestre}{Carla Restrepo}:
 \url{https://github.com/ethanbass/chromatographR/issues/26}
 }
-\usage{
-system.file("waters_pda.arw", package = "chromConverterExtraTests")
-}
 \description{
 waters_pda.arw
+}
+\examples{
+system.file("waters_pda.arw", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Waters files: 

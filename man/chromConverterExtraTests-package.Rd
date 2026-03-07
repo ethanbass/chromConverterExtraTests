@@ -8,6 +8,13 @@
 \description{
 Additional Chromatography Test Files for [chromConverter](https://ethanbass.github.io/chromConverter/).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ethanbass/chromConverterExtraTests/}
+}
+
+}
 \author{
 Ethan Bass
 }

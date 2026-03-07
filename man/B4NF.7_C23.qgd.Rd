@@ -11,11 +11,11 @@
 \href{https://orcid.org/0000-0003-2564-9706}{Enikő Csata} et al:
 \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4}
 }
-\usage{
-system.file("B4NF.7_C23.qgd", package = "chromConverterExtraTests")
-}
 \description{
 B4NF.7_C23.qgd
+}
+\examples{
+system.file("B4NF.7_C23.qgd", package = "chromConverterExtraTests")
 }
 \references{
 reference

@@ -10,11 +10,11 @@ Allotrope Simple Model (ASM) gas chromatography format
 \source{
 \href{https://www.allotrope.org/}{Allotrope Foundation}: \url{https://gitlab.com/allotrope-public/asm}
 }
-\usage{
-system.file("ASM-gas-chromatography.tabular.json", package = "chromConverterExtraTests")
-}
 \description{
 Example gas chromatography file from the Allotrope Foundation.
+}
+\examples{
+system.file("ASM-gas-chromatography.tabular.json", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Allotrope Simple Model: 

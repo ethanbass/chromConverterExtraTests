@@ -10,11 +10,11 @@
 \source{
 \href{https://orcid.org/0000-0001-7049-9837}{Andrew W. Legan}
 }
-\usage{
-system.file("FS19_214.gcd", package = "chromConverterExtraTests")
-}
 \description{
 FS19_214.gcd
+}
+\examples{
+system.file("FS19_214.gcd", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Shimadzu files: 

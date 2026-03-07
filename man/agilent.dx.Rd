@@ -11,10 +11,10 @@
 \href{https://github.com/dgbowl/yadg}{YADG: yet another datagram}:
 \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12\%2012-39-18\%2B01-00-02.dx}
 }
-\usage{
-system.file("agilent.dx",package = "chromConverterExtraTests")
-}
 \description{
 An 'Agilent' \code{.dx} file.
+}
+\examples{
+system.file("agilent.dx",package = "chromConverterExtraTests")
 }
 \keyword{data}

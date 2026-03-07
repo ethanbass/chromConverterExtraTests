@@ -3,6 +3,7 @@ This repository contains additional chromatography test files for the [chromConv
 | File | Format | Source | URL | License |
 | ----- | ----- | ------ | --- | ------- |
 agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx | [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) |
+MeOH1.dx | 'Agilent' (.dx) | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
 ASM-liquid-chromatography.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 ASM-gas-chromatography.tabular.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 CirA.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
@@ -10,7 +11,7 @@ small.raw | Thermo Raw (.raw) | [ThermoRawFileParser](https://github.com/compomi
 Anthocyanin.lcd | 'Shimadzu LabSolutions' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_Anthocyanin.txt |  'Shimadzu LabSolutions' ascii (.txt) | [Silas Mellor](https://github.com/silasmellor) | https://github.com/ethanbass/chromConverter/issues/11 | -- |
 shimadzuDAD_comma.txt |  'Shimadzu' LabSolutions ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
-FS19_214.gcd |  'Shimadzu LabSolutions' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
+FS19_214.gcd |  'Shimadzu LabSolutions' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | CC0 |
 B4NF.7_C23.qgd | 'Shimadzu GCMSsolution' data file (.qgd) | [Enikő Csata](https://orcid.org/0000-0003-2564-9706) et al | https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4 | CC0 1.0 |
 multichannel_chrom.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
 multichannel_chrom.txt | 'Shimadzu LabSolutions' ascii (.txt) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
@@ -31,6 +32,7 @@ DCM1.SMS | 'Varian Workstation' SMS | Ethan Bass | -- | CC0 |
 STRD15.SMS | 'Varian Workstation' SMS | Ethan Bass | -- | CC0 |
 STRD15.mzML | The above chromatogram in mzML (converted by OpenChrom) | Ethan Bass | -- | CC0 |
 masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.com/bovee/) | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example | MIT (c) 2014 Roderick Bovee |
+minimal.acaml | 'Agilent Common Analytical Markup Language' (.acaml) | Ethan Bass | -- | CC0 |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | -- | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
 HP_MS.CDF | "ANDI" (Analytical Data Interchange) MS (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |

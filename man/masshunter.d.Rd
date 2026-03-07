@@ -11,11 +11,11 @@
 \href{https://github.com/bovee/}{Roderick Bovee}:
 \url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}
 }
-\usage{
-system.file("masshunter.d", package = "chromConverterExtraTests")
-}
 \description{
 masshunter.d
+}
+\examples{
+system.file("masshunter.d", package = "chromConverterExtraTests")
 }
 \concept{Agilent Masshunter files}
 \keyword{data}

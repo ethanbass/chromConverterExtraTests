@@ -11,11 +11,11 @@
 \href{https://orcid.org/0000-0001-5907-4504}{Andrew Tolonen}:
 \url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}
 }
-\usage{
-system.file("multichannel_chrom.lcd", package = "chromConverterExtraTests")
-}
 \description{
 multichannel_chrom.lcd
+}
+\examples{
+system.file("multichannel_chrom.lcd", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Shimadzu files: 

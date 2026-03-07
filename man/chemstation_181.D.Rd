@@ -11,11 +11,11 @@
 \href{https://github.com/ifpen/GC2ASM}{GC2ASM}:
 \url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/V181.D}
 }
-\usage{
-system.file("chemstation_181.D", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_181.D
+}
+\examples{
+system.file("chemstation_181.D", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

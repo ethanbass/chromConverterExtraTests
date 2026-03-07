@@ -10,11 +10,11 @@
 \source{
 Ethan Bass
 }
-\usage{
-system.file("STRD15.SMS", package = "chromConverterExtraTests")
-}
 \description{
 STRD15.SMS
+}
+\examples{
+system.file("STRD15.SMS", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Varian files: 

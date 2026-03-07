@@ -10,11 +10,11 @@ Allotrope Simple Model (ASM) liquid chromatography format
 \source{
 \href{https://www.allotrope.org/}{Allotrope Foundation}: \url{https://gitlab.com/allotrope-public/asm}
 }
-\usage{
-system.file("ASM-liquid-chromatography.json",package = "chromConverterExtraTests")
-}
 \description{
 Example liquid chromatography file from the Allotrope Foundation.
+}
+\examples{
+system.file("ASM-liquid-chromatography.json",package = "chromConverterExtraTests")
 }
 \seealso{
 Other Allotrope Simple Model: 

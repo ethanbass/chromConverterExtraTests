@@ -11,11 +11,11 @@
 \href{https://github.com/angelovangel/TRACEview}{Angel Angelov}:
 \url{https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip}
 }
-\usage{
-system.file("chromeleon_comma.txt", package = "chromConverterExtraTests")
-}
 \description{
 chromeleon_comma.txt
+}
+\examples{
+system.file("chromeleon_comma.txt", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Chromeleon files: 

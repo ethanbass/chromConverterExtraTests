@@ -11,11 +11,11 @@
 \href{https://github.com/bovee/}{Roderick Bovee}:
 \url{https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch}
 }
-\usage{
-system.file("chemstation_81.ch", package = "chromConverterExtraTests")
-}
 \description{
 chemstation_81.ch
+}
+\examples{
+system.file("chemstation_81.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent ChemStation files: 

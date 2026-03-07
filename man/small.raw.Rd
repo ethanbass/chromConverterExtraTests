@@ -11,11 +11,11 @@
 \href{https://github.com/compomics/ThermoRawFileParser}{ThermoRawFileParser}:
 \url{https://github.com/compomics/ThermoRawFileParser/blob/master/ThermoRawFileParserTest/Data/small.RAW}
 }
-\usage{
-system.file("small.raw", package = "chromConverterExtraTests")
-}
 \description{
 small.raw
+}
+\examples{
+system.file("small.raw", package = "chromConverterExtraTests")
 }
 \seealso{
 Other ThermoRaw files: 

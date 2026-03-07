@@ -11,11 +11,11 @@
 \href{https://sourceforge.net/u/rkjulian/profile/}{Randy Julian}:
 \url{https://sourceforge.net/projects/andi/}
 }
-\usage{
-system.file("HP_MS.CDF", package = "chromConverterExtraTests")
-}
 \description{
 HP_MS.CDF
+}
+\examples{
+system.file("HP_MS.CDF", package = "chromConverterExtraTests")
 }
 \seealso{
 Other ANDI files: 

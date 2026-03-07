@@ -10,11 +10,11 @@
 \source{
 Ethan Bass
 }
-\usage{
-system.file("DCM1.SMS", package = "chromConverterExtraTests")
-}
 \description{
 A dichloromethane blank run on Varian 2000 GC-MS.
+}
+\examples{
+system.file("DCM1.SMS", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Varian files: 

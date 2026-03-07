@@ -11,14 +11,15 @@
 \href{https://github.com/anyaling2022}{anyaling2022}:
 \url{https://github.com/evanyeyeye/rainbow/issues/3}
 }
-\usage{
-system.file("openlab_131.ch", package = "chromConverterExtraTests")
-}
 \description{
 openlab_131.ch
 }
+\examples{
+system.file("openlab_131.ch", package = "chromConverterExtraTests")
+}
 \seealso{
 Other Agilent OpenLab files: 
+\code{\link{minimal.acaml}},
 \code{\link{openlab_179.ch}}
 }
 \concept{Agilent OpenLab files}
