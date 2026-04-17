@@ -6,8 +6,8 @@ agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/d
 MeOH1.dx | 'Agilent' (.dx) | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
 column_storage_ACN100.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
 Glucosinolates-XDB5.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
-ASM-liquid-chromatography.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
-ASM-gas-chromatography.tabular.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+ASM-liquid-chromatography.json | ASM liquid chromatography | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+ASM-gas-chromatography.tabular.json | ASM gas chromatography | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | CC-BY-NC-4.0 |
 CirA.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
 small.raw | Thermo Raw (.raw) | [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) | https://github.com/compomics/ThermoRawFileParser/blob/master/ThermoRawFileParserTest/Data/small.RAW | -- |
 Anthocyanin.lcd | 'Shimadzu LabSolutions' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |
@@ -37,7 +37,7 @@ masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.c
 minimal.acaml | 'Agilent Common Analytical Markup Language' (.acaml) | Ethan Bass | -- | CC0 |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | -- | CC0 |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
-HP_MS.CDF | "ANDI" (Analytical Data Interchange) MS (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) |
+HP_MS.CDF | "ANDI" (Analytical Data Interchange) MS (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | https://sourceforge.net/projects/andi/ | LGPLv2 |
 waters_blue.raw | 'Waters' RAW (.raw) | [rainbow](https://github.com/evanyeyeye/rainbow/tree/main) | https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw | GPL3|
 waters_pda.arw | 'Waters' PDA (.arw) | [Carla Restrepo](https://github.com/crestre)  | https://github.com/ethanbass/chromatographR/issues/26 | -- |
 waters.arw | 'Waters' UV (.arw) | [Appia](https://github.com/PlethoraChutney/Appia) | https://github.com/PlethoraChutney/Appia/tree/main/test-files | MIT (c) 2021 Richard Posert |
