@@ -4,8 +4,10 @@ This repository contains additional chromatography test files for the [chromConv
 | ----- | ----- | ------ | --- | ------- |
 agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/dgbowl/yadg) | https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx | [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html) |
 MeOH1.dx | 'Agilent' (.dx) | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
-ASM-liquid-chromatography.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-ASM-gas-chromatography.tabular.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+column_storage_ACN100.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
+Glucosinolates-XDB5.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
+ASM-liquid-chromatography.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+ASM-gas-chromatography.tabular.json | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 CirA.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |
 small.raw | Thermo Raw (.raw) | [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) | https://github.com/compomics/ThermoRawFileParser/blob/master/ThermoRawFileParserTest/Data/small.RAW | -- |
 Anthocyanin.lcd | 'Shimadzu LabSolutions' (.lcd) | [Silas Mellor](https://github.com/silasmellor)| https://github.com/ethanbass/chromConverter/issues/11 | -- |

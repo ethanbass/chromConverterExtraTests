@@ -19,6 +19,8 @@ system.file("openlab_131.ch", package = "chromConverterExtraTests")
 }
 \seealso{
 Other Agilent OpenLab files: 
+\code{\link{Glucosinolates-XDB5.amx}},
+\code{\link{column_storage_ACN100.amx}},
 \code{\link{minimal.acaml}},
 \code{\link{openlab_179.ch}}
 }

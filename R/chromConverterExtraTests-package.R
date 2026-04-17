@@ -262,6 +262,26 @@ NULL
 #' @family Agilent OpenLab files
 NULL
 
+#' @title column_storage_ACN100.amx
+#' @name column_storage_ACN100.amx
+#' @docType data
+#' @keywords data
+#' @examples system.file("column_storage_ACN100.amx", package = "chromConverterExtraTests")
+#' @format 'Agilent OpenLab' (.amx) method file
+#' @source Ethan Bass
+#' @family Agilent OpenLab files
+NULL
+
+#' @title Glucosinolates-XDB5.amx
+#' @name Glucosinolates-XDB5.amx
+#' @docType data
+#' @keywords data
+#' @examples system.file("Glucosinolates-XDB5.amx", package = "chromConverterExtraTests")
+#' @format 'Agilent OpenLab' (.amx) method file
+#' @source Ethan Bass
+#' @family Agilent OpenLab files
+NULL
+
 #' @title chromeleon_comma.txt
 #' @name chromeleon_comma.txt
 #' @docType data

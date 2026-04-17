@@ -1,3 +1,7 @@
+# chromConverterExtraTests 0.4.8
+
+* Added two new Agilent OpenLab `.amx` methods files.
+
 # chromConverterExtraTests 0.4.7
 
 * Added new Agilent OpenLab `.dx` file (`MeOH1.dx`) with DAD data.
