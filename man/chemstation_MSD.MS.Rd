@@ -18,7 +18,7 @@ chemstation_MSD.MS
 system.file("chemstation_MSD.MS", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Agilent ChemStation files: 
+Other Agilent ChemStation files:
 \code{\link{chemstation_130.ch}},
 \code{\link{chemstation_179_asterix.ch}},
 \code{\link{chemstation_179_mustang.ch}},

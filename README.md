@@ -6,6 +6,7 @@ agilent.dx | 'Agilent' (.dx) | [YADG: yet another datagram](https://github.com/d
 MeOH1.dx | 'Agilent' (.dx) | Ethan Bass | -- | [CC0](https://creativecommons.org/public-domain/cc0/) |
 column_storage_ACN100.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
 Glucosinolates-XDB5.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
+flow_rate_example.amx | 'Agilent' (.amx) | Ethan Bass | -- | CC0 |
 ASM-liquid-chromatography.json | ASM liquid chromatography | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 ASM-gas-chromatography.tabular.json | ASM gas chromatography | [Allotrope Foundation](https://www.allotrope.org/) | https://gitlab.com/allotrope-public/asm | CC-BY-NC-4.0 |
 CirA.raw | Thermo Raw (.raw) | [Benjamin Reisman](https://github.com/bjreisman) | -- | -- |

@@ -18,7 +18,7 @@ waters_blue.raw
 system.file("waters_blue.raw", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Waters files: 
+Other Waters files:
 \code{\link{waters.arw}},
 \code{\link{waters_pda.arw}}
 }

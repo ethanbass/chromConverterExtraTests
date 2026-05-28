@@ -17,7 +17,7 @@ CirA.raw
 system.file("CirA.raw", package = "chromConverterExtraTests")
 }
 \seealso{
-Other ThermoRaw files: 
+Other ThermoRaw files:
 \code{\link{small.raw}}
 }
 \concept{ThermoRaw files}

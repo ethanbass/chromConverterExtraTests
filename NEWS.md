@@ -1,6 +1,6 @@
 # chromConverterExtraTests 0.4.8
 
-* Added two new Agilent OpenLab `.amx` methods files.
+* Added three Agilent OpenLab `.amx` methods files.
 
 # chromConverterExtraTests 0.4.7
 

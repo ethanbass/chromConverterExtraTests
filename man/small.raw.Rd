@@ -18,7 +18,7 @@ small.raw
 system.file("small.raw", package = "chromConverterExtraTests")
 }
 \seealso{
-Other ThermoRaw files: 
+Other ThermoRaw files:
 \code{\link{CirA.raw}}
 }
 \concept{ThermoRaw files}

@@ -17,7 +17,7 @@ Example gas chromatography file from the Allotrope Foundation.
 system.file("ASM-gas-chromatography.tabular.json", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Allotrope Simple Model: 
+Other Allotrope Simple Model:
 \code{\link{ASM-liquid-chromatography.json}}
 }
 \concept{Allotrope Simple Model}

@@ -21,7 +21,7 @@ system.file("B4NF.7_C23.qgd", package = "chromConverterExtraTests")
 reference
 }
 \seealso{
-Other Shimadzu files: 
+Other Shimadzu files:
 \code{\link{Anthocyanin.lcd}},
 \code{\link{FS19_214.gcd}},
 \code{\link{multichannel_chrom.lcd}},

@@ -17,7 +17,7 @@ chromeleon_period.txt
 system.file("chromeleon_period.txt", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Chromeleon files: 
+Other Chromeleon files:
 \code{\link{chromeleon_3D.txt}},
 \code{\link{chromeleon_comma.txt}}
 }

@@ -17,7 +17,7 @@ varian_peaklist.csv
 system.file("varian_peaklist.csv", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Varian files: 
+Other Varian files:
 \code{\link{DCM1.SMS}},
 \code{\link{STRD15.SMS}}
 }

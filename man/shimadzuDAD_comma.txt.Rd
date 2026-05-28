@@ -17,7 +17,7 @@ shimadzuDAD_comma.txt
 system.file("shimadzuDAD_comma.txt", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Shimadzu files: 
+Other Shimadzu files:
 \code{\link{Anthocyanin.lcd}},
 \code{\link{B4NF.7_C23.qgd}},
 \code{\link{FS19_214.gcd}},

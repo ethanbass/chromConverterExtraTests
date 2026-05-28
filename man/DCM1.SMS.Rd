@@ -17,7 +17,7 @@ A dichloromethane blank run on Varian 2000 GC-MS.
 system.file("DCM1.SMS", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Varian files: 
+Other Varian files:
 \code{\link{STRD15.SMS}},
 \code{\link{varian_peaklist.csv}}
 }

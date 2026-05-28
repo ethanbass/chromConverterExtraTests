@@ -17,7 +17,7 @@ FS19_214.gcd
 system.file("FS19_214.gcd", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Shimadzu files: 
+Other Shimadzu files:
 \code{\link{Anthocyanin.lcd}},
 \code{\link{B4NF.7_C23.qgd}},
 \code{\link{multichannel_chrom.lcd}},

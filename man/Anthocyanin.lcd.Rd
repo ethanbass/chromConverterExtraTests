@@ -18,7 +18,7 @@ Anthocyanin.lcd
 system.file("Anthocyanin.lcd", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Shimadzu files: 
+Other Shimadzu files:
 \code{\link{B4NF.7_C23.qgd}},
 \code{\link{FS19_214.gcd}},
 \code{\link{multichannel_chrom.lcd}},

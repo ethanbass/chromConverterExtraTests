@@ -17,7 +17,7 @@ chemstation_31.uv
 system.file("chemstation_31.uv", package = "chromConverterExtraTests")
 }
 \seealso{
-Other Agilent ChemStation files: 
+Other Agilent ChemStation files:
 \code{\link{chemstation_130.ch}},
 \code{\link{chemstation_179_asterix.ch}},
 \code{\link{chemstation_179_mustang.ch}},

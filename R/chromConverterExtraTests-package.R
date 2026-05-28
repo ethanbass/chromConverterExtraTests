@@ -282,6 +282,16 @@ NULL
 #' @family Agilent OpenLab files
 NULL
 
+#' @title flow_rate_example.amx
+#' @name flow_rate_example.amx
+#' @docType data
+#' @keywords data
+#' @examples system.file("flow_rate_example.amx", package = "chromConverterExtraTests")
+#' @format 'Agilent OpenLab' (.amx) method file
+#' @source Ethan Bass
+#' @family Agilent OpenLab files
+NULL
+
 #' @title chromeleon_comma.txt
 #' @name chromeleon_comma.txt
 #' @docType data

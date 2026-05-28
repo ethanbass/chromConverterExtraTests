@@ -18,7 +18,7 @@ HP_MS.CDF
 system.file("HP_MS.CDF", package = "chromConverterExtraTests")
 }
 \seealso{
-Other ANDI files: 
+Other ANDI files:
 \code{\link{VARIAN1.CDF}}
 }
 \concept{ANDI files}
