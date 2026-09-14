@@ -1,3 +1,9 @@
+# chromConverterExtraTests 0.4.9
+
+* Added 'Agilent OpenLab' single injection result (`.sirslt`) directory
+(`openlab.sirslt`), containing `.acaml`, `.dx`, `.amx`, `.mfx`, `.rx`, and
+`.scml` files.
+
 # chromConverterExtraTests 0.4.8
 
 * Added three Agilent OpenLab `.amx` methods files.

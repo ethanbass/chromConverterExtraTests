@@ -1,0 +1,1152 @@
+<?xml version="1.0"?>
+<ACAML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversion="2.1.30.999" xmlns="urn:schemas-agilent-com:acaml21">
+  <Checksum Algorithm="MD5">
+    <Value>0IKkjtOsLVTMnFk5HmG5DQ==</Value>
+  </Checksum>
+  <MigrationHistory>
+    <MigrationStep>
+      <FromNamespace>urn:schemas-agilent-com:acaml21</FromNamespace>
+      <ToNamespace>urn:schemas-agilent-com:acaml21v2.1.30.999</ToNamespace>
+      <Date>2026-05-26T16:19:41.6288319-05:00</Date>
+      <Application>Agilent.Acaml.Core, Assembly Version: 1.0.0.0, File Version: 2.1.63.3</Application>
+    </MigrationStep>
+  </MigrationHistory>
+  <Doc>
+    <DocID>1162c1ac-f982-450c-8d7a-4455fafd891a</DocID>
+    <DocInfo>
+      <Description>Norbert II-2026-05-26 16-19-41-05-00</Description>
+      <CreatedByUser>SYSTEM (SYSTEM)</CreatedByUser>
+      <CreatedByApplication>
+        <AgilentApp>
+          <Name>IntelligentDataAnalysis</Name>
+          <Version>Version 2.8 - Build 2.208.0.1473</Version>
+        </AgilentApp>
+      </CreatedByApplication>
+      <CreationDate>2026-05-26T21:19:41.6278304Z</CreationDate>
+      <ClientName>EE-PC-11</ClientName>
+      <CustomField Name="CreatedByUserDisplayName">
+        <Value>SYSTEM (SYSTEM)</Value>
+      </CustomField>
+      <CustomField Name="OriginalApplicationName">
+        <Value>IntelligentDataAnalysis</Value>
+      </CustomField>
+      <CustomField Name="InjectionMetaDataItems">
+        <Xml>
+          <ArrayOfInjectionMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <InjectionMetaData AcqMethodName="flow_rate_simple_test" DaMethodName="" InjectionAcqDateTime="2026-05-26T21:20:23.526Z" InjectionId="832b1278-5b39-4f20-b37b-3b4a6a1d449a" InjectorPosition="Undefined" InstrumentName="Norbert II" LastModifiedDateTime="2026-05-26T16:30:29.4982338-05:00" BracketingType="Undefined" RawDataFileName="Norbert II-2026-05-26 16-19-41-05-00.dx" SampleDescription="" SampleName="" SampleSetupId="eff29cd0-6a30-470e-b155-63fa58a7c46f" SampleType="Sample" SequenceName="SingleSample" VialNumber="">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="1" />
+              <SampleAmount val="0" unit="" />
+              <SampleInjectionsCount val="1" />
+              <SampleOrderNumber val="1" />
+            </InjectionMetaData>
+          </ArrayOfInjectionMetaData>
+        </Xml>
+      </CustomField>
+    </DocInfo>
+    <Content>
+      <Resources>
+        <Instrument id="346616f6-298e-4919-a836-99c38883a9f1" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:19:41.6348308-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="IsCombined">
+              <Value>False</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <Name>Norbert II</Name>
+          <Technique>LiquidChromatography</Technique>
+          <Module id="3a44b3ea-7239-4ddd-a9e6-f2b09407f37b">
+            <Name>Fraction Collector</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>FractionCollector</Type>
+            <PartNo>G1364F</PartNo>
+            <SerialNo>DEAGS03006</SerialNo>
+            <FirmwareRevision>D.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="e6338a6d-c081-436d-9a36-9bf99c74c6aa">
+            <Name>Quat. Pump</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Pump</Type>
+            <PartNo>G7104C</PartNo>
+            <SerialNo>DEAG201131</SerialNo>
+            <FirmwareRevision>B.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="36640112-3617-47f2-8be5-a5192663bee1">
+            <Name>DAD</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Detector</Type>
+            <PartNo>G7115A</PartNo>
+            <SerialNo>DEAC608045</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="428f7d79-175c-4d25-aac4-38d476dfd6a8">
+            <Name>Column Comp.</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>ColumnCompartment</Type>
+            <PartNo>G7116A</PartNo>
+            <SerialNo>DEGFA00578</SerialNo>
+            <FirmwareRevision>C.07.40 [0003] (Host: D.07.40 [0003])</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="c688350c-c9d8-4801-8b58-accf7e359f39">
+            <Name>Multisampler</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Sampler</Type>
+            <PartNo>G7167A</PartNo>
+            <SerialNo>DEAGY00628</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+        </Instrument>
+        <SampleContainerInfo id="8e92df89-446e-434e-a4f5-e43420da3700" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T16:30:28.4153371-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:28.4153371-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>Fraction Collector</Name>
+          <Description>G1364F, DEAGS03006, Agilent</Description>
+          <FilePath>FractionCollector_1_DEAGS03006_5.scml</FilePath>
+          <SamplerDeviceType>FractionContainerDevice</SamplerDeviceType>
+        </SampleContainerInfo>
+      </Resources>
+      <Method id="316f3f46-d9c7-4627-ae4c-81dbad544d4c" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </CreatedBy>
+          <CreatedDate>2026-05-26T15:59:10.8350422-05:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2026-05-26T16:01:32.3533067-05:00</LastModifiedDate>
+          <AuditTrail />
+        </Info>
+        <ComplexCustomFields />
+        <BinaryData>
+          <DataItem>
+            <Name>flow_rate_simple_test.amx</Name>
+            <Data>
+              <DataFileReference>
+                <Path>flow_rate_simple_test.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>flow_rate_simple_test</Name>
+        <Description />
+        <OriginalVersion>2026-0526-2101-32353</OriginalVersion>
+      </Method>
+      <SampleContexts>
+        <Setup id="1cb431bf-88e3-4151-9ac8-e9556890b5cd" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T16:19:41.6338317-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:28.3956956-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>SingleSample</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Complete</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="346616f6-298e-4919-a836-99c38883a9f1" ver="0" />
+          </AcqParam>
+          <DAParam />
+          <SampleSetup_ID id="eff29cd0-6a30-470e-b155-63fa58a7c46f" ver="0" />
+          <PackagingMode>CompliantSingleSample</PackagingMode>
+          <Authors />
+        </Setup>
+        <MeasData id="7abd6e35-02d9-45b4-8fef-38e93c0e8d7e" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T16:19:41.6338317-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:28.3956956-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <SampleSetupContext_ID id="1cb431bf-88e3-4151-9ac8-e9556890b5cd" ver="0" />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>Undefined</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Undefined</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="346616f6-298e-4919-a836-99c38883a9f1" ver="0" />
+          </AcqParam>
+          <SampleMeasData_ID id="1a1c4998-311f-4949-80a2-cab1105ede87" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </SampleContexts>
+      <Samples>
+        <Setup id="eff29cd0-6a30-470e-b155-63fa58a7c46f" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T16:30:28.3936839-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:28.3936839-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields" />
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name />
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Glucosinolates</ProjectID>
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="1" />
+            <VialNumber />
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="0" />
+            <InjectorPosition>Undefined</InjectorPosition>
+            <InjectionSourceInfo>No Injection/Instrument Blank</InjectionSourceInfo>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit="" />
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <MeasData id="1a1c4998-311f-4949-80a2-cab1105ede87" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T16:30:28.3936839-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:28.3936839-05:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name />
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>Glucosinolates</ProjectID>
+          </IdentParam>
+          <AcqParam>
+            <VialNumber />
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="0" />
+            <InjectorPosition>Undefined</InjectorPosition>
+            <InjectionSourceInfo>No Injection/Instrument Blank</InjectionSourceInfo>
+          </AcqParam>
+          <SampleSetup_ID id="eff29cd0-6a30-470e-b155-63fa58a7c46f" ver="0" />
+          <InjectionMeasData_ID id="832b1278-5b39-4f20-b37b-3b4a6a1d449a" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </Samples>
+      <Injections>
+        <MeasData id="832b1278-5b39-4f20-b37b-3b4a6a1d449a" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-05-26T21:20:23.526Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-05-26T16:30:29.4982338-05:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields />
+          <BinaryData>
+            <DataItem>
+              <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+              <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="316f3f46-d9c7-4627-ae4c-81dbad544d4c" ver="0" />
+            <OrderNo val="1" />
+          </AcqParam>
+          <AcquitionStatus>
+            <Status>Completed</Status>
+            <Message>Acquisition completed for injection: 1</Message>
+          </AcquitionStatus>
+          <Signal id="3de26d59-1b86-423c-852c-f16241d32879" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1C</Name>
+            <Description>PMP1C,Solvent Ratio A</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>008ef9f3-28ae-4070-ada1-88fd635c81ac</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="ba651814-93ac-4f19-a8b4-af4ebd3b866f" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>AFC1C</Name>
+            <Description>AFC1C,Delay Sensor</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>3cdaa5b6-27fe-42ce-ab9c-b4ed9c639f85</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>AFC</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="3a44b3ea-7239-4ddd-a9e6-f2b09407f37b" />
+          </Signal>
+          <Signal id="985ce8b0-319b-4bfc-b6aa-e93a25034fd6" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>WPS1A</Name>
+            <Description>WPS1A,Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>a3ba66e5-740d-49ae-aecf-5fde74bad381</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>WPS</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="c688350c-c9d8-4801-8b58-accf7e359f39" />
+          </Signal>
+          <Signal id="2918c2e2-c1e8-476b-9f72-251f212f83da" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1E</Name>
+            <Description>PMP1E,Solvent Ratio C</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>6d91242f-9bb6-443a-bee7-f1659f561342</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>E</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="a6efb583-8de8-4ec4-b811-5bcdff3fa93a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1F</Name>
+            <Description>PMP1F,Solvent Ratio D</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>a3ba3614-c079-4301-8000-b18da6db1d40</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>F</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="82969e30-64ca-4098-b648-e133edb6c26d" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4093377-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1D</Name>
+            <Description>DAD1D,Sig=360,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>82ca0ef5-42cd-4148-a513-b3c161895ad7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="418d4830-ac82-4074-b16e-f99a2eaac25f" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4093377-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Fraction Collector1B,G1364F:Delay Volume Calibration Data</Name>
+            <Description>Fraction Collector1B,Delay Volume Calibration Data</Description>
+            <Type>Generic</Type>
+            <TraceID>a740740b-cd9a-43df-89a7-7023e8fabc94</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Fraction Collector</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <GenericDataInfo>
+              <DataChannelId>Generic</DataChannelId>
+              <DataChannelName>Fraction Collector1B,G1364F:Delay Volume Calibration Data</DataChannelName>
+              <DataChannelDescription>Fraction Collector1B,Delay Volume Calibration Data</DataChannelDescription>
+            </GenericDataInfo>
+            <InstrumentModule_ID id="3a44b3ea-7239-4ddd-a9e6-f2b09407f37b" />
+          </Signal>
+          <Signal id="4119a01f-2644-4292-be25-4570a9f550f3" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4093377-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1A</Name>
+            <Description>DAD1A,Sig=229,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>fa8d419e-53bd-4db9-bdf4-cd790cb61d06</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="09f6f010-765d-4f0d-9467-b0719d618c71" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1I</Name>
+            <Description>DAD1I,DAD: Spectrum</Description>
+            <Type>Spectra</Type>
+            <TraceID>fcc9759c-dca2-40b9-86fd-2818920958e8</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>I</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="4bb73e41-680b-498b-87d8-f893d8d93e7e" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1V</Name>
+            <Description>DAD1V,UV Lamp Anode Voltage</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>e53e2d04-befc-4b95-80fc-9696a068437d</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>V</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="df60fd12-b9a0-4eec-ba5f-5d6cab01070a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1G</Name>
+            <Description>PMP1G,Tuning</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>b00b5973-a744-45bf-8a34-cb5e663b8feb</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>G</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="c0e985af-8778-46c3-823e-e3bd6a02a477" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1D</Name>
+            <Description>PMP1D,Solvent Ratio B</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>0909c9b2-dba6-423d-b78d-e6643b7cf8c3</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="ba022a39-0bf1-40e3-a51d-dd1c0c3db5a6" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4093377-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1C</Name>
+            <Description>DAD1C,Sig=260,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>e3d7b495-7c9b-4502-9adf-61cf4c0df936</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="37359326-811d-4667-8b32-03c8257d81fe" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1T</Name>
+            <Description>DAD1T,Board Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>47327d95-0fac-4aa0-8e67-3717bc8be97e</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>T</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="102c107b-9854-4584-a1ef-f3e9e19624e3" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1A</Name>
+            <Description>PMP1A,Pressure</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>f27a3b50-b93b-4555-8f23-16d7ac2f0d49</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <Signal id="0725ac99-9c4f-4498-b803-63f2228ddee9" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1A</Name>
+            <Description>THM1A,Left Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>5d47256f-f0b2-4638-8aae-e20ac590fa27</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="428f7d79-175c-4d25-aac4-38d476dfd6a8" />
+          </Signal>
+          <Signal id="d524a5e7-1c65-4c42-bb13-ddcb0617c352" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1B</Name>
+            <Description>THM1B,Right Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>9325db55-d278-42b6-a88f-f174fcc751c1</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="428f7d79-175c-4d25-aac4-38d476dfd6a8" />
+          </Signal>
+          <Signal id="d52b4182-c07f-4221-8e7a-1e56117c56ca" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4093377-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1B</Name>
+            <Description>DAD1B,Sig=200,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <TraceID>fe2467a0-7b70-4fff-b616-1379efb3326c</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="516f9260-e8b3-4d82-a7b4-d9fbab5ed524" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1U</Name>
+            <Description>DAD1U,Optical Unit Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>28772633-5e49-4eb4-9323-b8e6ba29a6f7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>U</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="36640112-3617-47f2-8be5-a5192663bee1" />
+          </Signal>
+          <Signal id="f0e69422-d11e-49ae-8a7a-cf50b41a6d63" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-05-26T16:30:28.4083328-05:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>Norbert II-2026-05-26 16-19-41-05-00.dx</Name>
+                <OriginalFilePath>Norbert II-2026-05-26 16-19-41-05-00.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>Norbert II-2026-05-26 16-19-41-05-00.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1B</Name>
+            <Description>PMP1B,Flow</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>78c7b57e-b56c-4079-a1c9-a94c0fd7dbcc</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="e6338a6d-c081-436d-9a36-9bf99c74c6aa" />
+          </Signal>
+          <InjectionVolume val="0" />
+          <DiagnosticData>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Fraction Collector : 1" Description="Fraction Collector" />
+              <CustomField Name="Quat. Pump : 1" Description="Quat. Pump">
+                <CustomField Name="RunStart_Pressure_Actual" Description="Run start - Pressure">
+                  <Value unit="bar">296.74</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Flow_Actual" Description="Run start - Flow">
+                  <Value unit="mL/min">0.400</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Pressure_Actual" Description="Run stop - Pressure">
+                  <Value unit="bar">363.76</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Flow_Actual" Description="Run stop - Flow">
+                  <Value unit="mL/min">0.500</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="DAD : 1" Description="DAD">
+                <CustomField Name="RunStart_UVLamp_OnTime" Description="Run Start - Dad - UV Lamp On time">
+                  <Value unit="h">0.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_BurnTime" Description="Run Start - Dad - UV Lamp Burn time">
+                  <Value unit="h">1460.98</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_OnTime" Description="Run Start - Dad - Vis Lamp On time">
+                  <Value unit="h">0.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_BurnTime" Description="Run Start - Dad - Vis Lamp Burn time">
+                  <Value unit="h">198.49</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellLength" Description="Run Start - Dad - Cell Length">
+                  <Value unit="mm">10.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_ProductNumber" Description="Run Start - Dad - Lamp tag - Product Number">
+                  <Value>2140-0820</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_SerialNumber" Description="Run Start - Dad - Lamp tag - Serial Number">
+                  <Value>O43387</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_ProductNumber" Description="Run Start - Dad - Cell Tag - Product Number">
+                  <Value>G1315-60022</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_SerialNumber" Description="Run Start - Dad - Cell Tag - Serial Number">
+                  <Value>DESAB01546</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_OnTime" Description="Run Stop - Dad - UV Lamp On time">
+                  <Value unit="h">0.17</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_BurnTime" Description="Run Stop - Dad - UV Lamp Burn time">
+                  <Value unit="h">1461.15</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_OnTime" Description="Run Stop - Dad - Vis Lamp On time">
+                  <Value unit="h">0.00</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_BurnTime" Description="Run Stop - Dad - Vis Lamp Burn time">
+                  <Value unit="h">198.49</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Column Comp. : 1" Description="Column Comp.">
+                <CustomField Name="RunStart_TemperatureControl_Actual" Description="Run start - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_TemperatureControl2_Actual" Description="Run start - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl_Actual" Description="Run stop - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl2_Actual" Description="Run stop - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run start - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run start - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run stop - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run stop - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Multisampler : 1" Description="Multisampler">
+                <CustomField Name="RunStart_Temperature_Actual" Description="Run start - Actual Temperature">
+                  <Value unit="°C">27</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Actual" Description="Run stop - Actual Temperature">
+                  <Value unit="°C">27</Value>
+                </CustomField>
+                <CustomField Name="Injection_Position" Description="Injection - Position">
+                  <Value />
+                </CustomField>
+                <CustomField Name="Injection_Volume" Description="Injection - Volume">
+                  <Value unit="µL">1.0</Value>
+                </CustomField>
+                <CustomField Name="Injection_UsedNeedle" Description="Injection - Used needle">
+                  <Value>Right needle</Value>
+                </CustomField>
+              </CustomField>
+            </Item>
+          </DiagnosticData>
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.8 - Build  2.8.0-REL_2.8.0.1330</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.8 - Build  2.8.0-REL_2.8.0.1330 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2026-0526-2101-32353</AcquisitionMethodVersion>
+          <ExternalResultPath>Norbert II-2026-05-26 16-19-41-05-00.rx</ExternalResultPath>
+          <FractionContainerInfo_ID id="8e92df89-446e-434e-a4f5-e43420da3700" ver="0" />
+        </MeasData>
+      </Injections>
+      <Actions />
+    </Content>
+  </Doc>
+</ACAML>

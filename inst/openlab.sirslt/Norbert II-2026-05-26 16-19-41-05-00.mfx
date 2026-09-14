@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fileset IdentifierAlgorithm="" Identifier="" xmlns="urn:schemas-agilent-com:Fileset">
+  <Files>
+    <File Path="flow_rate_simple_test.amx" IdentifierAlgorithm="MD5" Identifier="c24c67c91850044bd32721545a56698e">
+      <Property Name="appVersion" Value="2026-0526-2101-32353" />
+    </File>
+    <File Path="Norbert II-2026-05-26 16-19-41-05-00.acaml" IdentifierAlgorithm="MD5" Identifier="8b82befcb4f36f8705cbf8ee1466f860">
+      <Property Name="appVersion" Value="ACQ-2026-0526-2119-41620" />
+    </File>
+    <File Path="Norbert II-2026-05-26 16-19-41-05-00.dx" IdentifierAlgorithm="MD5" Identifier="521beaf5e6d517b3ef2672177f43c9c3">
+      <Property Name="appVersion" Value="ACQ-2026-0526-2119-41620" />
+    </File>
+    <File Path="FractionCollector_1_DEAGS03006_5.scml" IdentifierAlgorithm="MD5" Identifier="89db29b003d6091b8b64a23c948e94e6">
+      <Property Name="appVersion" Value="ACQ-2026-0526-2119-41620" />
+    </File>
+    <File Path="Norbert II-2026-05-26 16-19-41-05-00.rx" IdentifierAlgorithm="MD5" Identifier="39e4d021e9ae0037259d288b0b2850e3">
+      <Property Name="appVersion" Value="ACQ-2026-0526-2119-41620" />
+    </File>
+  </Files>
+</Fileset>

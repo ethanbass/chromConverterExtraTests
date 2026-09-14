@@ -292,6 +292,21 @@ NULL
 #' @family Agilent OpenLab files
 NULL
 
+#' @title openlab.sirslt
+#' @name openlab.sirslt
+#' @description An 'Agilent OpenLab' single injection result
+#' (\code{.sirslt}) directory, containing an \code{.acaml} file, a
+#' \code{.dx} file, an \code{.amx} method file, an \code{.mfx} file, an
+#' \code{.rx} file, and an \code{.scml} fraction collector file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("openlab.sirslt", package = "chromConverterExtraTests")
+#' @format 'Agilent OpenLab' single injection result (\code{.sirslt}) directory
+#' @source Ethan Bass
+#' @family Agilent OpenLab files
+#' @md
+NULL
+
 #' @title chromeleon_comma.txt
 #' @name chromeleon_comma.txt
 #' @docType data
