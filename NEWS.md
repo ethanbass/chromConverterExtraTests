@@ -1,3 +1,9 @@
+# chromConverterExtraTests 0.4.10
+
+* Added 'Shimadzu LabSolutions' LCD file with quadrupole time-of-flight
+data (`shimadzu_qtof.lcd`) from MassIVE MSV000084197.
+* Added source field to `.Rd` files with provenance and license information for each file.
+
 # chromConverterExtraTests 0.4.9
 
 * Added 'Agilent OpenLab' single injection result (`.sirslt`) directory

@@ -1,7 +1,7 @@
 Package: chromConverterExtraTests
 Type: Package
 Title: Additional Chromatography Test Files for chromConverter
-Version: 0.4.9
+Version: 0.4.10
 Authors@R: c(
     person(given = "Ethan", family = "Bass", email = "ethanbass@gmail.com",
             role = c("aut", "cre"),
@@ -25,6 +25,8 @@ Authors@R: c(
     person(given = "Andrew", family = "Legan", role = c("ctb", "cph"), 
             comment = c(ORCID = "https://orcid.org/0000-0001-7049-9837",
 	    "Copyright holder, 'FS19_214.gcd'")),
+    person(given = "Nataliia", family = "Machushynets", role = c("ctb", "cph"),
+            comment = "Copyright holder, 'shimadzu_qtof.lcd'"),
     person(given = "Silas", family = "Mellor", role = c("ctb", "cph"),
             comment = "Copyright holder, 'Anthocyanin.lcd', 'shimadzuDAD_Anthocyanin.txt'"),
     person(given = "Benjamin", family = "Reisman", role = c("ctb"),

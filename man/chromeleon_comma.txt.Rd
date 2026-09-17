@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/angelovangel/TRACEview}{Angel Angelov}:
-\url{https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip}
+\url{https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2017 Angel Angelov.
 }
 \description{
 chromeleon_comma.txt

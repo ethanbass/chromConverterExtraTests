@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://orcid.org/0000-0001-5907-4504}{Andrew Tolonen}:
-\url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}
+\url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2024 Andrew Tolonen.
 }
 \description{
 multichannel_chrom.lcd

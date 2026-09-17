@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/dgbowl/yadg}{YADG: yet another datagram}:
-\url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12\%2012-39-18\%2B01-00-02.dx}
+\url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12\%2012-39-18\%2B01-00-02.dx}.
+Released under \href{https://www.gnu.org/licenses/gpl-3.0.en.html}{GPL-3}.
 }
 \description{
 An 'Agilent' \code{.dx} file.

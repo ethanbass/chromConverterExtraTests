@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/bovee/}{Roderick Bovee}:
-\url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}
+\url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2014 Roderick Bovee.
 }
 \description{
 masshunter.d

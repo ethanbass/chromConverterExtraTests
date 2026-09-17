@@ -8,7 +8,8 @@
 'Shimadzu LabSolutions' GCD (\code{.gcd})
 }
 \source{
-\href{https://orcid.org/0000-0001-7049-9837}{Andrew W. Legan}
+\href{https://orcid.org/0000-0001-7049-9837}{Andrew W. Legan}.
+Released under \href{https://creativecommons.org/publicdomain/zero/1.0/}{CC0 1.0}.
 }
 \description{
 FS19_214.gcd

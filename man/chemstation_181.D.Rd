@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/ifpen/GC2ASM}{GC2ASM}:
-\url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/V181.D}
+\url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/V181.D}.
+Released under \href{https://github.com/ifpen/GC2ASM?tab=CECILL-2.1-1-ov-file#readme}{CeCILL-2.1}.
 }
 \description{
 chemstation_181.D

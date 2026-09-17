@@ -8,7 +8,8 @@
 'Agilent' \code{.acaml}
 }
 \source{
-Ethan Bass
+Ethan Bass.
+Released under \href{https://creativecommons.org/publicdomain/zero/1.0/}{CC0 1.0}.
 }
 \description{
 A minimal example of an 'Agilent Common Analytical Markup
@@ -20,10 +21,11 @@ system.file("minimal.acaml", package = "chromConverterExtraTests")
 \seealso{
 Other Agilent OpenLab files:
 \code{\link{Glucosinolates-XDB5.amx}},
+\code{\link{MeOH1.dx}},
 \code{\link{column_storage_ACN100.amx}},
 \code{\link{flow_rate_example.amx}},
 \code{\link{openlab.sirslt}},
-\code{\link{openlab_131.ch}},
+\code{\link{openlab_131.uv}},
 \code{\link{openlab_179.ch}}
 }
 \concept{Agilent OpenLab files}

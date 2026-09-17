@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://sourceforge.net/u/rkjulian/profile/}{Randy Julian}:
-\url{https://sourceforge.net/projects/andi/}
+\url{https://sourceforge.net/projects/andi/}.
+Released under \href{https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html}{LGPL-2.1}.
 }
 \description{
 HP_MS.CDF

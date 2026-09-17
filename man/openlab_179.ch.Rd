@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/dgbowl/yadg}{YADG: yet another datagram}:
-\url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH}
+\url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH}.
+Released under \href{https://www.gnu.org/licenses/gpl-3.0.en.html}{GPL-3}.
 }
 \description{
 openlab_179.ch
@@ -20,11 +21,12 @@ system.file("openlab_179.ch", package = "chromConverterExtraTests")
 \seealso{
 Other Agilent OpenLab files:
 \code{\link{Glucosinolates-XDB5.amx}},
+\code{\link{MeOH1.dx}},
 \code{\link{column_storage_ACN100.amx}},
 \code{\link{flow_rate_example.amx}},
 \code{\link{minimal.acaml}},
 \code{\link{openlab.sirslt}},
-\code{\link{openlab_131.ch}}
+\code{\link{openlab_131.uv}}
 }
 \concept{Agilent OpenLab files}
 \keyword{data}

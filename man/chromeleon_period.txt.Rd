@@ -9,6 +9,7 @@
 }
 \source{
 This file was produced by modifying \code{\link{chromeleon_comma.txt}}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2017 Angel Angelov.
 }
 \description{
 chromeleon_period.txt

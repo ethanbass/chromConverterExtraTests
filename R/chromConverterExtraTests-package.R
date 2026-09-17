@@ -5,6 +5,22 @@
 #' @author Ethan Bass
 "_PACKAGE"
 
+#' @title shimadzu_qtof.lcd
+#' @name shimadzu_qtof.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file containing
+#' centroided quadrupole time-of-flight (Q-TOF) data in a \code{QTFL RawData}
+#' stream, paired with a PDA stream.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_qtof.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source Nataliia Machushynets, Leiden University, MassIVE
+#' [MSV000084197](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084197):
+#' \doi{10.25345/C58Q07}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @md
+NULL
+
 #' @title agilent.dx
 #' @name agilent.dx
 #' @description An 'Agilent' \code{.dx} file.
@@ -13,7 +29,21 @@
 #' @examples system.file("agilent.dx",package = "chromConverterExtraTests")
 #' @format  'Agilent' \code{.dx}
 #' @source [YADG: yet another datagram](https://github.com/dgbowl/yadg):
-#' \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx}
+#' \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/2021-11-12%2012-39-18%2B01-00-02.dx}.
+#' Released under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+#' @md
+NULL
+
+#' @title MeOH1.dx
+#' @name MeOH1.dx
+#' @description An 'Agilent OpenLab' \code{.dx} file containing DAD data.
+#' @docType data
+#' @keywords data
+#' @examples system.file("MeOH1.dx", package = "chromConverterExtraTests")
+#' @format  'Agilent OpenLab' \code{.dx}
+#' @family Agilent OpenLab files
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @md
 NULL
 
@@ -25,7 +55,8 @@ NULL
 #' @examples system.file("ASM-liquid-chromatography.json",package = "chromConverterExtraTests")
 #' @format  Allotrope Simple Model (ASM) liquid chromatography format
 #' @family Allotrope Simple Model
-#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm}
+#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm}.
+#' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 #' @md
 NULL
 
@@ -37,7 +68,8 @@ NULL
 #' @examples system.file("ASM-gas-chromatography.tabular.json", package = "chromConverterExtraTests")
 #' @format  Allotrope Simple Model (ASM) gas chromatography format
 #' @family Allotrope Simple Model
-  #' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm}
+#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm}.
+#' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 #' @md
 NULL
 
@@ -52,11 +84,11 @@ NULL
 #' @md
 NULL
 
-#' @title small.raw
-#' @name small.raw
+#' @title small.RAW
+#' @name small.RAW
 #' @docType data
 #' @keywords data
-#' @examples system.file("small.raw", package = "chromConverterExtraTests")
+#' @examples system.file("small.RAW", package = "chromConverterExtraTests")
 #' @format  'ThermoRaw'
 #' @family ThermoRaw files
 #' @source [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser):
@@ -106,7 +138,8 @@ NULL
 #' @examples system.file("FS19_214.gcd", package = "chromConverterExtraTests")
 #' @format  'Shimadzu LabSolutions' GCD (\code{.gcd})
 #' @family Shimadzu files
-#' @source [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837)
+#' @source [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837).
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @md
 NULL
 
@@ -119,7 +152,8 @@ NULL
 #' @references reference
 #' @family Shimadzu files
 #' @source [Enikő Csata](https://orcid.org/0000-0003-2564-9706) et al:
-#' \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4}
+#' \url{https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @md
 NULL
 
@@ -130,7 +164,8 @@ NULL
 #' @examples system.file("multichannel_chrom.lcd", package = "chromConverterExtraTests")
 #' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
 #' @source [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504):
-#' \url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}
+#' \url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2024 Andrew Tolonen.
 #' @md
 #' @family Shimadzu files
 NULL
@@ -142,7 +177,8 @@ NULL
 #' @examples system.file("multichannel_chrom.txt", package = "chromConverterExtraTests")
 #' @format 'Shimadzu LabSolutions' ASCII (\code{.txt})
 #' @source [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504):
-#' \url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}
+#' \url{https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2024 Andrew Tolonen.
 #' @md
 #' @family Shimadzu files
 NULL
@@ -174,7 +210,8 @@ NULL
 #' @examples system.file("chemstation_81.ch", package = "chromConverterExtraTests")
 #' @format 'Agilent ChemStation' (version 81)
 #' @source [Roderick Bovee](https://github.com/bovee/):
-#' \url{https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch}
+#' \url{https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
 #' @md
 #' @family Agilent ChemStation files
 NULL
@@ -209,7 +246,8 @@ NULL
 #' @examples system.file("chemstation_179_asterix.ch", package = "chromConverterExtraTests")
 #' @format 'Agilent ChemStation' ('Asterix' version 179, 4-byte format)
 #' @source [PyExpLabSys](https://github.com/CINF/PyExpLabSys):
-#' \url{https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC%202015-01-13%2011-16-24/NV-F0101.D}
+#' \url{https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC%202015-01-13%2011-16-24/NV-F0101.D}.
+#' Released under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 #' @md
 #' @family Agilent ChemStation files
 NULL
@@ -221,7 +259,8 @@ NULL
 #' @examples system.file("chemstation_181.D", package = "chromConverterExtraTests")
 #' @format 'Agilent ChemStation' ('Asterix' version 181)
 #' @source [GC2ASM](https://github.com/ifpen/GC2ASM):
-#' \url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/V181.D}
+#' \url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/V181.D}.
+#' Released under [CeCILL-2.1](https://github.com/ifpen/GC2ASM?tab=CECILL-2.1-1-ov-file#readme).
 #' @md
 #' @family Agilent ChemStation files
 NULL
@@ -233,16 +272,17 @@ NULL
 #' @examples system.file("chemstation_MSD.MS", package = "chromConverterExtraTests")
 #' @format 'Agilent ChemStation' (\code{.MS})
 #' @source [Roderick Bovee](https://github.com/bovee/):
-#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
 #' @md
 #' @family Agilent ChemStation files
 NULL
 
-#' @title openlab_131.ch
-#' @name openlab_131.ch
+#' @title openlab_131.uv
+#' @name openlab_131.uv
 #' @docType data
 #' @keywords data
-#' @examples system.file("openlab_131.ch", package = "chromConverterExtraTests")
+#' @examples system.file("openlab_131.uv", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' (version 131)
 #' @source [anyaling2022](https://github.com/anyaling2022):
 #' \url{https://github.com/evanyeyeye/rainbow/issues/3}
@@ -257,7 +297,8 @@ NULL
 #' @examples system.file("openlab_179.ch", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' (version 179)
 #' @source [YADG: yet another datagram](https://github.com/dgbowl/yadg):
-#' \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH}
+#' \url{https://github.com/dgbowl/yadg/blob/master/tests/test_chromtrace/extracted-3487d194-9155-4f79-8f11-dbd18ce53187.CH}.
+#' Released under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 #' @md
 #' @family Agilent OpenLab files
 NULL
@@ -268,8 +309,10 @@ NULL
 #' @keywords data
 #' @examples system.file("column_storage_ACN100.amx", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' (.amx) method file
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Agilent OpenLab files
+#' @md
 NULL
 
 #' @title Glucosinolates-XDB5.amx
@@ -278,8 +321,10 @@ NULL
 #' @keywords data
 #' @examples system.file("Glucosinolates-XDB5.amx", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' (.amx) method file
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Agilent OpenLab files
+#' @md
 NULL
 
 #' @title flow_rate_example.amx
@@ -288,8 +333,10 @@ NULL
 #' @keywords data
 #' @examples system.file("flow_rate_example.amx", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' (.amx) method file
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Agilent OpenLab files
+#' @md
 NULL
 
 #' @title openlab.sirslt
@@ -302,7 +349,8 @@ NULL
 #' @keywords data
 #' @examples system.file("openlab.sirslt", package = "chromConverterExtraTests")
 #' @format 'Agilent OpenLab' single injection result (\code{.sirslt}) directory
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Agilent OpenLab files
 #' @md
 NULL
@@ -314,7 +362,8 @@ NULL
 #' @examples system.file("chromeleon_comma.txt", package = "chromConverterExtraTests")
 #' @format 'Thermo Fisher Scientific Chromeleon' (comma-separated decimals)
 #' @source [Angel Angelov](https://github.com/angelovangel/TRACEview):
-#' \url{https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip}
+#' \url{https://github.com/angelovangel/TRACEview/blob/master/HPLC-example-files.zip}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2017 Angel Angelov.
 #' @md
 #' @family Chromeleon files
 NULL
@@ -326,6 +375,7 @@ NULL
 #' @examples system.file("chromeleon_period.txt", package = "chromConverterExtraTests")
 #' @format 'Thermo Fisher Scientific Chromeleon' (period-separated decimals)
 #' @source This file was produced by modifying \code{\link{chromeleon_comma.txt}}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2017 Angel Angelov.
 #' @md
 #' @family Chromeleon files
 NULL
@@ -348,8 +398,10 @@ NULL
 #' @keywords data
 #' @examples system.file("DCM1.SMS", package = "chromConverterExtraTests")
 #' @format 'Varian Workstation' (v6.6) \code{.SMS} file.
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Varian files
+#' @md
 NULL
 
 #' @title STRD15.SMS
@@ -358,8 +410,22 @@ NULL
 #' @keywords data
 #' @examples system.file("STRD15.SMS", package = "chromConverterExtraTests")
 #' @format 'Varian Workstation' (v6.6) \code{.SMS} file.
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Varian files
+#' @md
+NULL
+
+#' @title DCM1.mzML
+#' @name DCM1.mzML
+#' @docType data
+#' @keywords data
+#' @examples system.file("DCM1.mzML", package = "chromConverterExtraTests")
+#' @format Chromatogram in mzML format
+#' @source Converted from \code{\link{DCM1.SMS}} in OpenChrom.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family mzML files
+#' @md
 NULL
 
 #' @title STRD15.mzML
@@ -369,7 +435,9 @@ NULL
 #' @examples system.file("STRD15.mzML", package = "chromConverterExtraTests")
 #' @format Chromatogram in mzML format
 #' @source Converted from \code{\link{STRD15.SMS}} in OpenChrom.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family mzML files
+#' @md
 NULL
 
 #' @title masshunter.d
@@ -379,7 +447,8 @@ NULL
 #' @examples system.file("masshunter.d", package = "chromConverterExtraTests")
 #' @format 'Agilent' Masshunter DAD (.D)
 #' @source [Roderick Bovee](https://github.com/bovee/):
-#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
 #' @md
 #' @family Agilent Masshunter files
 NULL
@@ -392,7 +461,8 @@ NULL
 #' @keywords data
 #' @examples system.file("minimal.acaml", package = "chromConverterExtraTests")
 #' @format  'Agilent' \code{.acaml}
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Agilent OpenLab files
 #' @md
 NULL
@@ -403,8 +473,10 @@ NULL
 #' @keywords data
 #' @examples system.file("varian_peaklist.csv", package = "chromConverterExtraTests")
 #' @format 'Varian Workstation' (v6.6) Peak List Summary File
-#' @source Ethan Bass
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @family Varian files
+#' @md
 NULL
 
 #' @title VARIAN1.CDF
@@ -414,7 +486,8 @@ NULL
 #' @examples system.file("VARIAN1.CDF", package = "chromConverterExtraTests")
 #' @format "ANDI" (Analytical Data Interchange) chrom (\code{.cdf})
 #' @source [Randy Julian](https://sourceforge.net/u/rkjulian/profile/):
-#' \url{https://sourceforge.net/projects/andi/}
+#' \url{https://sourceforge.net/projects/andi/}.
+#' Released under [LGPL-2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html).
 #' @md
 #' @family ANDI files
 NULL
@@ -426,7 +499,8 @@ NULL
 #' @examples system.file("HP_MS.CDF", package = "chromConverterExtraTests")
 #' @format "ANDI" (Analytical Data Interchange) MS (\code{.cdf})
 #' @source [Randy Julian](https://sourceforge.net/u/rkjulian/profile/):
-#' \url{https://sourceforge.net/projects/andi/}
+#' \url{https://sourceforge.net/projects/andi/}.
+#' Released under [LGPL-2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html).
 #' @md
 #' @family ANDI files
 NULL
@@ -438,7 +512,8 @@ NULL
 #' @examples system.file("waters_blue.raw", package = "chromConverterExtraTests")
 #' @format 'Waters' RAW (\code{.raw})
 #' @source [rainbow](https://github.com/evanyeyeye/rainbow/tree/main):
-#' \url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw}
+#' \url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw}.
+#' Released under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 #' @md
 #' @family Waters files
 NULL
@@ -462,7 +537,8 @@ NULL
 #' @examples system.file("waters.arw", package = "chromConverterExtraTests")
 #' @format 'Waters' UV ASCII (\code{.arw})
 #' @source [Appia](https://github.com/PlethoraChutney/Appia):
-#' \url{https://github.com/PlethoraChutney/Appia/tree/main/test-files}
+#' \url{https://github.com/PlethoraChutney/Appia/tree/main/test-files}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2021 Richard Posert.
 #' @md
 #' @family Waters files
 NULL

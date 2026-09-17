@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/bovee/}{Roderick Bovee}:
-\url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}
+\url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2014 Roderick Bovee.
 }
 \description{
 chemstation_MSD.MS

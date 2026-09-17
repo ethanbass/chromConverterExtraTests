@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/CINF/PyExpLabSys}{PyExpLabSys}:
-\url{https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC\%202015-01-13\%2011-16-24/NV-F0101.D}
+\url{https://github.com/CINF/PyExpLabSys/tree/master/tests/functional_test/fileparsers/test_chemstation/def_GC\%202015-01-13\%2011-16-24/NV-F0101.D}.
+Released under \href{https://www.gnu.org/licenses/gpl-3.0.en.html}{GPL-3}.
 }
 \description{
 chemstation_179_asterix.ch

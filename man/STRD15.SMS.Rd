@@ -8,7 +8,8 @@
 'Varian Workstation' (v6.6) \code{.SMS} file.
 }
 \source{
-Ethan Bass
+Ethan Bass.
+Released under \href{https://creativecommons.org/publicdomain/zero/1.0/}{CC0 1.0}.
 }
 \description{
 STRD15.SMS

@@ -8,7 +8,8 @@
 'Varian Workstation' (v6.6) Peak List Summary File
 }
 \source{
-Ethan Bass
+Ethan Bass.
+Released under \href{https://creativecommons.org/publicdomain/zero/1.0/}{CC0 1.0}.
 }
 \description{
 varian_peaklist.csv

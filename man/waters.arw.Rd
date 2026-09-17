@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/PlethoraChutney/Appia}{Appia}:
-\url{https://github.com/PlethoraChutney/Appia/tree/main/test-files}
+\url{https://github.com/PlethoraChutney/Appia/tree/main/test-files}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2021 Richard Posert.
 }
 \description{
 waters.arw

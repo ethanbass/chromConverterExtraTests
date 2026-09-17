@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/bovee/}{Roderick Bovee}:
-\url{https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch}
+\url{https://github.com/bovee/entab/blob/main/entab/tests/data/test_fid.ch}.
+Released under \href{https://opensource.org/license/mit/}{MIT}, (c) 2014 Roderick Bovee.
 }
 \description{
 chemstation_81.ch

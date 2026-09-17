@@ -9,7 +9,8 @@
 }
 \source{
 \href{https://github.com/evanyeyeye/rainbow/tree/main}{rainbow}:
-\url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw}
+\url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/blue.raw}.
+Released under \href{https://www.gnu.org/licenses/gpl-3.0.en.html}{GPL-3}.
 }
 \description{
 waters_blue.raw

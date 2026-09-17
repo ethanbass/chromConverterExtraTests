@@ -8,7 +8,8 @@
 Allotrope Simple Model (ASM) liquid chromatography format
 }
 \source{
-\href{https://www.allotrope.org/}{Allotrope Foundation}: \url{https://gitlab.com/allotrope-public/asm}
+\href{https://www.allotrope.org/}{Allotrope Foundation}: \url{https://gitlab.com/allotrope-public/asm}.
+Released under \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4.0}.
 }
 \description{
 Example liquid chromatography file from the Allotrope Foundation.
