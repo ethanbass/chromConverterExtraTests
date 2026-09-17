@@ -18,6 +18,24 @@
 #' [MSV000084197](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084197):
 #' \doi{10.25345/C58Q07}.
 #' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_dda.lcd
+#' @name shimadzu_tlm_dda.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from a
+#' data-dependent acquisition on an LCMS-8030 triple quadrupole, containing
+#' profile scan and product ion scan data in a \code{TLM Raw Data} stream,
+#' paired with a PDA stream. Four acquisition events alternate MS1 and MS2 in
+#' both polarities.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_dda.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source [Paul Ivanov](https://orcid.org/0009-0000-5181-9620).
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
 #' @md
 NULL
 

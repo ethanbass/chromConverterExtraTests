@@ -24,7 +24,9 @@ Other Shimadzu files:
 \code{\link{FS19_214.gcd}},
 \code{\link{multichannel_chrom.lcd}},
 \code{\link{multichannel_chrom.txt}},
-\code{\link{shimadzuDAD_comma.txt}}
+\code{\link{shimadzuDAD_comma.txt}},
+\code{\link{shimadzu_qtof.lcd}},
+\code{\link{shimadzu_tlm_dda.lcd}}
 }
 \concept{Shimadzu files}
 \keyword{data}

@@ -1,7 +1,8 @@
 # chromConverterExtraTests 0.4.10
 
-* Added 'Shimadzu LabSolutions' LCD file with quadrupole time-of-flight
-data (`shimadzu_qtof.lcd`) from MassIVE MSV000084197.
+* Added two 'Shimadzu LabSolutions' LCD files with mass spectrometry data:
+`shimadzu_qtof.lcd` (quadrupole time-of-flight, from MassIVE MSV000084197) and
+`shimadzu_tlm_dda.lcd` (triple quadrupole DDA, courtesy of Paul Ivanov).
 * Added source field to `.Rd` files with provenance and license information for each file.
 
 # chromConverterExtraTests 0.4.9

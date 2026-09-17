@@ -18,6 +18,7 @@ shimadzuDAD_comma.txt |  'Shimadzu' LabSolutions ascii (.txt) (comma-separated) 
 FS19_214.gcd |  'Shimadzu LabSolutions' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | -- | CC0 |
 B4NF.7_C23.qgd | 'Shimadzu GCMSsolution' data file (.qgd) | [Enikő Csata](https://orcid.org/0000-0003-2564-9706) et al | https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4 | CC0 1.0 |
 shimadzu_qtof.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Nataliia Machushynets](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084197) | https://doi.org/10.25345/C58Q07 | CC0 1.0 |
+shimadzu_tlm_dda.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Paul Ivanov](https://orcid.org/0009-0000-5181-9620) | -- | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 multichannel_chrom.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
 multichannel_chrom.txt | 'Shimadzu LabSolutions' ascii (.txt) | [Andrew Tolonen](https://orcid.org/0000-0001-5907-4504) | https://github.com/actolonen/Analysis_Lab/tree/main/HPLC/ChromConverter/Files_LabSolutions | MIT (c) 2024 Andrew Tolonen|
 chemstation_30.ch | 'Agilent ChemStation' (version 30)  | James Campbell | -- | -- |
