@@ -26,7 +26,18 @@ Other Shimadzu files:
 \code{\link{shimadzuDAD_Anthocyanin.txt}},
 \code{\link{shimadzuDAD_comma.txt}},
 \code{\link{shimadzu_qtof.lcd}},
-\code{\link{shimadzu_tlm_dda.lcd}}
+\code{\link{shimadzu_qtof_gt.csv.gz}},
+\code{\link{shimadzu_qtof_neg.lcd}},
+\code{\link{shimadzu_qtof_neg_gt.csv.gz}},
+\code{\link{shimadzu_tlm_dda.lcd}},
+\code{\link{shimadzu_tlm_mrm.lcd}},
+\code{\link{shimadzu_tlm_mrm_gt.csv.gz}},
+\code{\link{shimadzu_tlm_mrm_multi.lcd}},
+\code{\link{shimadzu_tlm_mrm_multi_gt.csv.gz}},
+\code{\link{shimadzu_tlm_scan.lcd}},
+\code{\link{shimadzu_tlm_scan_gt.csv.gz}},
+\code{\link{shimadzu_tlm_sim.lcd}},
+\code{\link{shimadzu_tlm_sim_gt.csv.gz}}
 }
 \concept{Shimadzu files}
 \keyword{data}

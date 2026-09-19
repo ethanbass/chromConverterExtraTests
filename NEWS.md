@@ -1,8 +1,21 @@
 # chromConverterExtraTests 0.4.10
 
-* Added two 'Shimadzu LabSolutions' LCD files with mass spectrometry data:
-`shimadzu_qtof.lcd` (quadrupole time-of-flight, from MassIVE MSV000084197) and
-`shimadzu_tlm_dda.lcd` (triple quadrupole DDA, courtesy of Paul Ivanov).
+* Added seven 'Shimadzu LabSolutions' LCD files with mass spectrometry data,
+between them covering every acquisition mode the package had no example of.
+Quadrupole time-of-flight: `shimadzu_qtof.lcd` and `shimadzu_qtof_neg.lcd`,
+the latter in negative mode, which draws on a different block of the TOF
+calibration table. Triple quadrupole: `shimadzu_tlm_dda.lcd` (DDA, courtesy of
+Paul Ivanov), `shimadzu_tlm_scan.lcd` (full scan with a product ion scan),
+`shimadzu_tlm_sim.lcd` (SIM with product ion scans), `shimadzu_tlm_mrm.lcd`
+(MRM, two transitions of one precursor) and `shimadzu_tlm_mrm_multi.lcd` (a
+retention-time scheduled MRM method with 179 acquisition events, alternating
+polarity from scan to scan where its positive and negative windows overlap). All but
+`shimadzu_tlm_dda.lcd` come from MassIVE and are released under CC0 1.0.
+* Added ground-truth slices (`*_gt.csv.gz`) holding the m/z, MS level and
+intensity of the first spectra of each 'Shimadzu' mass spectrometry file, taken
+from 'ProteoWizard' conversions, so that tests can be checked against the
+vendor rather than against the parser. Profile intensities in these slices are
+the vendor's processed values rather than the raw stored ones.
 * Added source field to `.Rd` files with provenance and license information for each file.
 
 # chromConverterExtraTests 0.4.9

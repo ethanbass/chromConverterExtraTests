@@ -560,3 +560,192 @@ NULL
 #' @md
 #' @family Waters files
 NULL
+
+#' @title shimadzu_tlm_mrm.lcd
+#' @name shimadzu_tlm_mrm.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from a multiple reaction
+#' monitoring (MRM) run on an LCMS-8050 triple quadrupole, containing a
+#' \code{TLM Raw Data} stream. A single acquisition event monitors two
+#' transitions of precursor m/z 544.2 across 1165 scans in positive mode.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_mrm.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source Yucai Wang et al, University of Science and Technology of China, MassIVE
+#' [MSV000100356](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000100356):
+#' \doi{10.25345/C5HM52Z71}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_mrm_multi.lcd
+#' @name shimadzu_tlm_mrm_multi.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from a targeted lipidomics MRM
+#' run on an LCMS-8040 triple quadrupole, containing a \code{TLM Raw Data}
+#' stream. The method is retention-time scheduled: each of its 179 acquisition
+#' events is monitored over a window of about two minutes, together covering
+#' 104,232 scans with one to four transitions per scan. 158 events are negative
+#' and 21 positive, and where their windows overlap the instrument alternates
+#' polarity from one scan to the next.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_mrm_multi.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source Dmitry Chistyakov, Moscow State University, MassIVE
+#' [MSV000099582](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000099582):
+#' \doi{10.25345/C5R49GP2V}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_sim.lcd
+#' @name shimadzu_tlm_sim.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from an LCMS-8040 triple
+#' quadrupole, containing a \code{TLM Raw Data} stream paired with a PDA
+#' stream. One selected ion monitoring (SIM) event monitors five ions and
+#' five further events hold product ion scans, over 8765 scans in positive
+#' mode.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_sim.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source Alexander Wilson, Northern Michigan University, MassIVE
+#' [MSV000095616](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000095616):
+#' \doi{10.25345/C5C24R03P}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_scan.lcd
+#' @name shimadzu_tlm_scan.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from an LCMS-8040 triple
+#' quadrupole, containing a \code{TLM Raw Data} stream. Two acquisition
+#' events hold a full profile scan and a product ion scan respectively, over
+#' 2391 scans in negative mode.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_scan.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source Hanhong Bae, Yeungnam University, MassIVE
+#' [MSV000087242](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000087242):
+#' \doi{10.25345/C5WZ4R}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_qtof_neg.lcd
+#' @name shimadzu_qtof_neg.lcd
+#' @description A 'Shimadzu LabSolutions' \code{.lcd} file from a data-dependent
+#' acquisition on an LCMS-9030 quadrupole time-of-flight in \strong{negative}
+#' mode, containing a \code{QTFL RawData} stream paired with PDA,
+#' chromatogram and peak table streams. The TOF calibration stored in the
+#' file is polarity-specific, so this file exercises the negative block.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_qtof_neg.lcd", package = "chromConverterExtraTests")
+#' @format 'Shimadzu LabSolutions' LCD (\code{.lcd})
+#' @source N. Thome and Gilles van Wezel, Leiden University, MassIVE
+#' [MSV000091160](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000091160):
+#' \doi{10.25345/C5DZ03B51}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_qtof_gt.csv.gz
+#' @name shimadzu_qtof_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_qtof.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_qtof_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_qtof.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_qtof_neg_gt.csv.gz
+#' @name shimadzu_qtof_neg_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_qtof_neg.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_qtof_neg_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_qtof_neg.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_mrm_gt.csv.gz
+#' @name shimadzu_tlm_mrm_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_tlm_mrm.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_mrm_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_tlm_mrm.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_mrm_multi_gt.csv.gz
+#' @name shimadzu_tlm_mrm_multi_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_tlm_mrm_multi.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_mrm_multi_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_tlm_mrm_multi.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_sim_gt.csv.gz
+#' @name shimadzu_tlm_sim_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_tlm_sim.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser. Intensities of the product ion scans are the vendor's processed profile
+#' values; check profile intensities against the file's own \code{TIC Data}
+#' stream instead.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_sim_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_tlm_sim.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
+
+#' @title shimadzu_tlm_scan_gt.csv.gz
+#' @name shimadzu_tlm_scan_gt.csv.gz
+#' @description Reference values for the first spectra of \code{shimadzu_tlm_scan.lcd}, taken
+#' from a 'ProteoWizard' \code{msconvert} conversion so that tests can be
+#' checked against the vendor rather than against the parser. The intensities are the vendor's ringing-suppressed profile, running about
+#' 7\% high on total ion current and 20\% low at the peak apex; check profile
+#' intensities against the file's own \code{TIC Data} stream instead.
+#' @docType data
+#' @keywords data
+#' @examples system.file("shimadzu_tlm_scan_gt.csv.gz", package = "chromConverterExtraTests")
+#' @format Gzipped CSV with columns \code{scan}, \code{ms_level}, \code{mz} and \code{intensity}
+#' @source Derived from \code{shimadzu_tlm_scan.lcd} with 'ProteoWizard' msconvert.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Shimadzu files
+#' @md
+NULL
