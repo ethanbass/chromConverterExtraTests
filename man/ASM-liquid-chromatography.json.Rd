@@ -13,13 +13,20 @@ Released under \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC 4
 }
 \description{
 Example liquid chromatography file from the Allotrope Foundation.
+Whitespace has been removed from the original file.
 }
 \examples{
 system.file("ASM-liquid-chromatography.json",package = "chromConverterExtraTests")
 }
 \seealso{
 Other Allotrope Simple Model:
-\code{\link{ASM-gas-chromatography.tabular.json}}
+\code{\link{ASM-empower-sequence.json}},
+\code{\link{ASM-gas-chromatography.tabular.json}},
+\code{\link{ASM-gc-ms-tiny.json}},
+\code{\link{ASM-gc-ms.tabular.json}},
+\code{\link{ASM-lc-ms.tabular.json}},
+\code{\link{ASM-openlab-sequence.json}},
+\code{\link{ASM-unicorn.json}}
 }
 \concept{Allotrope Simple Model}
 \keyword{data}

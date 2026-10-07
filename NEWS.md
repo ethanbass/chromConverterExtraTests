@@ -16,7 +16,11 @@ intensity of the first spectra of each 'Shimadzu' mass spectrometry file, taken
 from 'ProteoWizard' conversions, so that tests can be checked against the
 vendor rather than against the parser. Profile intensities in these slices are
 the vendor's processed values rather than the raw stored ones.
+* Added 'Agilent ChemStation' `LCDIAG.REG` register files from revisions A.00.01 and B.04.02, plus `chemstation_carotenoid_LCDIAG.REG`, which also records column temperature.
+* Added `solidago_standards`, a sequence of seven 'Agilent ChemStation' `.D` directories with acquisition times out of alphabetical order.
+* Added Allotrope Simple Model files: `ASM-lc-ms.tabular.json` and `ASM-gc-ms.tabular.json`, LC-MS and GC-MS examples from the Allotrope Foundation; `ASM-gc-ms-tiny.json`, a small synthetic GC-MS file; `ASM-empower-sequence.json` and `ASM-openlab-sequence.json`, two-injection sequences converted by 'allotropy'; and `ASM-unicorn.json`, an FPLC run with instrument traces converted by 'allotropy'.
 * Added source field to `.Rd` files with provenance and license information for each file.
+* Removed the whitespace from `ASM-liquid-chromatography.json` and `ASM-gas-chromatography.tabular.json`, shrinking them from 8.0 MB to 3.2 MB without changing their contents.
 
 # chromConverterExtraTests 0.4.9
 

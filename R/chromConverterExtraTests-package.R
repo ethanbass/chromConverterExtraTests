@@ -68,6 +68,7 @@ NULL
 #' @title ASM-liquid-chromatography.json
 #' @name ASM-liquid-chromatography.json
 #' @description Example liquid chromatography file from the Allotrope Foundation.
+#' Whitespace has been removed from the original file.
 #' @docType data
 #' @keywords data
 #' @examples system.file("ASM-liquid-chromatography.json",package = "chromConverterExtraTests")
@@ -81,6 +82,7 @@ NULL
 #' @title ASM-gas-chromatography.tabular.json
 #' @name ASM-gas-chromatography.tabular.json
 #' @description Example gas chromatography file from the Allotrope Foundation.
+#' Whitespace has been removed from the original file.
 #' @docType data
 #' @keywords data
 #' @examples system.file("ASM-gas-chromatography.tabular.json", package = "chromConverterExtraTests")
@@ -88,6 +90,104 @@ NULL
 #' @family Allotrope Simple Model
 #' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm}.
 #' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+#' @md
+NULL
+
+#' @title ASM-lc-ms.tabular.json
+#' @name ASM-lc-ms.tabular.json
+#' @description Example liquid chromatography-mass spectrometry file from the
+#' Allotrope Foundation (release 2026/09), with UV and mass chromatograms.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-lc-ms.tabular.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) LC-MS format
+#' @family Allotrope Simple Model
+#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm/-/blob/main/test/adm/lc-ms/REC/2026/09/lc-ms.tabular.json}.
+#' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+#' @md
+NULL
+
+#' @title ASM-gc-ms-tiny.json
+#' @name ASM-gc-ms-tiny.json
+#' @description Small synthetic gas chromatography-mass spectrometry file from
+#' the Allotrope Foundation (release 2026/09), holding four mass spectra.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-gc-ms-tiny.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) GC-MS format
+#' @family Allotrope Simple Model
+#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm/-/blob/main/test/adm/gc-ms-mrm/2026/09/tiny.pwiz.1.json}.
+#' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+#' @md
+NULL
+
+#' @title ASM-gc-ms.tabular.json
+#' @name ASM-gc-ms.tabular.json
+#' @description Example gas chromatography-mass spectrometry file from the
+#' Allotrope Foundation (release 2026/07), holding 646 mass spectra and a peak
+#' list. The 2026/09 release of this file no longer contains its spectra.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-gc-ms.tabular.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) GC-MS format
+#' @family Allotrope Simple Model
+#' @source [Allotrope Foundation](https://www.allotrope.org/): \url{https://gitlab.com/allotrope-public/asm/-/blob/main/test/adm/gc-ms/REC/2026/07/gc-ms.tabular.json}.
+#' Released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+#' @md
+NULL
+
+#' @title ASM-empower-sequence.json
+#' @name ASM-empower-sequence.json
+#' @description Liquid chromatography sequence of two injections, converted
+#' from 'Waters Empower' to the Allotrope Simple Model by 'allotropy', with one
+#' chromatography document per injection.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-empower-sequence.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) liquid chromatography format
+#' @family Allotrope Simple Model
+#' @source [Benchling allotropy](https://github.com/Benchling-Open-Source/allotropy):
+#' \url{https://github.com/Benchling-Open-Source/allotropy/blob/main/tests/parsers/benchling_empower/testdata/output/example_01.json}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2023 Benchling, Inc.
+#' @md
+NULL
+
+#' @title ASM-openlab-sequence.json
+#' @name ASM-openlab-sequence.json
+#' @description Liquid chromatography sequence of two injections, converted
+#' from 'Agilent OpenLab CDS' to the Allotrope Simple Model by 'allotropy', with
+#' both injections in one chromatography document.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-openlab-sequence.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) liquid chromatography format
+#' @family Allotrope Simple Model
+#' @source [Benchling allotropy](https://github.com/Benchling-Open-Source/allotropy):
+#' \url{https://github.com/Benchling-Open-Source/allotropy/blob/main/tests/parsers/agilent_openlab_cds/testdata/Sirius-2023-09-01\%2007-52-44-04-00.json}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2023 Benchling, Inc.
+#' @md
+NULL
+
+#' @title ASM-unicorn.json
+#' @name ASM-unicorn.json
+#' @description Fast protein liquid chromatography run converted from 'Cytiva
+#' UNICORN' to the Allotrope Simple Model by 'allotropy', with UV,
+#' conductivity and pH chromatograms and pressure, flow rate and temperature
+#' traces over retention volume.
+#' Whitespace has been removed from the original file.
+#' @docType data
+#' @keywords data
+#' @examples system.file("ASM-unicorn.json", package = "chromConverterExtraTests")
+#' @format  Allotrope Simple Model (ASM) liquid chromatography format
+#' @family Allotrope Simple Model
+#' @source [Benchling allotropy](https://github.com/Benchling-Open-Source/allotropy):
+#' \url{https://github.com/Benchling-Open-Source/allotropy/blob/main/tests/parsers/cytiva_unicorn/testdata/unicorn_1.json}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2023 Benchling, Inc.
 #' @md
 NULL
 
@@ -292,6 +392,71 @@ NULL
 #' @source [Roderick Bovee](https://github.com/bovee/):
 #' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
 #' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_A0001_LCDIAG.REG
+#' @name chemstation_A0001_LCDIAG.REG
+#' @description An 'Agilent ChemStation' \code{LCDIAG.REG} register file from
+#' revision A.00.01, holding pump pressure, flow and solvent traces and the
+#' start/stop conditions of each module.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_A0001_LCDIAG.REG", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' register file (\code{.REG})
+#' @source [Roderick Bovee](https://github.com/bovee/):
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/chemstation_mwd.d}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_carotenoid_LCDIAG.REG
+#' @name chemstation_carotenoid_LCDIAG.REG
+#' @description An 'Agilent ChemStation' \code{LCDIAG.REG} register file
+#' holding column temperature, pump pressure, flow and solvent traces and the
+#' start/stop conditions of each module. It comes from the same run as
+#' \code{chemstation_MSD.MS}.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_carotenoid_LCDIAG.REG", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' register file (\code{.REG})
+#' @source [Roderick Bovee](https://github.com/bovee/):
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_B0402_LCDIAG.REG
+#' @name chemstation_B0402_LCDIAG.REG
+#' @description An 'Agilent ChemStation' \code{LCDIAG.REG} register file from
+#' revision B.04.02, holding pump pressure, flow and solvent traces and the
+#' start/stop conditions of each module.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_B0402_LCDIAG.REG", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' register file (\code{.REG})
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title solidago_standards
+#' @name solidago_standards
+#' @description A sequence of seven 'Agilent ChemStation' \code{.D}
+#' directories from one run of phenolic standards and a methanol blank,
+#' acquired between 22 and 23 September 2015. Each holds its 254 nm trace
+#' (\code{dad1A.ch}); \code{RUTIN_2.D} also holds its traces at 210, 230, 320
+#' and 360 nm and its \code{Report.TXT}.
+#' @docType data
+#' @keywords data
+#' @examples system.file("solidago_standards", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' \code{.D} directories (version 130 \code{.ch})
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 #' @md
 #' @family Agilent ChemStation files
 NULL

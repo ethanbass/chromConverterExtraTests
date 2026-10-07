@@ -24,7 +24,11 @@ Other Agilent ChemStation files:
 \code{\link{chemstation_181.D}},
 \code{\link{chemstation_31.uv}},
 \code{\link{chemstation_81.ch}},
-\code{\link{chemstation_MSD.MS}}
+\code{\link{chemstation_A0001_LCDIAG.REG}},
+\code{\link{chemstation_B0402_LCDIAG.REG}},
+\code{\link{chemstation_MSD.MS}},
+\code{\link{chemstation_carotenoid_LCDIAG.REG}},
+\code{\link{solidago_standards}}
 }
 \concept{Agilent ChemStation files}
 \keyword{data}
