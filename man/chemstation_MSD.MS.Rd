@@ -30,6 +30,10 @@ Other Agilent ChemStation files:
 \code{\link{chemstation_A0001_LCDIAG.REG}},
 \code{\link{chemstation_B0402_LCDIAG.REG}},
 \code{\link{chemstation_carotenoid_LCDIAG.REG}},
+\code{\link{chemstation_carotenoid_RUN.M}},
+\code{\link{chemstation_mwd_RUN.M}},
+\code{\link{chemstation_orange_ACQ.M}},
+\code{\link{chemstation_three_channels.D}},
 \code{\link{solidago_standards}}
 }
 \concept{Agilent ChemStation files}

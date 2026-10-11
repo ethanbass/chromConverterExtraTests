@@ -383,6 +383,22 @@ NULL
 #' @family Agilent ChemStation files
 NULL
 
+#' @title chemstation_three_channels.D
+#' @name chemstation_three_channels.D
+#' @description An 'Agilent ChemStation' GC run with three version 179 traces
+#' (`FID1A.ch`, `TCD2B.ch` and `TCD3C.ch`) and the `Result.xml` export of their
+#' integration results.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_three_channels.D", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' ('Asterix' version 179)
+#' @source [GC2ASM](https://github.com/ifpen/GC2ASM):
+#' \url{https://github.com/ifpen/GC2ASM/tree/public/src/test/resources/THREE-CHANNELS.D}.
+#' Released under [CeCILL-2.1](https://github.com/ifpen/GC2ASM?tab=CECILL-2.1-1-ov-file#readme).
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
 #' @title chemstation_MSD.MS
 #' @name chemstation_MSD.MS
 #' @docType data
@@ -425,6 +441,60 @@ NULL
 #' @source [Roderick Bovee](https://github.com/bovee/):
 #' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
 #' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_carotenoid_RUN.M
+#' @name chemstation_carotenoid_RUN.M
+#' @description An 'Agilent ChemStation' \code{.M} method directory, the copy
+#' of the method stored with the run in \code{chemstation_carotenoid_LCDIAG.REG}.
+#' Its module register files describe a quaternary pump with a timetable, a
+#' diode array detector, an autosampler, a column thermostat and a fraction
+#' collector.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_carotenoid_RUN.M", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' method directory (\code{.M})
+#' @source [Roderick Bovee](https://github.com/bovee/):
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/carotenoid_extract.d}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_mwd_RUN.M
+#' @name chemstation_mwd_RUN.M
+#' @description An 'Agilent ChemStation' \code{.M} method directory in the
+#' revision A.00.01 register format, the copy of the method stored with the run
+#' in \code{chemstation_A0001_LCDIAG.REG}. Its module register files describe
+#' a quaternary pump with a timetable, a multiple wavelength detector, an
+#' autosampler, a column thermostat and a fraction collector.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_mwd_RUN.M", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' method directory (\code{.M})
+#' @source [Roderick Bovee](https://github.com/bovee/):
+#' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/chemstation_mwd.d}.
+#' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
+#' @title chemstation_orange_ACQ.M
+#' @name chemstation_orange_ACQ.M
+#' @description An 'Agilent ChemStation' \code{.M} method directory, the copy
+#' of the acquisition method stored in a \code{.D} directory. Its module
+#' register files describe a binary pump with a timetable, a diode array
+#' detector, a column thermostat and a sampler (\code{LWLS1.REG}), and its
+#' \code{ACQ.TXT} is the printout 'ChemStation' wrote of the same settings.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_orange_ACQ.M", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' method directory (\code{.M})
+#' @source [rainbow](https://github.com/evanyeyeye/rainbow/tree/main):
+#' \url{https://github.com/evanyeyeye/rainbow/tree/main/tests/inputs/orange.D}.
+#' Released under [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 #' @md
 #' @family Agilent ChemStation files
 NULL
