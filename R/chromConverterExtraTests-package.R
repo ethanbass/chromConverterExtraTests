@@ -499,6 +499,24 @@ NULL
 #' @family Agilent ChemStation files
 NULL
 
+#' @title chemstation_rapidcontrol_RUN.M
+#' @name chemstation_rapidcontrol_RUN.M
+#' @description An 'Agilent ChemStation' \code{.M} method directory from a
+#' revision that stores module settings as 'RapidControl' XML rather than
+#' register files. It holds the method XML of a binary pump with a gradient
+#' timetable, a diode array detector, a column compartment and an autosampler.
+#' @docType data
+#' @keywords data
+#' @examples system.file("chemstation_rapidcontrol_RUN.M", package = "chromConverterExtraTests")
+#' @format 'Agilent ChemStation' method directory (\code{.M})
+#' @source [mocca_tutorial](https://github.com/HaasCP/mocca_tutorial):
+#' \url{https://github.com/HaasCP/mocca_tutorial/tree/main/notebooks/tutorial_data/2022-01-26_19-37-57_gradient.D/RUN.M}.
+#' Released under the [MIT license](https://github.com/HaasCP/mocca_tutorial/blob/main/LICENSE.txt),
+#' Copyright (c) 2021 HaasCP.
+#' @md
+#' @family Agilent ChemStation files
+NULL
+
 #' @title chemstation_B0402_LCDIAG.REG
 #' @name chemstation_B0402_LCDIAG.REG
 #' @description An 'Agilent ChemStation' \code{LCDIAG.REG} register file from

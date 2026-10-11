@@ -19,6 +19,7 @@ the vendor's processed values rather than the raw stored ones.
 * Added 'Agilent ChemStation' `LCDIAG.REG` register files from revisions A.00.01 and B.04.02, plus `chemstation_carotenoid_LCDIAG.REG`, which also records column temperature.
 * Added `solidago_standards`, a sequence of seven 'Agilent ChemStation' `.D` directories with acquisition times out of alphabetical order.
 * Added three 'Agilent ChemStation' `.M` method directories: `chemstation_carotenoid_RUN.M` (quaternary pump), `chemstation_mwd_RUN.M` (revision A.00.01) and `chemstation_orange_ACQ.M` (binary pump, with its `ACQ.TXT` printout).
+* Added `chemstation_rapidcontrol_RUN.M`, an 'Agilent ChemStation' method directory whose module settings are 'RapidControl' XML rather than register files.
 * `chemstation_181.D` now matches its GC2ASM source: `FID1A.ch` is the trace previously shipped as `V181.ch`, replacing a blank run's trace that had been added alongside it.
 * Added `chemstation_three_channels.D`, a GC run from GC2ASM with three version 179 traces (FID and two TCD) and the `Result.xml` export of their integration results.
 * Added Allotrope Simple Model files: `ASM-lc-ms.tabular.json` and `ASM-gc-ms.tabular.json`, LC-MS and GC-MS examples from the Allotrope Foundation; `ASM-gc-ms-tiny.json`, a small synthetic GC-MS file; `ASM-empower-sequence.json` and `ASM-openlab-sequence.json`, two-injection sequences converted by 'allotropy'; and `ASM-unicorn.json`, an FPLC run with instrument traces converted by 'allotropy'.

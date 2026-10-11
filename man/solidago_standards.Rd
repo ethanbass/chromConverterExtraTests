@@ -37,6 +37,7 @@ Other Agilent ChemStation files:
 \code{\link{chemstation_carotenoid_RUN.M}},
 \code{\link{chemstation_mwd_RUN.M}},
 \code{\link{chemstation_orange_ACQ.M}},
+\code{\link{chemstation_rapidcontrol_RUN.M}},
 \code{\link{chemstation_three_channels.D}}
 }
 \concept{Agilent ChemStation files}
