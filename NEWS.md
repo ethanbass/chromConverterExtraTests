@@ -19,6 +19,7 @@ the vendor's processed values rather than the raw stored ones.
 * Added 'Agilent ChemStation' `LCDIAG.REG` register files from revisions A.00.01 and B.04.02, plus `chemstation_carotenoid_LCDIAG.REG`, which also records column temperature.
 * Added `solidago_standards`, a sequence of seven 'Agilent ChemStation' `.D` directories with acquisition times out of alphabetical order.
 * Added three 'Agilent ChemStation' `.M` method directories: `chemstation_carotenoid_RUN.M` (quaternary pump), `chemstation_mwd_RUN.M` (revision A.00.01) and `chemstation_orange_ACQ.M` (binary pump, with its `ACQ.TXT` printout).
+* Added `n_Alkane_01072024_method_only.qgd.gz`, a 'Shimadzu' GC-MS run from a 'QP2020 NX' whose method printout is published with it. Every stream but the method and configuration is zeroed, and the file is gzipped; see its help page.
 * Added `chemstation_rapidcontrol_RUN.M`, an 'Agilent ChemStation' method directory whose module settings are 'RapidControl' XML rather than register files.
 * `chemstation_181.D` now matches its GC2ASM source: `FID1A.ch` is the trace previously shipped as `V181.ch`, replacing a blank run's trace that had been added alongside it.
 * Added `chemstation_three_channels.D`, a GC run from GC2ASM with three version 179 traces (FID and two TCD) and the `Result.xml` export of their integration results.

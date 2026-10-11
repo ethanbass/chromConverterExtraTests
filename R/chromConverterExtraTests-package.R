@@ -275,6 +275,35 @@ NULL
 #' @md
 NULL
 
+#' @title n_Alkane_01072024_method_only.qgd.gz
+#' @name n_Alkane_01072024_method_only.qgd.gz
+#' @description A gzipped, method-only copy of a 'Shimadzu GCMSsolution'
+#' \code{.qgd} file from a 'GCMS-QP2020 NX' with a GC-2030, an n-alkane run
+#' whose method printout (\code{metadata/GCMS_Method_C_lechleri_sap.pdf}) is
+#' published with the same dataset. It is for testing the method readers only.
+#'
+#' The file has been modified: every stream except the six that hold the method
+#' and instrument configuration (\code{GUC.1.METHOD}, \code{GUC.1.CONFIG},
+#' \code{MS Parameter}, \code{Column Oven Parameter},
+#' \code{Injection Parameter-1} and \code{Column-1}) was overwritten in place
+#' with zero bytes, so it holds no chromatograms, spectra or data processing
+#' results, and the result was gzipped. The compound file keeps its structure
+#' and stream sizes. The script that made it is
+#' \code{data-raw/qgd_method_only.py}, and the SHA-256 of the original file is
+#' \code{fba38f2763a8e2a9cc1c43f1993989f68272c9d166ce317f1a3c5115f8c874bf}.
+#' Decompress it before reading it.
+#' @docType data
+#' @keywords data
+#' @examples system.file("n_Alkane_01072024_method_only.qgd.gz", package = "chromConverterExtraTests")
+#' @format Gzipped 'Shimadzu GCMSsolution' data file (\code{.qgd.gz}), modified as described.
+#' @family Shimadzu files
+#' @source Jefferson Vladimir Pastuña Fasso, IKIAM Amazon Regional University, MassIVE
+#' [MSV000097538](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097538):
+#' \doi{10.25345/C5X63BJ0D}, \code{raw/Raw_qgd_Files/n_Alkane_01072024.qgd}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @md
+NULL
+
 #' @title multichannel_chrom.lcd
 #' @name multichannel_chrom.lcd
 #' @docType data

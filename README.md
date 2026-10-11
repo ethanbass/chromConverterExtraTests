@@ -23,6 +23,7 @@ shimadzuDAD_Anthocyanin.txt | 'Shimadzu LabSolutions' ascii (.txt) | [Silas Mell
 shimadzuDAD_comma.txt | 'Shimadzu' LabSolutions ascii (.txt) (comma-separated) | [Todd Johnson](https://orcid.org/0000-0002-6170-5077) | -- | -- |
 FS19_214.gcd | 'Shimadzu LabSolutions' GCD (.gcd) | [Andrew W. Legan](https://orcid.org/0000-0001-7049-9837) | CC0 | -- |
 B4NF.7_C23.qgd | 'Shimadzu GCMSsolution' data file (.qgd) | [Enikő Csata](https://orcid.org/0000-0003-2564-9706) et al | CC0 1.0 | https://datadryad.org/stash/dataset/doi:10.5061/dryad.8gtht76s4 |
+n_Alkane_01072024_method_only.qgd.gz | 'Shimadzu GCMSsolution' data file (.qgd), method-only and gzipped: all but the method and configuration streams zeroed | Jefferson Vladimir Pastuña Fasso, IKIAM | CC0 1.0 | https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000097538 |
 shimadzu_qtof.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Nataliia Machushynets](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000084197) | CC0 1.0 | https://doi.org/10.25345/C58Q07 |
 shimadzu_tlm_dda.lcd | 'Shimadzu LabSolutions' LCD (.lcd) | [Paul Ivanov](https://orcid.org/0009-0000-5181-9620) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | -- |
 shimadzu_tlm_mrm.lcd | 'Shimadzu LabSolutions' LCD (.lcd), MRM | [Yucai Wang](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000100356) et al | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | https://doi.org/10.25345/C5HM52Z71 |

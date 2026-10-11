@@ -23,6 +23,7 @@ Other Shimadzu files:
 \code{\link{B4NF.7_C23.qgd}},
 \code{\link{multichannel_chrom.lcd}},
 \code{\link{multichannel_chrom.txt}},
+\code{\link{n_Alkane_01072024_method_only.qgd.gz}},
 \code{\link{shimadzuDAD_Anthocyanin.txt}},
 \code{\link{shimadzuDAD_comma.txt}},
 \code{\link{shimadzu_qtof.lcd}},
