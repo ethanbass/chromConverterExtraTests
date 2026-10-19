@@ -8,6 +8,7 @@ column_storage_ACN100.amx | 'Agilent' (.amx) | Ethan Bass | CC0 | -- |
 Glucosinolates-XDB5.amx | 'Agilent' (.amx) | Ethan Bass | CC0 | -- |
 flow_rate_example.amx | 'Agilent' (.amx) | Ethan Bass | CC0 | -- |
 openlab.sirslt | 'Agilent OpenLab' single injection result (.sirslt) | Ethan Bass | CC0 | -- |
+openlab_rx | 'Agilent OpenLab' result files (.rx) from two injections of a sequence, with its .acaml trimmed to them | Ethan Bass | CC0 | -- |
 ASM-liquid-chromatography.json | ASM liquid chromatography | [Allotrope Foundation](https://www.allotrope.org/) | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) | https://gitlab.com/allotrope-public/asm |
 ASM-gas-chromatography.tabular.json | ASM gas chromatography | [Allotrope Foundation](https://www.allotrope.org/) | CC-BY-NC-4.0 | https://gitlab.com/allotrope-public/asm |
 ASM-lc-ms.tabular.json | ASM liquid chromatography-mass spectrometry | [Allotrope Foundation](https://www.allotrope.org/) | CC-BY-NC-4.0 | https://gitlab.com/allotrope-public/asm/-/blob/main/test/adm/lc-ms/REC/2026/09/lc-ms.tabular.json |

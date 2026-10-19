@@ -655,6 +655,35 @@ NULL
 #' @md
 NULL
 
+#' @title openlab_rx
+#' @name openlab_rx
+#' @description Two injections from an 'Agilent OpenLab CDS' 2.8 sequence of 96
+#' DAD runs (\code{Demog_S0_P1.rslt}), for testing peak tables: the \code{.rx}
+#' result files of \code{D2F-A2_1} and \code{D2F-A3_407}, which hold the peak
+#' tables of four signals and the compounds identified in them, and the
+#' sequence's \code{.acaml} file.
+#'
+#' The \code{.acaml} file has been modified: the entries for the other 94
+#' injections were removed, shrinking it from 4.5 MB to 113 KB, so its MD5
+#' checksum no longer matches. The \code{.dx} raw data files are left out. The
+#' script that made it is \code{data-raw/openlab_rx.R}, and the SHA-256 of the
+#' original \code{.acaml} file is
+#' \code{83440fe7feb87346ad628870bd90f8ff8ba03cc350ab0d53820beadaa8e72077}.
+#'
+#' The areas and heights of the three compounds identified at 229 nm in
+#' \code{D2F-A3_407} (Sinigrin, GS_1ME and GS_6MSOH) were checked against
+#' 'OpenLab' Data Analysis.
+#' @docType data
+#' @keywords data
+#' @examples system.file("openlab_rx", package = "chromConverterExtraTests")
+#' @format Directory of 'Agilent OpenLab' result (\code{.rx}) files and an
+#' \code{.acaml} file, modified as described.
+#' @source Ethan Bass.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @family Agilent OpenLab files
+#' @md
+NULL
+
 #' @title chromeleon_comma.txt
 #' @name chromeleon_comma.txt
 #' @docType data

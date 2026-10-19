@@ -1,0 +1,2409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ACAML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-agilent-com:acaml21" schemaversion="2.1.30.999">
+  <Checksum Algorithm="MD5">
+    <Value>iGH4QH5UH70tJSUKzZNyZA==</Value>
+  </Checksum>
+  <MigrationHistory>
+    <MigrationStep>
+      <FromNamespace>urn:schemas-agilent-com:acaml21</FromNamespace>
+      <ToNamespace>urn:schemas-agilent-com:acaml21v2.1.30.999</ToNamespace>
+      <Date>2026-07-21T22:42:47.8798465-05:00</Date>
+      <Application>Agilent.Acaml.Core, Assembly Version: 1.0.0.0, File Version: 2.1.63.3</Application>
+    </MigrationStep>
+  </MigrationHistory>
+  <Doc>
+    <DocID>6225b434-8c6e-4a7d-9d16-feb1cf7fe0b7</DocID>
+    <DocInfo>
+      <Description>Demog_S0_P1</Description>
+      <CreatedByUser>SYSTEM (SYSTEM)</CreatedByUser>
+      <CreatedByApplication>
+        <AgilentApp>
+          <Name>IntelligentDataAnalysis</Name>
+          <Version>Version 2.8 - Build 2.208.0.1473</Version>
+        </AgilentApp>
+      </CreatedByApplication>
+      <CreationDate>2026-07-22T03:42:47.8798465Z</CreationDate>
+      <ClientName>EE-PC-11</ClientName>
+      <CustomField Name="CreatedByUserDisplayName">
+        <Value>SYSTEM (SYSTEM)</Value>
+      </CustomField>
+      <CustomField Name="OriginalApplicationName">
+        <Value>IntelligentDataAnalysis</Value>
+      </CustomField>
+      <CustomField Name="InjectionMetaDataItems">
+        <Xml>
+          <ArrayOfInjectionMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <InjectionMetaData AcqMethodName="HSS_T3_aq99__M9J_0.6mlmin_PT3" DaMethodName="GSL1" ExpectedBarcode="" InjectionAcqDateTime="2026-07-22T15:19:28.585Z" InjectionId="b869ae51-246d-4d46-8db5-d7609b47b3d7" InjectorPosition="Front" InstrumentName="Norbert II" LastModifiedDateTime="2026-10-19T16:11:56.119459-05:00" BracketingType="Undefined" RawDataFileName="D2F-A2_1.dx" SampleDescription="" SampleLabel="DemogS0P1" SampleName="1" SampleSetupId="1015a516-041b-4deb-a2be-e169e93e2897" SampleType="Sample" SequenceName="Demog_S0_P1" VialNumber="D2F-A2">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key=""/>
+              <LimsIds key=""/>
+              <LimsIds key=""/>
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="1"/>
+              <SampleAmount val="0" unit=""/>
+              <SampleInjectionsCount val="1"/>
+              <SampleOrderNumber val="2"/>
+            </InjectionMetaData>
+            <InjectionMetaData AcqMethodName="HSS_T3_aq99__M9J_0.6mlmin_PT3" DaMethodName="GSL1" ExpectedBarcode="" InjectionAcqDateTime="2026-07-22T15:27:52.008Z" InjectionId="0f0b0440-fbf6-4f7c-8550-cbdd1265c954" InjectorPosition="Front" InstrumentName="Norbert II" LastModifiedDateTime="2026-10-19T16:11:56.1274575-05:00" BracketingType="Undefined" RawDataFileName="D2F-A3_407.dx" SampleDescription="" SampleLabel="DemogS0P1" SampleName="407" SampleSetupId="204ee76d-ab28-42ef-bdd4-065985ecf593" SampleType="Sample" SequenceName="Demog_S0_P1" VialNumber="D2F-A3">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key=""/>
+              <LimsIds key=""/>
+              <LimsIds key=""/>
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="1"/>
+              <SampleAmount val="0" unit=""/>
+              <SampleInjectionsCount val="1"/>
+              <SampleOrderNumber val="3"/>
+            </InjectionMetaData>
+          </ArrayOfInjectionMetaData>
+        </Xml>
+      </CustomField>
+    </DocInfo>
+    <Content>
+      <Resources>
+        <Instrument id="54bf6b77-2c27-4aee-9a84-02b1a25e1e32" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-21T22:42:47.881737-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="IsCombined">
+              <Value>False</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <Name>Norbert II</Name>
+          <Technique>LiquidChromatography</Technique>
+          <Module id="a0ab5b2b-c11c-4bb6-9ef5-1c72092ad98b">
+            <Name>Fraction Collector</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>FractionCollector</Type>
+            <PartNo>G1364F</PartNo>
+            <SerialNo>DEAGS03006</SerialNo>
+            <FirmwareRevision>D.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation/>
+            <Instance>1</Instance>
+          </Module>
+          <Module id="1484b4c0-86de-456d-9ea3-1e8c03460291">
+            <Name>Quat. Pump</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Pump</Type>
+            <PartNo>G7104C</PartNo>
+            <SerialNo>DEAG201131</SerialNo>
+            <FirmwareRevision>B.07.40 [0003]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation/>
+            <Instance>1</Instance>
+          </Module>
+          <Module id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe">
+            <Name>DAD</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Detector</Type>
+            <PartNo>G7115A</PartNo>
+            <SerialNo>DEAC608045</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation/>
+            <Instance>1</Instance>
+          </Module>
+          <Module id="952916f4-9b4e-45bb-8983-470974c69e06">
+            <Name>Column Comp.</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>ColumnCompartment</Type>
+            <PartNo>G7116A</PartNo>
+            <SerialNo>DEGFA00578</SerialNo>
+            <FirmwareRevision>C.07.40 [0003] (Host: D.07.40 [0003])</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation/>
+            <Instance>1</Instance>
+          </Module>
+          <Module id="9cf4d412-c5ac-42d4-9a8c-141daba41a39">
+            <Name>Multisampler</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type>Sampler</Type>
+            <PartNo>G7167A</PartNo>
+            <SerialNo>DEAGY00628</SerialNo>
+            <FirmwareRevision>D.07.41 [0001]</FirmwareRevision>
+            <DriverVersion>3.7.37</DriverVersion>
+            <ConnectionInfo>192.168.254.11</ConnectionInfo>
+            <AdditionalInformation/>
+            <Instance>1</Instance>
+          </Module>
+        </Instrument>
+        <SampleContainerInfo id="dba24e41-f781-4f06-a154-e7013025f735" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:24:17.0822294-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:24:17.0822294-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <Name>Multisampler</Name>
+          <Description>G7167A, DEAGY00628, Agilent</Description>
+          <FilePath>Sampler_1_DEAGY00628_43.scml</FilePath>
+        </SampleContainerInfo>
+        <SampleContainerInfo id="2867426d-20da-429d-9f73-4e652006b890" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:24:17.0911219-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:24:17.0911219-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <Name>Fraction Collector</Name>
+          <Description>G1364F, DEAGS03006, Agilent</Description>
+          <FilePath>FractionCollector_1_DEAGS03006_8.scml</FilePath>
+          <SamplerDeviceType>FractionContainerDevice</SamplerDeviceType>
+        </SampleContainerInfo>
+        <SampleContainerInfo id="76b9f895-6bd7-4a5b-8a04-30f853eee80e" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:32:40.8544314-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:32:40.8544314-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <Name>Multisampler</Name>
+          <Description>G7167A, DEAGY00628, Agilent</Description>
+          <FilePath>Sampler_1_DEAGY00628_43.scml</FilePath>
+        </SampleContainerInfo>
+        <SampleContainerInfo id="c1dc4213-bbc4-4c77-a80f-d96ce8a438e9" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:32:40.8594324-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:32:40.8594324-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <Name>Fraction Collector</Name>
+          <Description>G1364F, DEAGS03006, Agilent</Description>
+          <FilePath>FractionCollector_1_DEAGS03006_8.scml</FilePath>
+          <SamplerDeviceType>FractionContainerDevice</SamplerDeviceType>
+        </SampleContainerInfo>
+      </Resources>
+      <Method id="9a9d1bc2-8c64-4b60-a554-ef6e3f1b519b" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </CreatedBy>
+          <CreatedDate>2026-05-09T19:36:23.2790197-05:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2026-05-09T19:36:23.283017-05:00</LastModifiedDate>
+          <AuditTrail/>
+        </Info>
+        <ComplexCustomFields/>
+        <BinaryData>
+          <DataItem>
+            <Name>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</Name>
+            <OriginalFilePath>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</OriginalFilePath>
+            <Data>
+              <DataFileReference>
+                <Path>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>HSS_T3_aq99__M9J_0.6mlmin_PT3</Name>
+        <Description/>
+        <OriginalVersion>2026-0510-0036-23282</OriginalVersion>
+      </Method>
+      <Method id="12a5e8ee-26c7-4852-a5a4-7dc26cb7b925" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </CreatedBy>
+          <CreatedDate>2026-05-09T19:36:23.2790197-05:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>SYSTEM (SYSTEM)</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2026-05-09T19:36:23.283017-05:00</LastModifiedDate>
+          <AuditTrail/>
+        </Info>
+        <ComplexCustomFields/>
+        <BinaryData>
+          <DataItem>
+            <Name>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</Name>
+            <OriginalFilePath>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</OriginalFilePath>
+            <Data>
+              <DataFileReference>
+                <Path>HSS_T3_aq99__M9J_0.6mlmin_PT3.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>HSS_T3_aq99__M9J_0.6mlmin_PT3</Name>
+        <Description/>
+        <OriginalVersion>2026-0510-0036-23282</OriginalVersion>
+      </Method>
+      <SampleContexts>
+        <Setup id="a4df4c33-af1d-4d29-a3e1-b3b6f774bd90" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-21T22:42:47.881737-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T23:33:52.5974033-05:00</LastModifiedDate>
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CalibrationGroupsAreCorrect">
+              <Value>true</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <BinaryData>
+            <DataItem>
+              <Name>demog_S0_P1.sqx</Name>
+              <OriginalFilePath>demog_S0_P1.sqx</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>demog_S0_P1.sqx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <IdentParam>
+            <Name>Demog_S0_P1</Name>
+            <ContextInfo>
+              <ContentType>Sequence</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Complete</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="54bf6b77-2c27-4aee-9a84-02b1a25e1e32" ver="0"/>
+          </AcqParam>
+          <DAParam>
+            <BracketingMode>None</BracketingMode>
+          </DAParam>
+          <SampleSetup_ID id="5a70a6a1-a61c-4282-91c1-5e1e99c4bfa0" ver="0"/>
+          <SampleSetup_ID id="1015a516-041b-4deb-a2be-e169e93e2897" ver="0"/>
+          <SampleSetup_ID id="204ee76d-ab28-42ef-bdd4-065985ecf593" ver="0"/>
+          <SampleSetup_ID id="10160635-af0b-4fa2-a31f-56c095434b89" ver="0"/>
+          <SampleSetup_ID id="e67b7107-3c0b-40aa-b2a6-1a5c7531334f" ver="0"/>
+          <SampleSetup_ID id="f030f4cb-c71e-413f-919e-2b731e843dcd" ver="0"/>
+          <SampleSetup_ID id="541fbb46-a743-402e-9e10-8b37853f44fd" ver="0"/>
+          <SampleSetup_ID id="6c082f8a-8b1e-49c7-a946-8aabbcbd7885" ver="0"/>
+          <SampleSetup_ID id="5d814bc1-5f07-481d-8248-19107bd6ab54" ver="0"/>
+          <SampleSetup_ID id="29abe1cb-8dcf-4392-82ea-39aaac30c668" ver="0"/>
+          <SampleSetup_ID id="2640e2f6-a43c-4bdc-8b85-0f39dc573416" ver="0"/>
+          <SampleSetup_ID id="20f3f1b6-39b4-4da4-a657-0a8fce31a844" ver="0"/>
+          <SampleSetup_ID id="85fbbfa2-5957-4b05-a7ba-11679bf4a354" ver="0"/>
+          <SampleSetup_ID id="6122ceb0-45d7-4cba-a060-f1843b095cd3" ver="0"/>
+          <SampleSetup_ID id="f7013349-e96f-404f-9b59-883f68b229d2" ver="0"/>
+          <SampleSetup_ID id="78f97187-5f33-4d63-9a79-35257b9a573e" ver="0"/>
+          <SampleSetup_ID id="888454db-ef5f-4edc-9c20-5a40b614ae37" ver="0"/>
+          <SampleSetup_ID id="441257fd-d3c7-4897-8a08-dbc2246f2070" ver="0"/>
+          <SampleSetup_ID id="dc321b06-4869-4508-8cf1-e6e84b346a43" ver="0"/>
+          <SampleSetup_ID id="868431c6-42d0-4c57-bd13-ba2d5cc12c57" ver="0"/>
+          <SampleSetup_ID id="5c1688e0-c756-434f-9f2d-36f89912a09f" ver="0"/>
+          <SampleSetup_ID id="1a90f906-eae6-4c6f-a92e-3b16f4e008ba" ver="0"/>
+          <SampleSetup_ID id="0ef40188-28c2-4721-a673-88575b564094" ver="0"/>
+          <SampleSetup_ID id="4278c46b-86d6-42cf-ada0-4bdd904f31fb" ver="0"/>
+          <SampleSetup_ID id="328f40fe-cb38-4a17-a94c-0c5d2816056e" ver="0"/>
+          <SampleSetup_ID id="7d55defd-df97-4ac4-a7ba-ed0cf8929e5a" ver="0"/>
+          <SampleSetup_ID id="a8c4b319-6b56-47a9-b2aa-4c3203f6c1ee" ver="0"/>
+          <SampleSetup_ID id="71102165-0c87-417c-bc26-766ae966922e" ver="0"/>
+          <SampleSetup_ID id="f313caea-e50a-4352-ab3b-4bc90c9cf9d8" ver="0"/>
+          <SampleSetup_ID id="11442fdf-3a35-4d1a-91e0-4653a7be1986" ver="0"/>
+          <SampleSetup_ID id="57f8a086-6af9-4d32-a92b-2feb08edb3c8" ver="0"/>
+          <SampleSetup_ID id="abcbe688-aa9b-48fa-a0b3-1172eabc5693" ver="0"/>
+          <SampleSetup_ID id="53ffec1a-16bd-4f3f-ae28-ae79bc446ba6" ver="0"/>
+          <SampleSetup_ID id="6a769b14-a2fc-46af-b9e7-f97019c3e991" ver="0"/>
+          <SampleSetup_ID id="09db53ce-e562-480c-8697-83f73bf16c20" ver="0"/>
+          <SampleSetup_ID id="59f0592f-5c35-4788-8120-af8b7482d344" ver="0"/>
+          <SampleSetup_ID id="489ba623-9c3c-40ae-8cc2-d1957a288ae4" ver="0"/>
+          <SampleSetup_ID id="4c83b4a1-42ba-4570-81cb-da83cdebaa67" ver="0"/>
+          <SampleSetup_ID id="1ec6b9df-795d-4b97-89e9-a798ebbeef2d" ver="0"/>
+          <SampleSetup_ID id="711c7bc2-abde-4efe-8845-949ba31b4263" ver="0"/>
+          <SampleSetup_ID id="019c51b3-cdb3-4a83-8267-b9f213e1f51a" ver="0"/>
+          <SampleSetup_ID id="26246e28-850b-444f-9f75-d77ceff42f57" ver="0"/>
+          <SampleSetup_ID id="ce247343-7a0d-4d89-9e7f-4c94cc65bd30" ver="0"/>
+          <SampleSetup_ID id="7fc11e35-a1dd-4d81-8deb-8f2fb4e1a2be" ver="0"/>
+          <SampleSetup_ID id="89ab13ec-17bb-4176-9072-cf10a6463e06" ver="0"/>
+          <SampleSetup_ID id="9ea2cfd3-fefb-4107-b844-6cfe19609cfe" ver="0"/>
+          <SampleSetup_ID id="0d09b3b8-a6d3-438a-be81-4948e76eb43d" ver="0"/>
+          <SampleSetup_ID id="8c44d72c-c957-417f-82b9-67765fe209ef" ver="0"/>
+          <SampleSetup_ID id="8ec58ddd-bbbb-4d8e-8b0f-bf4cdf62dd45" ver="0"/>
+          <SampleSetup_ID id="f9aa1d63-be0a-4743-a592-a4501753c0f1" ver="0"/>
+          <SampleSetup_ID id="1ecec35c-4444-4708-aed5-fb9fe4d8f67f" ver="0"/>
+          <SampleSetup_ID id="fdec540d-b94d-4425-a525-49f4a55efe4a" ver="0"/>
+          <SampleSetup_ID id="6ea64f54-c6a1-4afe-a1e4-035bfbbb2a20" ver="0"/>
+          <SampleSetup_ID id="b0aadf19-2c0f-4c0b-b8af-3a854525ecc7" ver="0"/>
+          <SampleSetup_ID id="d74065ba-acfd-40e9-a28c-5f56c1f3fa75" ver="0"/>
+          <SampleSetup_ID id="20e10f35-9e2c-4a8b-b96f-09dde946ea1b" ver="0"/>
+          <SampleSetup_ID id="da956827-fedc-4b6b-8ec3-6b91555218f1" ver="0"/>
+          <SampleSetup_ID id="8fd3fd6f-9418-4961-9750-24a58aa32769" ver="0"/>
+          <SampleSetup_ID id="5a963fed-2d0d-4970-b61d-d6eeac732a2e" ver="0"/>
+          <SampleSetup_ID id="122aafe2-879d-4c5a-abe2-8fb45e2269c6" ver="0"/>
+          <SampleSetup_ID id="1395293b-7db9-45b9-924f-2f678249b95c" ver="0"/>
+          <SampleSetup_ID id="79a6ed3c-6ece-4cc6-9e0f-8cf95621f0dd" ver="0"/>
+          <SampleSetup_ID id="329a808f-1d71-44cb-8670-cd8b2ac56971" ver="0"/>
+          <SampleSetup_ID id="e2473ba8-a046-4c65-bc0e-3571d6a2c756" ver="0"/>
+          <SampleSetup_ID id="0ac802c9-9a00-4ea2-a702-5ca429b95896" ver="0"/>
+          <SampleSetup_ID id="7f6aaf7a-12b8-4827-9b85-49939f8d1db0" ver="0"/>
+          <SampleSetup_ID id="2a9be4f9-4765-4ffb-97ee-f8a6570121e5" ver="0"/>
+          <SampleSetup_ID id="56e13598-ca36-48a6-8cf9-b94d692821e7" ver="0"/>
+          <SampleSetup_ID id="8348845c-6fad-4521-90b3-dfc5a42c878a" ver="0"/>
+          <SampleSetup_ID id="ba896837-8678-435c-b958-5a240b29de27" ver="0"/>
+          <SampleSetup_ID id="2414080e-0485-470e-a862-564fa2712d91" ver="0"/>
+          <SampleSetup_ID id="334a6142-7822-4834-8765-9b3b4a2690c9" ver="0"/>
+          <SampleSetup_ID id="5397e95c-6aba-4ff9-a344-d186f77b61d9" ver="0"/>
+          <SampleSetup_ID id="f50358bc-3ede-4a7c-9cf7-6a55afcaecad" ver="0"/>
+          <SampleSetup_ID id="8264f898-48c1-41c7-ac81-04bcf39b62be" ver="0"/>
+          <SampleSetup_ID id="20b01ea7-a8de-49c5-9b9c-0da8bf9d2d2b" ver="0"/>
+          <SampleSetup_ID id="3ce539c5-012a-4d4c-860e-0fad1d5447cb" ver="0"/>
+          <SampleSetup_ID id="8c91a72c-4a54-473a-bcfe-adf716b2093b" ver="0"/>
+          <SampleSetup_ID id="d7f28133-ea4a-4cab-b3ca-a0edbcf170a1" ver="0"/>
+          <SampleSetup_ID id="fa604787-b21c-4b5b-b013-b386c381c6c3" ver="0"/>
+          <SampleSetup_ID id="9ba71945-f755-424d-abac-b83b1871e3bf" ver="0"/>
+          <SampleSetup_ID id="1eee4622-d375-4fd9-9d7e-d749a1992f8e" ver="0"/>
+          <SampleSetup_ID id="bb49d8aa-6ff5-47b8-99df-e7c772ad875b" ver="0"/>
+          <SampleSetup_ID id="9b24c548-cbfd-403f-a8d5-fc36e1d77926" ver="0"/>
+          <SampleSetup_ID id="185e2800-aa4f-4216-aeef-935bcad258dc" ver="0"/>
+          <SampleSetup_ID id="21cf5674-ff21-4e1b-ab29-94763e0101b1" ver="0"/>
+          <SampleSetup_ID id="1dfb1ca6-b839-4dc3-8566-d6e11f22af8e" ver="0"/>
+          <SampleSetup_ID id="0b415712-2e64-4275-8f33-7ed6a564806e" ver="0"/>
+          <SampleSetup_ID id="9655bc60-cc0a-4952-b69d-4367e38be2c5" ver="0"/>
+          <SampleSetup_ID id="9f8ea2de-e811-422a-8a2e-4f7611529107" ver="0"/>
+          <SampleSetup_ID id="d553be87-14f7-4a79-a2ad-564135cb4cfc" ver="0"/>
+          <SampleSetup_ID id="96ab937a-44da-4581-a080-3e28a3affee1" ver="0"/>
+          <SampleSetup_ID id="d398d944-704c-483e-9b43-9d01d830a1e8" ver="0"/>
+          <SampleSetup_ID id="a983a8b5-2267-4c2b-87cf-6b423dc99773" ver="0"/>
+          <SampleSetup_ID id="52b7d29a-93c1-417a-aa7e-f31e1a99678c" ver="0"/>
+          <SampleSetup_ID id="562ec613-9c0b-442c-bf60-3a394ff23581" ver="0"/>
+          <PackagingMode>FullResultSet</PackagingMode>
+          <Authors>
+            <User>
+              <Username>SYSTEM</Username>
+              <UserID>1</UserID>
+            </User>
+          </Authors>
+        </Setup>
+        <MeasData id="ac0564ee-971b-4a8b-ac1a-03ce4f0d25eb" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-21T22:42:47.881737-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T23:33:52.5974033-05:00</LastModifiedDate>
+          </Info>
+          <SampleSetupContext_ID id="a4df4c33-af1d-4d29-a3e1-b3b6f774bd90" ver="0"/>
+          <IdentParam>
+            <Name>Demog_S0_P1</Name>
+            <ContextInfo>
+              <ContentType>Undefined</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Undefined</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="54bf6b77-2c27-4aee-9a84-02b1a25e1e32" ver="0"/>
+          </AcqParam>
+          <SampleMeasData_ID id="161c69ff-472d-4587-b86c-b07d89d20e9d" ver="0"/>
+          <SampleMeasData_ID id="bb5090ee-ddd1-4f2d-9c67-06ebb4518b59" ver="0"/>
+          <SampleMeasData_ID id="e617e5c7-f2d4-4bfb-9b09-0829c0120b8b" ver="0"/>
+          <SampleMeasData_ID id="c120647d-1ed5-426e-9fdb-19c0d85d4aed" ver="0"/>
+          <SampleMeasData_ID id="dac831c3-ef6b-497f-b698-301dbfcf8b41" ver="0"/>
+          <SampleMeasData_ID id="5a96924c-865d-4a36-8d27-e18745b708d7" ver="0"/>
+          <SampleMeasData_ID id="7faca059-a0d1-4d81-bd67-e3d85838f9bb" ver="0"/>
+          <SampleMeasData_ID id="32044e63-ac7d-44af-84ca-169230d6e8fb" ver="0"/>
+          <SampleMeasData_ID id="80b329fd-7ff6-4c05-bf70-5e9b5de6dc6d" ver="0"/>
+          <SampleMeasData_ID id="e5ba7e4d-9ca9-43c3-8f4a-d6f4143bf088" ver="0"/>
+          <SampleMeasData_ID id="65917777-5c5b-4045-9bec-5774320a3635" ver="0"/>
+          <SampleMeasData_ID id="6c42fe37-f3bc-4a20-8414-4969f8ba81f1" ver="0"/>
+          <SampleMeasData_ID id="2ab0b4a3-b1ea-4116-8994-a96f894b9c09" ver="0"/>
+          <SampleMeasData_ID id="ef752466-8fe3-4a92-a725-dbb501946344" ver="0"/>
+          <SampleMeasData_ID id="abde5fd7-b91d-476c-b95a-5b4e34356639" ver="0"/>
+          <SampleMeasData_ID id="7d83cb66-abb1-487a-a5e0-bf095c0590ae" ver="0"/>
+          <SampleMeasData_ID id="2f5ba9bd-3a82-47b9-b15a-f8c76c7e9e01" ver="0"/>
+          <SampleMeasData_ID id="dfe19b1b-4c55-41d1-b841-194f5395800f" ver="0"/>
+          <SampleMeasData_ID id="37f2aa7f-48e7-4364-9f51-18f393ee928f" ver="0"/>
+          <SampleMeasData_ID id="381e881f-fa82-42e1-bde8-eba49170a60f" ver="0"/>
+          <SampleMeasData_ID id="06c99f13-c5a8-410c-8e7d-8eefa39ae835" ver="0"/>
+          <SampleMeasData_ID id="c862ae63-660f-409f-9b21-c02a28c2bcd5" ver="0"/>
+          <SampleMeasData_ID id="bd144c20-c27e-45da-90a2-49f05cb3d319" ver="0"/>
+          <SampleMeasData_ID id="68e48aac-32a9-41ae-bf73-38309b305cdd" ver="0"/>
+          <SampleMeasData_ID id="d1b786f7-5bca-4562-a951-5e740248972c" ver="0"/>
+          <SampleMeasData_ID id="561fee92-e1e9-4e14-8e4f-f2688378acd2" ver="0"/>
+          <SampleMeasData_ID id="fe111952-63ea-43a0-8e23-52d0af45b296" ver="0"/>
+          <SampleMeasData_ID id="9328973f-1dd4-41e0-8356-3a8eda3b9047" ver="0"/>
+          <SampleMeasData_ID id="f7174f90-45de-4f96-bd6f-7dac8e222c98" ver="0"/>
+          <SampleMeasData_ID id="b172a3dc-c12d-43cd-9a0a-cb7159569dd7" ver="0"/>
+          <SampleMeasData_ID id="b4f760d3-7911-4748-b991-a73858716e7e" ver="0"/>
+          <SampleMeasData_ID id="79e082b5-b0c9-450e-aac4-5633daec1c5e" ver="0"/>
+          <SampleMeasData_ID id="1813ae22-1040-460d-bed1-3b5f1d758bb0" ver="0"/>
+          <SampleMeasData_ID id="37a9f8eb-a991-429b-93d5-747d7686fcf0" ver="0"/>
+          <SampleMeasData_ID id="0b1b1c63-63cb-4a42-96ba-be63d60bb1c5" ver="0"/>
+          <SampleMeasData_ID id="5523b30f-f45a-438a-a25e-02f7a61ea09f" ver="0"/>
+          <SampleMeasData_ID id="608c5f56-a1a1-4ed2-baeb-12da2e694e3d" ver="0"/>
+          <SampleMeasData_ID id="efc8bcab-c026-4956-aa35-eaf278699f63" ver="0"/>
+          <SampleMeasData_ID id="c0f29595-71cc-4ff8-b858-d13509994eff" ver="0"/>
+          <SampleMeasData_ID id="ddc27a9e-55da-4f73-af21-b48f1308ea6b" ver="0"/>
+          <SampleMeasData_ID id="6fc19a2e-1cfc-48bf-b32c-f24a6b462fd3" ver="0"/>
+          <SampleMeasData_ID id="e3eff77c-39c3-4c34-b134-50a794aa4ea4" ver="0"/>
+          <SampleMeasData_ID id="9279fe30-a301-4f5f-9fa8-f5093acff94f" ver="0"/>
+          <SampleMeasData_ID id="3226275e-a1c3-4a24-9ad5-8e975c0cb43b" ver="0"/>
+          <SampleMeasData_ID id="8a4acf6b-e3dc-481b-b4b9-ec30c0ef3df7" ver="0"/>
+          <SampleMeasData_ID id="ddc0e0c3-2d82-4f71-8bc2-86176fedb246" ver="0"/>
+          <SampleMeasData_ID id="9d61e606-60e7-4a74-9c35-ba6df276f6c9" ver="0"/>
+          <SampleMeasData_ID id="8d91591d-1319-4e5e-adf7-ae805a290525" ver="0"/>
+          <SampleMeasData_ID id="fee6a90f-671d-4e17-b959-473765060e16" ver="0"/>
+          <SampleMeasData_ID id="46120900-339c-406f-8105-55eea41212fc" ver="0"/>
+          <SampleMeasData_ID id="e9e57867-4ce2-40ca-81e1-6f26d2eb59ce" ver="0"/>
+          <SampleMeasData_ID id="c7d6e9c9-5159-42d6-af31-294010e80f67" ver="0"/>
+          <SampleMeasData_ID id="236d8cfb-5040-4f42-a9da-233295528917" ver="0"/>
+          <SampleMeasData_ID id="a8b06fad-b346-494a-93ee-488ee8fa583a" ver="0"/>
+          <SampleMeasData_ID id="04698b83-61bf-4591-a74a-9da0f080c065" ver="0"/>
+          <SampleMeasData_ID id="f20def31-fb89-444d-a327-f6cfa6d8bc80" ver="0"/>
+          <SampleMeasData_ID id="3dabd154-cf8a-4a54-a240-ca19081ad2c3" ver="0"/>
+          <SampleMeasData_ID id="3413e9cc-a051-4f67-a792-6f2db6ddcd76" ver="0"/>
+          <SampleMeasData_ID id="f1bf3256-6b13-46ab-a220-7ffe9a215a0c" ver="0"/>
+          <SampleMeasData_ID id="78cd7120-c2fb-43e1-90f8-cb044865f216" ver="0"/>
+          <SampleMeasData_ID id="f1c0ef00-f4fc-48bd-bb13-0c59cc063479" ver="0"/>
+          <SampleMeasData_ID id="1afdb6b7-29a3-4891-a75e-6ef450bb768b" ver="0"/>
+          <SampleMeasData_ID id="7da1614a-c9e4-4fef-8ae8-156a7a7686ac" ver="0"/>
+          <SampleMeasData_ID id="05ebb625-a6ac-46b7-9a89-62cfaaa64ef6" ver="0"/>
+          <SampleMeasData_ID id="de5e5e2a-741c-4ba5-a861-55b12758a89d" ver="0"/>
+          <SampleMeasData_ID id="769196f9-fe8c-49db-8984-2ad97974a2cb" ver="0"/>
+          <SampleMeasData_ID id="6c73e887-7ed2-4d6e-bc4d-642a08896ea2" ver="0"/>
+          <SampleMeasData_ID id="b8670369-86a7-486d-9f17-df159e310571" ver="0"/>
+          <SampleMeasData_ID id="bdb94432-9073-40ab-a69a-8a2d107c4a85" ver="0"/>
+          <SampleMeasData_ID id="4d2fceea-301e-48e3-8a08-5586b0983684" ver="0"/>
+          <SampleMeasData_ID id="f81cc298-c2c8-47e5-b2cb-f6ca297e7630" ver="0"/>
+          <SampleMeasData_ID id="9bca28e8-5221-4c2b-befa-29cf3b0a2c32" ver="0"/>
+          <SampleMeasData_ID id="9aa06de5-de9f-4ffc-aaae-cf8bc342fb75" ver="0"/>
+          <SampleMeasData_ID id="5b15c597-dea4-4408-b400-f854f5849405" ver="0"/>
+          <SampleMeasData_ID id="aed14b60-f57f-4d74-bb84-ac2b5e8ff699" ver="0"/>
+          <SampleMeasData_ID id="a92ccdd6-2b98-4a0f-a660-a01a03e6e078" ver="0"/>
+          <SampleMeasData_ID id="aea22d21-29db-4aa0-8ed7-b2f9e12f1515" ver="0"/>
+          <SampleMeasData_ID id="77025ebf-6c98-4cbf-ac47-5f8bd949eef3" ver="0"/>
+          <SampleMeasData_ID id="67291bc5-3df8-4632-9f2a-f1c90561ad29" ver="0"/>
+          <SampleMeasData_ID id="ea2616ac-4f3f-4110-b5c7-8af932bf65aa" ver="0"/>
+          <SampleMeasData_ID id="f6ad0314-d7ba-407e-bbd4-53cfb6625bf5" ver="0"/>
+          <SampleMeasData_ID id="26865615-dfc8-43f5-a49f-e4ab48bd9b35" ver="0"/>
+          <SampleMeasData_ID id="efe25d9a-e491-43c9-95cb-6fe9b5cefb7b" ver="0"/>
+          <SampleMeasData_ID id="7da3d2fa-2f9e-43a2-b3cc-4d204aace06f" ver="0"/>
+          <SampleMeasData_ID id="f84203bc-5bca-49bc-9417-921b505b4a9b" ver="0"/>
+          <SampleMeasData_ID id="41a5b225-3939-4227-9868-4cc7d9d75c42" ver="0"/>
+          <SampleMeasData_ID id="66167411-baf4-4efb-ae9c-8f3f636067c4" ver="0"/>
+          <SampleMeasData_ID id="9c07d403-1033-4a92-a3a2-d25a4bbf14ee" ver="0"/>
+          <SampleMeasData_ID id="8df8a187-f43e-4df6-90e8-e6cbe6feb801" ver="0"/>
+          <SampleMeasData_ID id="1655811f-73fb-45f2-8e06-5ad058701f7c" ver="0"/>
+          <SampleMeasData_ID id="7386bd0e-9afa-46d2-b451-9db1b85badf9" ver="0"/>
+          <SampleMeasData_ID id="d41e3018-565a-43ea-82ef-888d8342415a" ver="0"/>
+          <SampleMeasData_ID id="5d1a673a-9f04-46cc-9955-66862572d766" ver="0"/>
+          <SampleMeasData_ID id="53f7dfd2-dec9-469a-811e-004ff314d313" ver="0"/>
+          <SampleMeasData_ID id="8854e2d5-532d-45b2-a139-5674636ea685" ver="0"/>
+          <SampleMeasData_ID id="2a259178-7418-4fd1-bff8-88b64c014e54" ver="0"/>
+          <DiagnosticData/>
+        </MeasData>
+      </SampleContexts>
+      <Samples>
+        <Setup id="1015a516-041b-4deb-a2be-e169e93e2897" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:24:17.0700185-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:24:17.0700185-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields"/>
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name>1</Name>
+            <Description/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode/>
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="2"/>
+            <VialNumber>D2F-A2</VialNumber>
+            <NumberOfInjections val="1"/>
+            <InjectionVolume val="1" unit="µL"/>
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit=""/>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <Setup id="204ee76d-ab28-42ef-bdd4-065985ecf593" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:32:40.8411952-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:32:40.8411952-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields"/>
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name>407</Name>
+            <Description/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode/>
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="3"/>
+            <VialNumber>D2F-A3</VialNumber>
+            <NumberOfInjections val="1"/>
+            <InjectionVolume val="1" unit="µL"/>
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit=""/>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1"/>
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1"/>
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <MeasData id="bb5090ee-ddd1-4f2d-9c67-06ebb4518b59" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:24:17.0700185-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:24:17.0700185-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <IdentParam>
+            <Name>1</Name>
+            <Description/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode/>
+          </IdentParam>
+          <AcqParam>
+            <VialNumber>D2F-A2</VialNumber>
+            <NumberOfInjections val="1"/>
+            <InjectionVolume val="1" unit="µL"/>
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <SampleSetup_ID id="1015a516-041b-4deb-a2be-e169e93e2897" ver="0"/>
+          <InjectionMeasData_ID id="b869ae51-246d-4d46-8db5-d7609b47b3d7" ver="0"/>
+          <DiagnosticData/>
+        </MeasData>
+        <MeasData id="e617e5c7-f2d4-4bfb-9b09-0829c0120b8b" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T10:32:40.8411952-05:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-07-22T10:32:40.8411952-05:00</LastModifiedDate>
+            <AuditTrail/>
+          </Info>
+          <ComplexCustomFields/>
+          <IdentParam>
+            <Name>407</Name>
+            <Description/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <LimsID key=""/>
+            <ProjectID>Glucosinolates</ProjectID>
+            <ExpectedBarcode/>
+          </IdentParam>
+          <AcqParam>
+            <VialNumber>D2F-A3</VialNumber>
+            <NumberOfInjections val="1"/>
+            <InjectionVolume val="1" unit="µL"/>
+            <InjectorPosition>Front</InjectorPosition>
+          </AcqParam>
+          <SampleSetup_ID id="204ee76d-ab28-42ef-bdd4-065985ecf593" ver="0"/>
+          <InjectionMeasData_ID id="0f0b0440-fbf6-4f7c-8550-cbdd1265c954" ver="0"/>
+          <DiagnosticData/>
+        </MeasData>
+      </Samples>
+      <Injections>
+        <MeasData id="b869ae51-246d-4d46-8db5-d7609b47b3d7" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T15:19:28.585Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-10-19T16:11:56.119459-05:00</LastModifiedDate>
+          </Info>
+          <BinaryData>
+            <DataItem>
+              <Name>D2F-A2_1.dx</Name>
+              <OriginalFilePath>C:\CDSProjects\Glucosinolates\Results\Demography\Demog_S0_P1.rslt</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>D2F-A2_1.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="9a9d1bc2-8c64-4b60-a554-ef6e3f1b519b" ver="0"/>
+            <OrderNo val="1"/>
+          </AcqParam>
+          <AcquitionStatus>
+            <Status>Completed</Status>
+            <Message>Acquisition completed for injection: 2</Message>
+          </AcquitionStatus>
+          <Signal id="5fd096f1-ca22-4af4-9e2d-f83bac88ca63" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1G</Name>
+            <Description>PMP1G,Tuning</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>f7504130-0206-4685-b2d0-c3b4f4deb4d4</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>G</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="b9097ea3-5a84-4179-9369-b94c16afc330" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1T</Name>
+            <Description>DAD1T,Board Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>aabc73e0-27ed-40e8-a95d-92595a46d973</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>T</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="784743e0-0c16-4aa4-8d43-a0beca94df8a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>AFC1C</Name>
+            <Description>AFC1C,Delay Sensor</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>724807de-7665-4b5b-8764-43afefa6c833</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>AFC</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="a0ab5b2b-c11c-4bb6-9ef5-1c72092ad98b"/>
+          </Signal>
+          <Signal id="500927a7-60bd-4997-8de3-64ce59fe1194" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1U</Name>
+            <Description>DAD1U,Optical Unit Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>2ec61955-1885-4c73-a04e-f91687217653</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>U</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="96aa4730-d942-4927-9ec4-4d057f0df6e4" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1E</Name>
+            <Description>PMP1E,Solvent Ratio C</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>600cde67-9598-4c71-a7f7-c86473a79bae</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>E</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="8169da8f-ec7c-4253-9f74-6d50ff70d900" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.279579-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1B</Name>
+            <Description>DAD1B,Sig=200,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>e1275ab7-861e-4b01-b7e1-231bc9272075</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="34a4bf33-cdd5-4b16-81d0-7ad0df387c39" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1C</Name>
+            <Description>PMP1C,Solvent Ratio A</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>9599a0a8-b64f-45ff-927d-4374fb3f3a98</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="bd1542d0-798e-4cdc-9cdb-1d08f6c2fb4a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2875787-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1D</Name>
+            <Description>DAD1D,Sig=360,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>eb9be7c6-e84a-47d2-8444-6702e05ed312</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="28b3fb7e-468d-46be-9554-b36922aeb9a8" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2785788-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1A</Name>
+            <Description>DAD1A,Sig=229,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>07d83cd1-b554-4eb0-8e44-035cfcadfbec</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="bf2c4217-da45-4463-b644-301d3ef59cff" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1B</Name>
+            <Description>PMP1B,Flow</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>09952fa7-4709-4009-b6ff-a599e85212fc</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="c42ae59c-5409-4fe2-92dc-530a61c57252" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2805774-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1C</Name>
+            <Description>DAD1C,Sig=260,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>d7ebe96e-b45a-4ac1-b88c-e1e531f5baac</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="819e49ba-43fc-4aac-920e-24f23ac39b1e" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1A</Name>
+            <Description>PMP1A,Pressure</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>3af827c6-c942-44ff-b7a9-bf131a6e3255</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="8cef0b56-6f21-4c0c-879d-053033c26d0a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1I</Name>
+            <Description>DAD1I,DAD: Spectrum</Description>
+            <Type>Spectra</Type>
+            <TraceID>945b0b50-5c4a-4c7c-baeb-a657c343b118</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>I</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="bb68fc88-df48-43c7-897e-02e7927c3279" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>WPS1A</Name>
+            <Description>WPS1A,Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>43d2e81c-4b17-49a7-9016-cfdaf2456652</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>WPS</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="9cf4d412-c5ac-42d4-9a8c-141daba41a39"/>
+          </Signal>
+          <Signal id="b9005353-2487-4dd3-a7c6-a01bf1ed2311" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1A</Name>
+            <Description>THM1A,Left Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>3f596b49-a167-480f-98f0-7f3077272b7a</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="952916f4-9b4e-45bb-8983-470974c69e06"/>
+          </Signal>
+          <Signal id="6eb18438-396f-4fba-8a1f-4a42cecef2c2" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1D</Name>
+            <Description>PMP1D,Solvent Ratio B</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>a1b83a07-8d0e-483b-832b-411195153fab</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="8b4a83a0-a9c0-4308-a10e-afe72b80242d" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1B</Name>
+            <Description>THM1B,Right Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>f9f3c0ee-2792-4f7d-8524-5620c9952d3e</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="952916f4-9b4e-45bb-8983-470974c69e06"/>
+          </Signal>
+          <Signal id="b3fb6c74-a86a-4af7-a8aa-ff26feb004cc" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1V</Name>
+            <Description>DAD1V,UV Lamp Anode Voltage</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>f9428386-6009-4545-b034-906a4b8bf2b0</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>V</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="e880717c-f7d3-4afd-bb28-34bed46d2acb" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2885813-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Fraction Collector1B,G1364F:Delay Volume Calibration Data</Name>
+            <Description>Fraction Collector1B,Delay Volume Calibration Data</Description>
+            <Type>Generic</Type>
+            <TraceID>2a82fe71-01f1-48f4-9438-1b37ce776839</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Fraction Collector</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <GenericDataInfo>
+              <DataChannelId>Generic</DataChannelId>
+              <DataChannelName>Fraction Collector1B,G1364F:Delay Volume Calibration Data</DataChannelName>
+              <DataChannelDescription>Fraction Collector1B,Delay Volume Calibration Data</DataChannelDescription>
+            </GenericDataInfo>
+            <InstrumentModule_ID id="a0ab5b2b-c11c-4bb6-9ef5-1c72092ad98b"/>
+          </Signal>
+          <Signal id="82eaa9ad-f92b-46a1-a46e-71de9048c8cc" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:24:17.0832154-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A2_1.dx</Name>
+                <OriginalFilePath>D2F-A2_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A2_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1F</Name>
+            <Description>PMP1F,Solvent Ratio D</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>381027fa-0161-47b4-978d-db5ebc45c014</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>F</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <InjectionVolume val="1" unit="µL"/>
+          <DiagnosticData>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Fraction Collector : 1" Description="Fraction Collector"/>
+              <CustomField Name="Quat. Pump : 1" Description="Quat. Pump">
+                <CustomField Name="RunStart_Pressure_Actual" Description="Run start - Pressure">
+                  <Value unit="bar">384.56</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Flow_Actual" Description="Run start - Flow">
+                  <Value unit="mL/min">0.600</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Pressure_Actual" Description="Run stop - Pressure">
+                  <Value unit="bar">219.17</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Flow_Actual" Description="Run stop - Flow">
+                  <Value unit="mL/min">0.600</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="DAD : 1" Description="DAD">
+                <CustomField Name="RunStart_UVLamp_OnTime" Description="Run Start - Dad - UV Lamp On time">
+                  <Value unit="h">19.78</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_BurnTime" Description="Run Start - Dad - UV Lamp Burn time">
+                  <Value unit="h">1789.95</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_OnTime" Description="Run Start - Dad - Vis Lamp On time">
+                  <Value unit="h">19.78</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_BurnTime" Description="Run Start - Dad - Vis Lamp Burn time">
+                  <Value unit="h">527.28</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellLength" Description="Run Start - Dad - Cell Length">
+                  <Value unit="mm">10.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_ProductNumber" Description="Run Start - Dad - Lamp tag - Product Number">
+                  <Value>2140-0820</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_SerialNumber" Description="Run Start - Dad - Lamp tag - Serial Number">
+                  <Value>O43387</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_ProductNumber" Description="Run Start - Dad - Cell Tag - Product Number">
+                  <Value>G1315-60022</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_SerialNumber" Description="Run Start - Dad - Cell Tag - Serial Number">
+                  <Value>DESAB01546</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_OnTime" Description="Run Stop - Dad - UV Lamp On time">
+                  <Value unit="h">19.86</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_BurnTime" Description="Run Stop - Dad - UV Lamp Burn time">
+                  <Value unit="h">1790.03</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_OnTime" Description="Run Stop - Dad - Vis Lamp On time">
+                  <Value unit="h">19.86</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_BurnTime" Description="Run Stop - Dad - Vis Lamp Burn time">
+                  <Value unit="h">527.36</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Column Comp. : 1" Description="Column Comp.">
+                <CustomField Name="RunStart_TemperatureControl_Actual" Description="Run start - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_TemperatureControl2_Actual" Description="Run start - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl_Actual" Description="Run stop - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl2_Actual" Description="Run stop - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run start - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run start - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run stop - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run stop - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Multisampler : 1" Description="Multisampler">
+                <CustomField Name="RunStart_Temperature_Actual" Description="Run start - Actual Temperature">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Temperature_Setpoint" Description="Run start - Temperature setpoint">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Actual" Description="Run stop - Actual Temperature">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Setpoint" Description="Run stop - Temperature setpoint">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="Injection_Position" Description="Injection - Position">
+                  <Value>D2F-A2</Value>
+                </CustomField>
+                <CustomField Name="Injection_Volume" Description="Injection - Volume">
+                  <Value unit="µL">1.0</Value>
+                </CustomField>
+                <CustomField Name="Injection_UsedNeedle" Description="Injection - Used needle">
+                  <Value>Right needle</Value>
+                </CustomField>
+              </CustomField>
+            </Item>
+          </DiagnosticData>
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.8 - Build  2.8.0-REL_2.8.0.1330</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.8 - Build  2.8.0-REL_2.8.0.1330 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2026-0510-0036-23282</AcquisitionMethodVersion>
+          <ExternalResultPath>D2F-A2_1.rx</ExternalResultPath>
+          <SampleLabel>DemogS0P1</SampleLabel>
+          <SampleContainerInfo_ID id="dba24e41-f781-4f06-a154-e7013025f735" ver="0"/>
+          <FractionContainerInfo_ID id="2867426d-20da-429d-9f73-4e652006b890" ver="0"/>
+          <SampleLocationIdentifier>
+            <LocationXML>
+              <SampleLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" SchemaVersion="1.0.0">
+                <SampleContainerDeviceAddress>
+                  <Index>3</Index>
+                </SampleContainerDeviceAddress>
+                <SampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>1</Row>
+                  <Column>2</Column>
+                </SampleContainerAddress>
+                <RelativeSampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>1</Row>
+                  <Column>2</Column>
+                </RelativeSampleContainerAddress>
+              </SampleLocation>
+            </LocationXML>
+          </SampleLocationIdentifier>
+        </MeasData>
+        <MeasData id="0f0b0440-fbf6-4f7c-8550-cbdd1265c954" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </CreatedBy>
+            <CreatedDate>2026-07-22T15:27:52.008Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>SYSTEM (SYSTEM)</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2026-10-19T16:11:56.1274575-05:00</LastModifiedDate>
+          </Info>
+          <BinaryData>
+            <DataItem>
+              <Name>D2F-A3_407.dx</Name>
+              <OriginalFilePath>C:\CDSProjects\Glucosinolates\Results\Demography\Demog_S0_P1.rslt</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>D2F-A3_407.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="12a5e8ee-26c7-4852-a5a4-7dc26cb7b925" ver="0"/>
+            <OrderNo val="1"/>
+          </AcqParam>
+          <AcquitionStatus>
+            <Status>Completed</Status>
+            <Message>Acquisition completed for injection: 3</Message>
+          </AcquitionStatus>
+          <Signal id="06cca0c9-b5f3-489a-a344-bb95e42437f5" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2945807-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1D</Name>
+            <Description>DAD1D,Sig=360,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>34a52c0d-c8f3-4e4e-9fba-25724d6418e1</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="09aca86a-748b-45d1-92dd-c69699a58226" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.3054558-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>Fraction Collector1B,G1364F:Delay Volume Calibration Data</Name>
+            <Description>Fraction Collector1B,Delay Volume Calibration Data</Description>
+            <Type>Generic</Type>
+            <TraceID>fb8de446-3767-435f-b4ed-7033c80da8e6</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Fraction Collector</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <GenericDataInfo>
+              <DataChannelId>Generic</DataChannelId>
+              <DataChannelName>Fraction Collector1B,G1364F:Delay Volume Calibration Data</DataChannelName>
+              <DataChannelDescription>Fraction Collector1B,Delay Volume Calibration Data</DataChannelDescription>
+            </GenericDataInfo>
+            <InstrumentModule_ID id="a0ab5b2b-c11c-4bb6-9ef5-1c72092ad98b"/>
+          </Signal>
+          <Signal id="b905bf25-6bfb-4271-b7be-e3da3285d1cd" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1B</Name>
+            <Description>THM1B,Right Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>4b80ecdf-0bc5-465b-a2e5-27cdd786e2e7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="952916f4-9b4e-45bb-8983-470974c69e06"/>
+          </Signal>
+          <Signal id="6e16a7cc-ad87-49ef-9861-8fd2b271df77" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1G</Name>
+            <Description>PMP1G,Tuning</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>15b44e21-5b2d-40d4-a621-1bc46b804f53</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>G</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="6597c572-89d2-4192-9c0c-b03a85800af5" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1A</Name>
+            <Description>PMP1A,Pressure</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>45e6e914-ff59-4b79-9624-038706c30ba6</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="191b3041-d734-41db-84e0-8ab3d27bcf43" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2915794-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1B</Name>
+            <Description>DAD1B,Sig=200,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>d733746c-f0da-492e-ab35-12729d87d9a7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="17ebd21f-4723-4a31-95d8-cb483abb8e23" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>WPS1A</Name>
+            <Description>WPS1A,Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>9ea6c3c4-8e24-4390-aa3d-8c2a455c2792</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>WPS</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="9cf4d412-c5ac-42d4-9a8c-141daba41a39"/>
+          </Signal>
+          <Signal id="1f15fb73-7ac4-4e50-bde5-fbb44d91a1c5" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1E</Name>
+            <Description>PMP1E,Solvent Ratio C</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>1a3c01a3-f21d-4541-a2dd-04d7047a39e5</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>E</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="42148be8-29a8-4687-b99c-39120a6d2cbf" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2905816-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1A</Name>
+            <Description>DAD1A,Sig=229,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>22d3a342-f8e6-4945-b476-beba26a439b4</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="f0e7fbba-791e-4bc8-90c5-968c4a81649b" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1U</Name>
+            <Description>DAD1U,Optical Unit Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>ccae188a-799f-409a-9989-a9bc232f6b88</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>U</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="1658af62-1d39-4442-8baf-0c98bc603299" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1C</Name>
+            <Description>PMP1C,Solvent Ratio A</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>b829e99c-5b94-4cdd-b64f-1eb051c49f12</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="290247e2-0135-4268-947c-5eda8e9e4738" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>AFC1C</Name>
+            <Description>AFC1C,Delay Sensor</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>ddb82d13-db93-4182-a9a6-218b9f167316</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>AFC</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="a0ab5b2b-c11c-4bb6-9ef5-1c72092ad98b"/>
+          </Signal>
+          <Signal id="ae405661-0e1f-4b6c-8378-27516c073703" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1V</Name>
+            <Description>DAD1V,UV Lamp Anode Voltage</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>822e6496-6370-4919-b653-6bbf22994861</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>V</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="7f5a7dae-3523-4143-baeb-baecd18c3bef" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1F</Name>
+            <Description>PMP1F,Solvent Ratio D</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>bd5a7817-24b2-4393-ab23-362d0ae1b06d</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>F</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="4850ada5-74e4-4cd8-95c5-b61593042231" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>THM1A</Name>
+            <Description>THM1A,Left Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>1904d8ea-382d-4124-8c82-6fdb8a8f9799</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>THM</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="952916f4-9b4e-45bb-8983-470974c69e06"/>
+          </Signal>
+          <Signal id="02ddc4ad-740c-45da-b9b4-2f84752ba3a4" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1D</Name>
+            <Description>PMP1D,Solvent Ratio B</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>4595da46-6e21-403f-bbf1-b08ed2fa12c2</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>D</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="04461219-26a4-4437-9f07-1115f3e08753" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-10-19T16:11:55.2925803-05:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1C</Name>
+            <Description>DAD1C,Sig=260,4  Ref=off</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes"/>
+            <TraceID>68e3459c-ab41-411d-8408-9dbc10917030</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>C</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="994bd857-5a7c-47f1-819f-1b123bdda095" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1T</Name>
+            <Description>DAD1T,Board Temperature</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>4021b3d7-73b0-430a-b051-bbef73375b5c</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>T</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <Signal id="1bb0cbcb-149b-4052-aa2c-fb0a8ae54009" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>PMP1B</Name>
+            <Description>PMP1B,Flow</Description>
+            <Type>InstrumentCurve</Type>
+            <TraceID>e7231b31-3114-4339-8228-75e8d5db0267</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>PMP</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>B</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="1484b4c0-86de-456d-9ea3-1e8c03460291"/>
+          </Signal>
+          <Signal id="9dbd8d5e-351b-4201-bbcd-c3f466c1ae63" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>SYSTEM (SYSTEM)</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2026-07-22T10:32:40.8554345-05:00</LastModifiedDate>
+              <AuditTrail/>
+            </Info>
+            <ComplexCustomFields/>
+            <BinaryData>
+              <DataItem>
+                <Name>D2F-A3_407.dx</Name>
+                <OriginalFilePath>D2F-A3_407.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>D2F-A3_407.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>DAD1I</Name>
+            <Description>DAD1I,DAD: Spectrum</Description>
+            <Type>Spectra</Type>
+            <TraceID>9ce83e2b-cd05-4850-8c9e-de78608f4673</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>DAD</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>I</ChannelName>
+            <PeakDeletions/>
+            <InstrumentModule_ID id="7ecf5bda-1c0d-46c7-b6f7-b861da589ebe"/>
+          </Signal>
+          <InjectionVolume val="1" unit="µL"/>
+          <DiagnosticData>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Fraction Collector : 1" Description="Fraction Collector"/>
+              <CustomField Name="Quat. Pump : 1" Description="Quat. Pump">
+                <CustomField Name="RunStart_Pressure_Actual" Description="Run start - Pressure">
+                  <Value unit="bar">385.84</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Flow_Actual" Description="Run start - Flow">
+                  <Value unit="mL/min">0.600</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Pressure_Actual" Description="Run stop - Pressure">
+                  <Value unit="bar">219.26</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Flow_Actual" Description="Run stop - Flow">
+                  <Value unit="mL/min">0.600</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="DAD : 1" Description="DAD">
+                <CustomField Name="RunStart_UVLamp_OnTime" Description="Run Start - Dad - UV Lamp On time">
+                  <Value unit="h">19.92</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_BurnTime" Description="Run Start - Dad - UV Lamp Burn time">
+                  <Value unit="h">1790.09</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_OnTime" Description="Run Start - Dad - Vis Lamp On time">
+                  <Value unit="h">19.92</Value>
+                </CustomField>
+                <CustomField Name="RunStart_VisLamp_BurnTime" Description="Run Start - Dad - Vis Lamp Burn time">
+                  <Value unit="h">527.42</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellLength" Description="Run Start - Dad - Cell Length">
+                  <Value unit="mm">10.00</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_ProductNumber" Description="Run Start - Dad - Lamp tag - Product Number">
+                  <Value>2140-0820</Value>
+                </CustomField>
+                <CustomField Name="RunStart_UVLamp_SerialNumber" Description="Run Start - Dad - Lamp tag - Serial Number">
+                  <Value>O43387</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_ProductNumber" Description="Run Start - Dad - Cell Tag - Product Number">
+                  <Value>G1315-60022</Value>
+                </CustomField>
+                <CustomField Name="RunStart_CellTag_SerialNumber" Description="Run Start - Dad - Cell Tag - Serial Number">
+                  <Value>DESAB01546</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_OnTime" Description="Run Stop - Dad - UV Lamp On time">
+                  <Value unit="h">20.00</Value>
+                </CustomField>
+                <CustomField Name="RunStop_UVLamp_BurnTime" Description="Run Stop - Dad - UV Lamp Burn time">
+                  <Value unit="h">1790.17</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_OnTime" Description="Run Stop - Dad - Vis Lamp On time">
+                  <Value unit="h">20.00</Value>
+                </CustomField>
+                <CustomField Name="RunStop_VisLamp_BurnTime" Description="Run Stop - Dad - Vis Lamp Burn time">
+                  <Value unit="h">527.50</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Column Comp. : 1" Description="Column Comp.">
+                <CustomField Name="RunStart_TemperatureControl_Actual" Description="Run start - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_TemperatureControl2_Actual" Description="Run start - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl_Actual" Description="Run stop - Left temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStop_TemperatureControl2_Actual" Description="Run stop - Right temperature">
+                  <Value unit="°C">25.0</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run start - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStart_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run start - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_LeftTedUsed" Description="Run stop - Thermal equilibration device info - Left thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+                <CustomField Name="RunStop_ThermalEquilibrationDeviceInfo_RightTedUsed" Description="Run stop - Thermal equilibration device info - Right thermal equilibration device">
+                  <Value>Not Installed</Value>
+                </CustomField>
+              </CustomField>
+              <CustomField Name="Multisampler : 1" Description="Multisampler">
+                <CustomField Name="RunStart_Temperature_Actual" Description="Run start - Actual Temperature">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStart_Temperature_Setpoint" Description="Run start - Temperature setpoint">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Actual" Description="Run stop - Actual Temperature">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="RunStop_Temperature_Setpoint" Description="Run stop - Temperature setpoint">
+                  <Value unit="°C">10</Value>
+                </CustomField>
+                <CustomField Name="Injection_Position" Description="Injection - Position">
+                  <Value>D2F-A3</Value>
+                </CustomField>
+                <CustomField Name="Injection_Volume" Description="Injection - Volume">
+                  <Value unit="µL">1.0</Value>
+                </CustomField>
+                <CustomField Name="Injection_UsedNeedle" Description="Injection - Used needle">
+                  <Value>Right needle</Value>
+                </CustomField>
+              </CustomField>
+            </Item>
+          </DiagnosticData>
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.8 - Build  2.8.0-REL_2.8.0.1330</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.8 - Build  2.8.0-REL_2.8.0.1330 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2026-0510-0036-23282</AcquisitionMethodVersion>
+          <ExternalResultPath>D2F-A3_407.rx</ExternalResultPath>
+          <SampleLabel>DemogS0P1</SampleLabel>
+          <SampleContainerInfo_ID id="76b9f895-6bd7-4a5b-8a04-30f853eee80e" ver="0"/>
+          <FractionContainerInfo_ID id="c1dc4213-bbc4-4c77-a80f-d96ce8a438e9" ver="0"/>
+          <SampleLocationIdentifier>
+            <LocationXML>
+              <SampleLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" SchemaVersion="1.0.0">
+                <SampleContainerDeviceAddress>
+                  <Index>3</Index>
+                </SampleContainerDeviceAddress>
+                <SampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>1</Row>
+                  <Column>3</Column>
+                </SampleContainerAddress>
+                <RelativeSampleContainerAddress xsi:type="RowColumnSampleContainerAddressType">
+                  <Row>1</Row>
+                  <Column>3</Column>
+                </RelativeSampleContainerAddress>
+              </SampleLocation>
+            </LocationXML>
+          </SampleLocationIdentifier>
+        </MeasData>
+      </Injections>
+      <Actions/>
+    </Content>
+  </Doc>
+</ACAML>

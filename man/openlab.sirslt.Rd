@@ -28,7 +28,8 @@ Other Agilent OpenLab files:
 \code{\link{flow_rate_example.amx}},
 \code{\link{minimal.acaml}},
 \code{\link{openlab_131.uv}},
-\code{\link{openlab_179.ch}}
+\code{\link{openlab_179.ch}},
+\code{\link{openlab_rx}}
 }
 \concept{Agilent OpenLab files}
 \keyword{data}
