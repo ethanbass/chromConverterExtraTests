@@ -807,8 +807,9 @@ NULL
 #' @name masshunter_gcms_sim.D
 #' @description An 'Agilent MassHunter' GC-MS (\code{.D}) directory from a 5977
 #' MSD in SIM mode, with two time segments: the \code{MSScan.bin},
-#' \code{MSPeak.bin}, \code{MSScan.xsd}, \code{MSTS.xml}, \code{Contents.xml}
-#' and \code{Devices.xml} files of \code{AcqData}, and the 'ChemStation'
+#' \code{MSPeak.bin}, \code{MSScan.xsd}, \code{MSTS.xml}, \code{Contents.xml},
+#' \code{Devices.xml} and \code{sample_info.xml} files of \code{AcqData}, and
+#' the 'ChemStation'
 #' \code{data.ms} file of the same run, which holds the same spectra. The other
 #' files of run \code{AKI_1.D} are left out.
 #' @docType data
