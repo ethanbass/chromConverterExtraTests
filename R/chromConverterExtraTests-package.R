@@ -684,6 +684,27 @@ NULL
 #' @md
 NULL
 
+#' @title openlab_gcms.sirslt
+#' @name openlab_gcms.sirslt
+#' @description An 'Agilent OpenLab CDS' 2.5 single injection result
+#' (\code{.sirslt}) directory from a GC with a 5977 MSD and an FID, for testing
+#' mass spectra: the \code{.dx}, \code{.MSScan.bin}, \code{.MSPeak.bin} and
+#' \code{.acaml} files of injection \code{20220718 MOR47_1}. The \code{.dx}
+#' archive holds the FID trace and the MS metadata, and the mass spectra are in
+#' the two \code{.bin} files beside it. The \code{.rx}, \code{.mfx},
+#' \code{.pmx} and \code{.amx} files of the original result set are left out.
+#' @docType data
+#' @keywords data
+#' @examples system.file("openlab_gcms.sirslt", package = "chromConverterExtraTests")
+#' @format 'Agilent OpenLab' single injection result (\code{.sirslt}) directory
+#' @source Alessandro Aleo et al., "Raw data of molecular analyses (SEM-EDX,
+#' ATR-FTIR, Raman, and GC-MS) of adhesive residues from Morín Cave (Spain)",
+#' 4TU.ResearchData, \doi{10.4121/fc28fa90-cba2-485a-9221-033be73a0e04.v2}.
+#' Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+#' @family Agilent OpenLab files
+#' @md
+NULL
+
 #' @title chromeleon_comma.txt
 #' @name chromeleon_comma.txt
 #' @docType data
@@ -778,6 +799,61 @@ NULL
 #' @source [Roderick Bovee](https://github.com/bovee/):
 #' \url{https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example}.
 #' Released under [MIT](https://opensource.org/license/mit/), (c) 2014 Roderick Bovee.
+#' @md
+#' @family Agilent Masshunter files
+NULL
+
+#' @title masshunter_gcms_sim.D
+#' @name masshunter_gcms_sim.D
+#' @description An 'Agilent MassHunter' GC-MS (\code{.D}) directory from a 5977
+#' MSD in SIM mode, with two time segments: the \code{MSScan.bin},
+#' \code{MSPeak.bin}, \code{MSScan.xsd}, \code{MSTS.xml}, \code{Contents.xml}
+#' and \code{Devices.xml} files of \code{AcqData}, and the 'ChemStation'
+#' \code{data.ms} file of the same run, which holds the same spectra. The other
+#' files of run \code{AKI_1.D} are left out.
+#' @docType data
+#' @keywords data
+#' @examples system.file("masshunter_gcms_sim.D", package = "chromConverterExtraTests")
+#' @format 'Agilent MassHunter' GC-MS (\code{.D}) directory
+#' @source Zhenghao Sun et al., MetaboLights study MTBLS15607:
+#' \url{https://www.ebi.ac.uk/metabolights/MTBLS15607}.
+#' Released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+#' @md
+#' @family Agilent Masshunter files
+NULL
+
+#' @title masshunter_qqq_sim.d
+#' @name masshunter_qqq_sim.d
+#' @description An 'Agilent MassHunter' LC-MS (\code{.d}) directory from a
+#' G6410A triple quadrupole in SIM mode, whose spectra store their intensities
+#' as integers: the \code{MSScan.bin}, \code{MSPeak.bin}, \code{MSScan.xsd},
+#' \code{MSTS.xml}, \code{Contents.xml} and \code{Devices.xml} files of
+#' \code{AcqData} of \code{reserpine-MS2sim-010.d}. Its 'ProteoWizard'
+#' conversion is \code{masshunter_qqq_sim.mzML}.
+#' @docType data
+#' @keywords data
+#' @examples system.file("masshunter_qqq_sim.d", package = "chromConverterExtraTests")
+#' @format 'Agilent MassHunter' LC-MS (\code{.d}) directory
+#' @source [ProteoWizard](https://github.com/ProteoWizard/pwiz):
+#' \url{https://github.com/ProteoWizard/pwiz/blob/master/pwiz/data/vendor_readers/Agilent/Reader_Agilent_Test.data.tar.bz2}.
+#' Released under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), a copy
+#' of which is in \code{LICENSE-Apache-2.0.txt}.
+#' @md
+#' @family Agilent Masshunter files
+NULL
+
+#' @title masshunter_qqq_sim.mzML
+#' @name masshunter_qqq_sim.mzML
+#' @description The 'ProteoWizard' conversion of \code{masshunter_qqq_sim.d}
+#' (\code{reserpine-MS2sim-010.mzML}), holding its TIC and SIM chromatograms.
+#' @docType data
+#' @keywords data
+#' @examples system.file("masshunter_qqq_sim.mzML", package = "chromConverterExtraTests")
+#' @format mzML file
+#' @source [ProteoWizard](https://github.com/ProteoWizard/pwiz):
+#' \url{https://github.com/ProteoWizard/pwiz/blob/master/pwiz/data/vendor_readers/Agilent/Reader_Agilent_Test.data.tar.bz2}.
+#' Released under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0), a copy
+#' of which is in \code{LICENSE-Apache-2.0.txt}.
 #' @md
 #' @family Agilent Masshunter files
 NULL

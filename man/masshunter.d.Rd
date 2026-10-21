@@ -18,5 +18,11 @@ masshunter.d
 \examples{
 system.file("masshunter.d", package = "chromConverterExtraTests")
 }
+\seealso{
+Other Agilent Masshunter files:
+\code{\link{masshunter_gcms_sim.D}},
+\code{\link{masshunter_qqq_sim.d}},
+\code{\link{masshunter_qqq_sim.mzML}}
+}
 \concept{Agilent Masshunter files}
 \keyword{data}

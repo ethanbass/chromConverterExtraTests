@@ -9,6 +9,7 @@ Glucosinolates-XDB5.amx | 'Agilent' (.amx) | Ethan Bass | CC0 | -- |
 flow_rate_example.amx | 'Agilent' (.amx) | Ethan Bass | CC0 | -- |
 openlab.sirslt | 'Agilent OpenLab' single injection result (.sirslt) | Ethan Bass | CC0 | -- |
 openlab_rx | 'Agilent OpenLab' result files (.rx) from two injections of a sequence, with its .acaml trimmed to them | Ethan Bass | CC0 | -- |
+openlab_gcms.sirslt | 'Agilent OpenLab' GC-MS single injection result (.sirslt), 5977 MSD with FID: `.dx`, `.MSScan.bin`, `.MSPeak.bin` and `.acaml` of injection `20220718 MOR47_1` | [Alessandro Aleo](https://doi.org/10.4121/fc28fa90-cba2-485a-9221-033be73a0e04.v2) et al | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | https://doi.org/10.4121/fc28fa90-cba2-485a-9221-033be73a0e04.v2 |
 ASM-liquid-chromatography.json | ASM liquid chromatography | [Allotrope Foundation](https://www.allotrope.org/) | [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/) | https://gitlab.com/allotrope-public/asm |
 ASM-gas-chromatography.tabular.json | ASM gas chromatography | [Allotrope Foundation](https://www.allotrope.org/) | CC-BY-NC-4.0 | https://gitlab.com/allotrope-public/asm |
 ASM-lc-ms.tabular.json | ASM liquid chromatography-mass spectrometry | [Allotrope Foundation](https://www.allotrope.org/) | CC-BY-NC-4.0 | https://gitlab.com/allotrope-public/asm/-/blob/main/test/adm/lc-ms/REC/2026/09/lc-ms.tabular.json |
@@ -67,6 +68,9 @@ DCM1.mzML | mzML | Converted from DCM1.SMS in OpenChrom | CC0 | -- |
 STRD15.SMS | 'Varian Workstation' SMS | Ethan Bass | CC0 | -- |
 STRD15.mzML | The above chromatogram in mzML (converted by OpenChrom) | Ethan Bass | CC0 | -- |
 masshunter.d | 'Agilent' Masshunter DAD (.D) | [Roderick Bovee](https://github.com/bovee/) | MIT (c) 2014 Roderick Bovee | https://github.com/bovee/entab/tree/main/entab/tests/data/masshunter_example |
+masshunter_gcms_sim.D | 'Agilent MassHunter' GC-MS (.D), 5977 SIM in two time segments: the MS files of `AcqData` and the 'ChemStation' `data.ms` of run `AKI_1.D` | [Zhenghao Sun](https://www.ebi.ac.uk/metabolights/MTBLS15607) et al | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | https://www.ebi.ac.uk/metabolights/MTBLS15607 |
+masshunter_qqq_sim.d | 'Agilent MassHunter' LC-MS (.d), G6410A triple quadrupole SIM: the MS files of `AcqData` of `reserpine-MS2sim-010.d` | [ProteoWizard](https://github.com/ProteoWizard/pwiz) | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) (copy in `LICENSE-Apache-2.0.txt`) | https://github.com/ProteoWizard/pwiz/blob/master/pwiz/data/vendor_readers/Agilent/Reader_Agilent_Test.data.tar.bz2 |
+masshunter_qqq_sim.mzML | 'ProteoWizard' conversion of `masshunter_qqq_sim.d` (`reserpine-MS2sim-010.mzML`) | [ProteoWizard](https://github.com/ProteoWizard/pwiz) | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) (copy in `LICENSE-Apache-2.0.txt`) | https://github.com/ProteoWizard/pwiz/blob/master/pwiz/data/vendor_readers/Agilent/Reader_Agilent_Test.data.tar.bz2 |
 minimal.acaml | 'Agilent Common Analytical Markup Language' (.acaml) | Ethan Bass | CC0 | -- |
 varian_peaklist.csv | 'Varian' Peak List Summary File | Ethan Bass | CC0 | -- |
 VARIAN1.CDF | "ANDI" (Analytical Data Interchange) chrom (.cdf) | [Randy Julian](https://sourceforge.net/u/rkjulian/profile/) | [LGPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) | https://sourceforge.net/projects/andi/ |

@@ -1,5 +1,6 @@
 # chromConverterExtraTests 0.4.10
 
+* Added Agilent mass spectrometry files: `openlab_gcms.sirslt` ('OpenLab CDS' GC-MS), `masshunter_gcms_sim.D` (GC-MS SIM with its `data.ms`) and `masshunter_qqq_sim.d` (triple quadrupole SIM) with its 'ProteoWizard' mzML.
 * Added seven 'Shimadzu LabSolutions' LCD files with mass spectrometry data,
 between them covering every acquisition mode the package had no example of.
 Quadrupole time-of-flight: `shimadzu_qtof.lcd` and `shimadzu_qtof_neg.lcd`,

@@ -27,6 +27,7 @@ Other Agilent OpenLab files:
 \code{\link{minimal.acaml}},
 \code{\link{openlab.sirslt}},
 \code{\link{openlab_131.uv}},
+\code{\link{openlab_gcms.sirslt}},
 \code{\link{openlab_rx}}
 }
 \concept{Agilent OpenLab files}

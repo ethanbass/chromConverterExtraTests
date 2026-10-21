@@ -1,0 +1,1704 @@
+﻿<?xml version="1.0"?>
+<ACAML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaversion="2.1.30.999" xmlns="urn:schemas-agilent-com:acaml21">
+	<Checksum Algorithm="MD5">
+		<Value>TSlQYZVzG1GRiW2CZBAUQg==</Value>
+	</Checksum>
+  <MigrationHistory>
+    <MigrationStep>
+      <FromNamespace>urn:schemas-agilent-com:acaml21</FromNamespace>
+      <ToNamespace>urn:schemas-agilent-com:acaml21v2.1.30.999</ToNamespace>
+      <Date>2022-07-18T16:04:13.0480756+02:00</Date>
+      <Application>Agilent.Acaml.Core, Assembly Version: 1.0.0.0, File Version: 2.1.33.1</Application>
+    </MigrationStep>
+  </MigrationHistory>
+  <Doc>
+    <DocID>d2fa04ce-be68-4f6e-aab8-04fa16ee6a69</DocID>
+    <DocInfo>
+      <Description>20220718 MOR47_1</Description>
+      <CreatedByUser>Liliana Baron</CreatedByUser>
+      <CreatedByApplication>
+        <AgilentApp>
+          <Name>IntelligentDataAnalysis</Name>
+          <Version>Version 2.5 - Build 2.205.7.2</Version>
+        </AgilentApp>
+      </CreatedByApplication>
+      <CreationDate>2022-07-18T14:04:13.0251809Z</CreationDate>
+      <ClientName>WS-CZC83674KR</ClientName>
+      <CustomField Name="OriginalApplicationName">
+        <Value>IntelligentDataAnalysis</Value>
+      </CustomField>
+      <CustomField Name="InjectionMetaDataItems">
+        <Xml>
+          <ArrayOfInjectionMetaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+            <InjectionMetaData AcqMethodName="DB5MS 50-150-320 SS" DaMethodName="Bob_FID+MS" InjectionAcqDateTime="2022-07-18T14:09:44.397Z" InjectionId="c704e2ba-e867-4b6d-87ed-a4d03a6f5cf1" InjectorPosition="Front" LastModifiedDateTime="2022-07-19T11:37:35.8239988+02:00" BracketingType="Undefined" RawDataFileName="20220718 MOR47_1.dx" SampleDescription="" SampleName="20220718 MOR47_1" SampleSetupId="52316ab1-c5b8-4fda-858a-610e767a6666" SampleType="Sample" SequenceName="SingleSample" VialNumber="101">
+              <Dil>1;1;1;1;1</Dil>
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <LimsIds key="" />
+              <Locked>false</Locked>
+              <Mult>1;1;1;1;1</Mult>
+              <ReplicateNumber val="1" />
+              <SampleAmount val="0" unit="" />
+              <SampleInjectionsCount val="1" />
+              <SampleOrderNumber val="1" />
+            </InjectionMetaData>
+          </ArrayOfInjectionMetaData>
+        </Xml>
+      </CustomField>
+    </DocInfo>
+    <Content>
+      <Resources>
+        <Instrument id="af36d8ab-09a5-4ad3-a912-af3ca96aa86b" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1920685+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="IsCombined">
+              <Value>False</Value>
+            </CustomField>
+          </ComplexCustomFields>
+          <Name>GCMS</Name>
+          <Technique>GasChromatography</Technique>
+          <Module id="d9f08b60-aaac-43e5-9c5a-072589d067fc">
+            <Name>Agilent 7890B</Name>
+            <Manufacturer>Agilent Technologies</Manufacturer>
+            <Type />
+            <PartNo>7890B</PartNo>
+            <SerialNo>CN18373082</SerialNo>
+            <FirmwareRevision>B.02.05.2</FirmwareRevision>
+            <DriverVersion />
+            <ConnectionInfo />
+            <AdditionalInformation />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="eee981bb-a1c5-4239-8790-780bfc27b0e7">
+            <Name>GC ALS</Name>
+            <Manufacturer>Agilent Technologies</Manufacturer>
+            <Type />
+            <PartNo>G3430A</PartNo>
+            <SerialNo>[NoMfgID]</SerialNo>
+            <FirmwareRevision>A.02.18</FirmwareRevision>
+            <DriverVersion />
+            <ConnectionInfo />
+            <AdditionalInformation />
+            <ParentInstrumentModule_ID id="d9f08b60-aaac-43e5-9c5a-072589d067fc" />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="d2960c4d-1c69-4cb3-9954-b7ebfe51a2a3">
+            <Name>Front Injector</Name>
+            <Manufacturer>Agilent Technologies</Manufacturer>
+            <Type />
+            <PartNo>G4567A</PartNo>
+            <SerialNo>CN18360018</SerialNo>
+            <FirmwareRevision>A.10.02</FirmwareRevision>
+            <DriverVersion />
+            <ConnectionInfo />
+            <AdditionalInformation />
+            <ParentInstrumentModule_ID id="d9f08b60-aaac-43e5-9c5a-072589d067fc" />
+            <Instance>1</Instance>
+          </Module>
+          <Module id="37d3cea6-341d-4db9-aabf-d54ace26ff80">
+            <Name>MSD</Name>
+            <Manufacturer>Agilent</Manufacturer>
+            <Type />
+            <PartNo>5977</PartNo>
+            <SerialNo>US1837R001</SerialNo>
+            <FirmwareRevision>5977: 6.00.34</FirmwareRevision>
+            <DriverVersion>1.4.0.0</DriverVersion>
+            <ConnectionInfo>192.168.254.12</ConnectionInfo>
+            <AdditionalInformation>Quadrupole</AdditionalInformation>
+            <Instance>1</Instance>
+          </Module>
+          <SeparationMedium_ID id="b17bbbb0-4c55-455c-b47b-a1842a5b8602" ver="0" />
+          <SeparationMedium_ID id="0d12a2a7-3163-47bf-92e1-f22feda8ffae" ver="0" />
+          <SeparationMedium_ID id="cc37d892-506f-42c7-9464-20596e9f7324" ver="0" />
+        </Instrument>
+        <SeparationMedium id="b17bbbb0-4c55-455c-b47b-a1842a5b8602" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1920685+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>DB-5ms</Name>
+          <Description>DB-5ms</Description>
+          <Type>
+            <Column>
+              <SerialNo />
+              <ProdNo>122-5532</ProdNo>
+              <BubbleCap>false</BubbleCap>
+              <Diameter val="250" unit="μm" />
+              <Length val="30" unit="m" />
+              <MaxTemp val="325" unit="°C" />
+              <FilmThickness val="0.25" />
+              <Manufacturer>Agilent</Manufacturer>
+              <ColumnId>1</ColumnId>
+            </Column>
+          </Type>
+        </SeparationMedium>
+        <SeparationMedium id="0d12a2a7-3163-47bf-92e1-f22feda8ffae" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1930662+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>&lt;Not Available&gt;</Name>
+          <Description>&lt;Not Available&gt;</Description>
+          <Type>
+            <Column>
+              <SerialNo />
+              <ProdNo />
+              <BubbleCap>false</BubbleCap>
+              <Diameter val="180" unit="μm" />
+              <Length val="3" unit="m" />
+              <MaxTemp val="325" unit="°C" />
+              <FilmThickness val="0" />
+              <Manufacturer />
+              <ColumnId>2</ColumnId>
+            </Column>
+          </Type>
+        </SeparationMedium>
+        <SeparationMedium id="cc37d892-506f-42c7-9464-20596e9f7324" ver="0">
+          <Info>
+            <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1930662+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <Name>&lt;Not Available&gt;</Name>
+          <Description>&lt;Not Available&gt;</Description>
+          <Type>
+            <Column>
+              <SerialNo />
+              <ProdNo />
+              <BubbleCap>false</BubbleCap>
+              <Diameter val="180" unit="μm" />
+              <Length val="1" unit="m" />
+              <MaxTemp val="450" unit="°C" />
+              <FilmThickness val="0" />
+              <Manufacturer />
+              <ColumnId>3</ColumnId>
+            </Column>
+          </Type>
+        </SeparationMedium>
+      </Resources>
+      <Method id="c315300b-c848-460d-95c3-93a9441b2015" ver="0">
+        <Info>
+          <CreatedBy>
+            <Username>Liliana Baron</Username>
+          </CreatedBy>
+          <CreatedDate>2019-11-04T14:15:25.2583898+01:00</CreatedDate>
+          <LastModifiedBy>
+            <Username>Liliana Baron</Username>
+          </LastModifiedBy>
+          <LastModifiedDate>2022-07-18T16:02:43.4157337+02:00</LastModifiedDate>
+          <AuditTrail />
+        </Info>
+        <ComplexCustomFields />
+        <BinaryData>
+          <DataItem>
+            <Name>DB5MS 50-150-320 SS.amx</Name>
+            <Data>
+              <DataFileReference>
+                <Path>DB5MS 50-150-320 SS.amx</Path>
+              </DataFileReference>
+            </Data>
+          </DataItem>
+        </BinaryData>
+        <Name>DB5MS 50-150-320 SS</Name>
+        <Description />
+        <OriginalVersion>2022-0718-1402-43414</OriginalVersion>
+      </Method>
+      <SampleContexts>
+        <Setup id="bfa33139-92c0-411f-b4c7-6a0d4d291c4b" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>Liliana Baron</Username>
+            </CreatedBy>
+            <CreatedDate>2022-07-18T16:04:13.0570517+02:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:24.2065912+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>SingleSample</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Complete</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="af36d8ab-09a5-4ad3-a912-af3ca96aa86b" ver="0" />
+          </AcqParam>
+          <DAParam>
+            <BracketingMode>None</BracketingMode>
+          </DAParam>
+          <SampleSetup_ID id="52316ab1-c5b8-4fda-858a-610e767a6666" ver="0" />
+          <PackagingMode>CompliantSingleSample</PackagingMode>
+        </Setup>
+        <MeasData id="077bfa1c-e579-45a1-98e0-844047b4ff17" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>Liliana Baron</Username>
+            </CreatedBy>
+            <CreatedDate>2022-07-18T16:04:13.0570517+02:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:24.2065912+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <SampleSetupContext_ID id="bfa33139-92c0-411f-b4c7-6a0d4d291c4b" ver="0" />
+          <IdentParam>
+            <Name>SingleSample</Name>
+            <ContextInfo>
+              <ContentType>Undefined</ContentType>
+              <SourceType>Undefined</SourceType>
+              <ContentIntegrity>Undefined</ContentIntegrity>
+            </ContextInfo>
+          </IdentParam>
+          <AcqParam>
+            <Instrument_ID id="af36d8ab-09a5-4ad3-a912-af3ca96aa86b" ver="0" />
+          </AcqParam>
+          <SampleMeasData_ID id="de9d51fc-3514-4dec-aa2f-ddb624bc201b" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </SampleContexts>
+      <Samples>
+        <Setup id="52316ab1-c5b8-4fda-858a-610e767a6666" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>Liliana Baron</Username>
+            </CreatedBy>
+            <CreatedDate>2022-07-18T17:24:18.1091275+02:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1091275+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields>
+            <CustomField Name="CompoundCustomFields" />
+          </ComplexCustomFields>
+          <IdentParam>
+            <Name>20220718 MOR47_1</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>GCMS Liliana</ProjectID>
+          </IdentParam>
+          <AcqParam>
+            <OrderNo val="1" />
+            <VialNumber>101</VialNumber>
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="1" unit="μL" />
+            <InjectorPosition>Front</InjectorPosition>
+            <InjectionSourceInfo>Front</InjectionSourceInfo>
+          </AcqParam>
+          <DAParam>
+            <Type>Sample</Type>
+            <SampleAmount val="0" unit="" />
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <DilutionFactor>
+              <CorrectionFactor val="1" />
+            </DilutionFactor>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+            <Multiplier>
+              <CorrectionFactor val="1" />
+            </Multiplier>
+          </DAParam>
+        </Setup>
+        <MeasData id="de9d51fc-3514-4dec-aa2f-ddb624bc201b" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>Liliana Baron</Username>
+            </CreatedBy>
+            <CreatedDate>2022-07-18T17:24:18.1091275+02:00</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-18T17:24:18.1091275+02:00</LastModifiedDate>
+            <AuditTrail />
+          </Info>
+          <ComplexCustomFields />
+          <IdentParam>
+            <Name>20220718 MOR47_1</Name>
+            <Description />
+            <LimsID key="" />
+            <LimsID key="" />
+            <LimsID key="" />
+            <ProjectID>GCMS Liliana</ProjectID>
+          </IdentParam>
+          <AcqParam>
+            <VialNumber>101</VialNumber>
+            <NumberOfInjections val="1" />
+            <InjectionVolume val="1" unit="μL" />
+            <InjectorPosition>Front</InjectorPosition>
+            <InjectionSourceInfo>Front</InjectionSourceInfo>
+          </AcqParam>
+          <SampleSetup_ID id="52316ab1-c5b8-4fda-858a-610e767a6666" ver="0" />
+          <InjectionMeasData_ID id="c704e2ba-e867-4b6d-87ed-a4d03a6f5cf1" ver="0" />
+          <DiagnosticData />
+        </MeasData>
+      </Samples>
+      <Injections>
+        <MeasData id="c704e2ba-e867-4b6d-87ed-a4d03a6f5cf1" ver="0">
+          <Info>
+            <CreatedBy>
+              <Username>Liliana Baron</Username>
+            </CreatedBy>
+            <CreatedDate>2022-07-18T14:09:44.397Z</CreatedDate>
+            <LastModifiedBy>
+              <Username>Liliana Baron</Username>
+            </LastModifiedBy>
+            <LastModifiedDate>2022-07-19T11:37:35.8239988+02:00</LastModifiedDate>
+          </Info>
+          <BinaryData>
+            <DataItem>
+              <Name>20220718 MOR47_1.dx</Name>
+              <OriginalFilePath>D:\CDSProjects\GCMS Liliana\Results\Geeske\Method C DCM\20220718 MOR47_1.sirslt</OriginalFilePath>
+              <Data>
+                <DataFileReference>
+                  <Path>20220718 MOR47_1.dx</Path>
+                </DataFileReference>
+              </Data>
+            </DataItem>
+          </BinaryData>
+          <AcqParam>
+            <Method_ID id="c315300b-c848-460d-95c3-93a9441b2015" ver="0" />
+            <OrderNo val="1" />
+          </AcqParam>
+          <AcquitionStatus>
+            <Status>Completed</Status>
+            <Message>Acquisition completed for injection: 1</Message>
+          </AcquitionStatus>
+          <Signal id="e9e7a61e-26a2-40ba-b52f-f799f5250645" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.5397567+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 11.472 min) Subtract (rt: 11.422, 11.564 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;11.42176628112793&lt;/BeginTime&gt;
+      &lt;EndTime&gt;11.42176628112793&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;11.563799858093262&lt;/BeginTime&gt;
+      &lt;EndTime&gt;11.563799858093262&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;11.472499847412109&lt;/BeginTime&gt;
+      &lt;EndTime&gt;11.472499847412109&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;11.472499847412109&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;11.472499847412109&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="183091" />
+                  <LibraryCompoundName>Benzoic Acid, TMS derivative</LibraryCompoundName>
+                  <MatchNumber val="870" />
+                  <UserCompoundName>Benzoic Acid, TMS derivative</UserCompoundName>
+                  <ReverseMatchNumber val="891" />
+                  <ProbabilityPercent val="76.29" />
+                  <CASNumber>2078-12-8</CASNumber>
+                  <LibaryNumber val="64182" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="12164921" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="183092" />
+                  <LibraryCompoundName>Benzoic Acid, TBDMS derivative</LibraryCompoundName>
+                  <MatchNumber val="840" />
+                  <UserCompoundName>Benzoic Acid, TBDMS derivative</UserCompoundName>
+                  <ReverseMatchNumber val="862" />
+                  <ProbabilityPercent val="21.2" />
+                  <CASNumber>75732-41-1</CASNumber>
+                  <LibaryNumber val="221740" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="12406031" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="c5a5b18c-99b8-43e4-b8e3-b40c1ea4c00b" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:25.5547613+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 27.024 min) Subtract (rt: 27.014, 27.115 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.013883590698242&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.013883590698242&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.115333557128906&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.115333557128906&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.024032592773437&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.024032592773437&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;27.024032592773437&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;27.024032592773437&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="73ab8719-bdc1-46c8-a994-e4270a36e6df" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:32:45.6742094+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 27.024 min) Subtract (rt: 27.004, 27.136 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.003732681274414&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.003732681274414&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.135616302490234&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.135616302490234&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.024032592773437&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.024032592773437&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;27.024032592773437&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;27.024032592773437&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="a6345454-ff88-476d-92dd-8d54f81fd93f" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-18T17:24:23.2827231+02:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 66.375 min) Subtract (rt: 66.354, 66.486 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;66.354286193847656&lt;/BeginTime&gt;
+      &lt;EndTime&gt;66.354286193847656&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;66.486167907714844&lt;/BeginTime&gt;
+      &lt;EndTime&gt;66.486167907714844&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;66.374580383300781&lt;/BeginTime&gt;
+      &lt;EndTime&gt;66.374580383300781&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;66.374580383300781&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;66.374580383300781&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="9f999db1-c2b6-4d07-beca-4c961b46023c" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.429042+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 8.835 min) Subtract (rt: 8.784, 8.916 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;8.7841997146606445&lt;/BeginTime&gt;
+      &lt;EndTime&gt;8.7841997146606445&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;8.9160833358764648&lt;/BeginTime&gt;
+      &lt;EndTime&gt;8.9160833358764648&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;8.8349332809448242&lt;/BeginTime&gt;
+      &lt;EndTime&gt;8.8349332809448242&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;8.8349332809448242&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;8.8349332809448242&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="49613" />
+                  <LibraryCompoundName>Hexanoic acid, TMS derivative</LibraryCompoundName>
+                  <MatchNumber val="827" />
+                  <UserCompoundName>Hexanoic acid, TMS derivative</UserCompoundName>
+                  <ReverseMatchNumber val="863" />
+                  <ProbabilityPercent val="70.51" />
+                  <CASNumber>14246-15-2</CASNumber>
+                  <LibaryNumber val="24239" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="48323878" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="50174" />
+                  <LibraryCompoundName>3-Methylvaleric acid, TMS</LibraryCompoundName>
+                  <MatchNumber val="767" />
+                  <UserCompoundName>3-Methylvaleric acid, TMS</UserCompoundName>
+                  <ReverseMatchNumber val="832" />
+                  <ProbabilityPercent val="12.51" />
+                  <CASNumber />
+                  <LibaryNumber val="414250" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="59781606" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="090e6893-acf1-48a7-bcac-81940f0b5ada" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:32:32.0589984+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 31.264 min) Subtract (rt: 31.153, 31.386 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;31.152849197387695&lt;/BeginTime&gt;
+      &lt;EndTime&gt;31.152849197387695&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;31.386167526245117&lt;/BeginTime&gt;
+      &lt;EndTime&gt;31.386167526245117&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;31.264432907104492&lt;/BeginTime&gt;
+      &lt;EndTime&gt;31.264432907104492&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;31.264432907104492&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;31.264432907104492&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="76978ab8-d694-4cd5-a8b0-ee4ef85bcd23" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:35:40.3644915+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 22.905 min) Subtract (rt: 22.794, 22.966 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;22.793766021728516&lt;/BeginTime&gt;
+      &lt;EndTime&gt;22.793766021728516&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;22.966217041015625&lt;/BeginTime&gt;
+      &lt;EndTime&gt;22.966217041015625&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;22.905349731445313&lt;/BeginTime&gt;
+      &lt;EndTime&gt;22.905349731445313&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;22.905349731445313&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;22.905349731445313&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="bffa6a27-250d-461e-8168-750309f2fca2" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.5945994+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 38.051 min) Subtract (rt: 37.970, 38.163 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;37.969951629638672&lt;/BeginTime&gt;
+      &lt;EndTime&gt;37.969951629638672&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;38.162700653076172&lt;/BeginTime&gt;
+      &lt;EndTime&gt;38.162700653076172&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;38.051116943359375&lt;/BeginTime&gt;
+      &lt;EndTime&gt;38.051116943359375&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;38.051116943359375&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;38.051116943359375&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="260216" />
+                  <LibraryCompoundName>1-Monopalmitin, 2TMS derivative</LibraryCompoundName>
+                  <MatchNumber val="786" />
+                  <UserCompoundName>1-Monopalmitin, 2TMS derivative</UserCompoundName>
+                  <ReverseMatchNumber val="796" />
+                  <ProbabilityPercent val="83.05" />
+                  <CASNumber>1188-74-5</CASNumber>
+                  <LibaryNumber val="414375" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="28451370" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="260323" />
+                  <LibraryCompoundName>Silane, dimethylpentyloxyhexadecyloxy-</LibraryCompoundName>
+                  <MatchNumber val="626" />
+                  <UserCompoundName>Silane, dimethylpentyloxyhexadecyloxy-</UserCompoundName>
+                  <ReverseMatchNumber val="754" />
+                  <ProbabilityPercent val="2.07" />
+                  <CASNumber />
+                  <LibaryNumber val="346834" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="53502015" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="2a9560a1-de05-4e13-80dc-b3c9665392ac" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-18T17:24:21.3018506+02:00</LastModifiedDate>
+              <AuditTrail />
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front</Name>
+            <Description>MS1Front,Spectrum</Description>
+            <Type>Spectra</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>Front</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="3c2ac3da-3462-460b-a972-680c04852c65" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.0959545+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front TIC SCAN EI</Name>
+            <Description>MS1Front TIC SCAN EI</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes" />
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ChromatogramExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ExtractionTimeRange&gt;
+    &lt;BeginTime&gt;0&lt;/BeginTime&gt;
+    &lt;EndTime&gt;0&lt;/EndTime&gt;
+  &lt;/ExtractionTimeRange&gt;
+  &lt;ExtractionTimeRangeUnit&gt;Unknown&lt;/ExtractionTimeRangeUnit&gt;
+  &lt;ExtractionType&gt;TIC&lt;/ExtractionType&gt;
+  &lt;IntervalHigh&gt;0&lt;/IntervalHigh&gt;
+  &lt;IntervalLow&gt;0&lt;/IntervalLow&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;NeutralMass&gt;0&lt;/NeutralMass&gt;
+&lt;/ChromatogramExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <PeakDeletions>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="66.35421956380209" unit="s" />
+                  <EndTime val="66.493758138020837" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="31.148070820050474" unit="s" />
+                  <EndTime val="31.393940122983558" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="26.994173649444136" unit="s" />
+                  <EndTime val="27.136519035352762" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="26.968292670187978" unit="s" />
+                  <EndTime val="27.149459524980777" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="4.1338954805331314" unit="s" />
+                  <EndTime val="4.3920152059150883" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="5.5599299112955727" unit="s" />
+                  <EndTime val="5.65653076171875" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="22.787612954089433" unit="s" />
+                  <EndTime val="22.975570138132014" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="27.007226267392255" unit="s" />
+                  <EndTime val="27.115912891091675" unit="s" />
+                </Range>
+              </PeakDeletion>
+              <PeakDeletion>
+                <DeletionType>DeletePeak</DeletionType>
+                <Range>
+                  <BeginTime val="24.960294854386525" unit="s" />
+                  <EndTime val="25.032752603519473" unit="s" />
+                </Range>
+              </PeakDeletion>
+            </PeakDeletions>
+            <Dimension val="1" />
+            <Group>MS1 TIC SCAN</Group>
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="0b04ac16-2960-436f-873c-c489d3d4a369" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:33:50.6178813+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 5.568 min) Subtract (rt: 5.568, 5.650 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;5.5683999061584473&lt;/BeginTime&gt;
+      &lt;EndTime&gt;5.5683999061584473&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;5.6495499610900879&lt;/BeginTime&gt;
+      &lt;EndTime&gt;5.6495499610900879&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;5.5683999061584473&lt;/BeginTime&gt;
+      &lt;EndTime&gt;5.5683999061584473&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;5.5683999061584473&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;5.5683999061584473&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="a85d45a8-82c3-443d-ae13-498b685ff8f9" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:29.0771136+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 24.995 min) Subtract (rt: 24.965, 25.026 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;24.964700698852539&lt;/BeginTime&gt;
+      &lt;EndTime&gt;24.964700698852539&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;25.025566101074219&lt;/BeginTime&gt;
+      &lt;EndTime&gt;25.025566101074219&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;24.995132446289063&lt;/BeginTime&gt;
+      &lt;EndTime&gt;24.995132446289063&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;24.995132446289063&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;24.995132446289063&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="150393" />
+                  <LibraryCompoundName>Phthalic acid, 4-bromophenyl octyl ester</LibraryCompoundName>
+                  <MatchNumber val="630" />
+                  <UserCompoundName>Phthalic acid, 4-bromophenyl octyl ester</UserCompoundName>
+                  <ReverseMatchNumber val="712" />
+                  <ProbabilityPercent val="13.04" />
+                  <CASNumber />
+                  <LibaryNumber val="309815" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="28530869" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="150392" />
+                  <LibraryCompoundName>Phthalic acid, 4-bromophenyl heptyl ester</LibraryCompoundName>
+                  <MatchNumber val="627" />
+                  <UserCompoundName>Phthalic acid, 4-bromophenyl heptyl ester</UserCompoundName>
+                  <ReverseMatchNumber val="709" />
+                  <ProbabilityPercent val="11.52" />
+                  <CASNumber />
+                  <LibaryNumber val="309814" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="28294199" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="944c28e9-62d8-4ebb-8b0c-85d31c29c968" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.4868872+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 9.758 min) Subtract (rt: 9.707, 9.819 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;9.70734977722168&lt;/BeginTime&gt;
+      &lt;EndTime&gt;9.70734977722168&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;9.8189496994018555&lt;/BeginTime&gt;
+      &lt;EndTime&gt;9.8189496994018555&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;9.75808334350586&lt;/BeginTime&gt;
+      &lt;EndTime&gt;9.75808334350586&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;9.75808334350586&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;9.75808334350586&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="258282" />
+                  <LibraryCompoundName>Cyclopentasiloxane, decamethyl-</LibraryCompoundName>
+                  <MatchNumber val="781" />
+                  <UserCompoundName>Cyclopentasiloxane, decamethyl-</UserCompoundName>
+                  <ReverseMatchNumber val="850" />
+                  <ProbabilityPercent val="80.75" />
+                  <CASNumber>541-02-6</CASNumber>
+                  <LibaryNumber val="133340" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="55145184" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="258219" />
+                  <LibraryCompoundName>3,4-Dihydroxymandelic acid, ethyl ester, tri-TMS</LibraryCompoundName>
+                  <MatchNumber val="685" />
+                  <UserCompoundName>3,4-Dihydroxymandelic acid, ethyl ester, tri-TMS</UserCompoundName>
+                  <ReverseMatchNumber val="739" />
+                  <ProbabilityPercent val="6.43" />
+                  <CASNumber />
+                  <LibaryNumber val="71702" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="40403959" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="c7ac9120-d73e-4436-9a92-5dfe58763c1e" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.6654458+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 41.510 min) Subtract (rt: 41.419, 41.602 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;41.419082641601563&lt;/BeginTime&gt;
+      &lt;EndTime&gt;41.419082641601563&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;41.6016845703125&lt;/BeginTime&gt;
+      &lt;EndTime&gt;41.6016845703125&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;41.510383605957031&lt;/BeginTime&gt;
+      &lt;EndTime&gt;41.510383605957031&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;41.510383605957031&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;41.510383605957031&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName />
+            <MSSpectrumSearchResults>
+              <MSSpectrumLibrary>
+                <LibraryName>mainlib</LibraryName>
+                <MSSpectrumHit>
+                  <LibraryID val="262652" />
+                  <LibraryCompoundName>Glycerol monostearate, 2TMS derivative</LibraryCompoundName>
+                  <MatchNumber val="770" />
+                  <UserCompoundName>Glycerol monostearate, 2TMS derivative</UserCompoundName>
+                  <ReverseMatchNumber val="770" />
+                  <ProbabilityPercent val="74.23" />
+                  <CASNumber>1188-75-6</CASNumber>
+                  <LibaryNumber val="408133" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="59140276" />
+                </MSSpectrumHit>
+                <MSSpectrumHit>
+                  <LibraryID val="148051" />
+                  <LibraryCompoundName>1-Dimethyl(trimethylsilylmethyl)silyloxyoctadecane</LibraryCompoundName>
+                  <MatchNumber val="690" />
+                  <UserCompoundName>1-Dimethyl(trimethylsilylmethyl)silyloxyoctadecane</UserCompoundName>
+                  <ReverseMatchNumber val="793" />
+                  <ProbabilityPercent val="8.16" />
+                  <CASNumber />
+                  <LibaryNumber val="216958" />
+                  <LibrarySpectrumRefType val="8" />
+                  <LibrarySpectrumRefLib val="0" />
+                  <LibrarySpectrumRefLoc val="19590391" />
+                </MSSpectrumHit>
+              </MSSpectrumLibrary>
+            </MSSpectrumSearchResults>
+            <PeakDeletions />
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="a563e8ac-2c0b-4c97-a3dd-97483bc80a1a" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:33:04.9493358+02:00</LastModifiedDate>
+            </Info>
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>MS1Front MassSpectrum</Name>
+            <Description>MS1Front Scan EI (rt: 27.024 min) Subtract (rt: 26.973, 27.146 min)</Description>
+            <Type>ExtractedSpectrum</Type>
+            <TraceID>7aabb65d-5603-44b2-b14f-11d92134e1e7</TraceID>
+            <ExtractionParameters>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SpectrumExtractionParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;BackgroundSourceType&gt;PeakStartAndEnd&lt;/BackgroundSourceType&gt;
+  &lt;BackgroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;26.973300933837891&lt;/BeginTime&gt;
+      &lt;EndTime&gt;26.973300933837891&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.145767211914063&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.145767211914063&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/BackgroundTimeRanges&gt;
+  &lt;ForegroundTimeRanges&gt;
+    &lt;TimeRange&gt;
+      &lt;BeginTime&gt;27.024032592773437&lt;/BeginTime&gt;
+      &lt;EndTime&gt;27.024032592773437&lt;/EndTime&gt;
+    &lt;/TimeRange&gt;
+  &lt;/ForegroundTimeRanges&gt;
+  &lt;MassWindow&gt;1&lt;/MassWindow&gt;
+  &lt;MaxExtractionTime&gt;27.024032592773437&lt;/MaxExtractionTime&gt;
+  &lt;MinExtractionTime&gt;27.024032592773437&lt;/MinExtractionTime&gt;
+  &lt;MsExtractionParameters&gt;
+    &lt;CollisionEnergy&gt;0&lt;/CollisionEnergy&gt;
+    &lt;FragmentorVoltage&gt;0&lt;/FragmentorVoltage&gt;
+    &lt;IonPolarity&gt;Positive&lt;/IonPolarity&gt;
+    &lt;IonizationMode&gt;EI&lt;/IonizationMode&gt;
+    &lt;MSScanType&gt;Scan&lt;/MSScanType&gt;
+    &lt;QuadDetectorGain&gt;0&lt;/QuadDetectorGain&gt;
+    &lt;QuadElectronMultiplierVoltage&gt;0&lt;/QuadElectronMultiplierVoltage&gt;
+  &lt;/MsExtractionParameters&gt;
+  &lt;SimIonMass&gt;0&lt;/SimIonMass&gt;
+  &lt;TimeUnit&gt;Minutes&lt;/TimeUnit&gt;
+&lt;/SpectrumExtractionParameters&gt;</ExtractionParameters>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>true</AutomationGenerated>
+            <DetectorName>Ms</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName> </ChannelName>
+            <Dimension val="1" />
+            <InstrumentModule_ID id="37d3cea6-341d-4db9-aabf-d54ace26ff80" />
+          </Signal>
+          <Signal id="5f532c2e-4d31-49cb-9abf-eab9aa3b0038" ver="0">
+            <Info>
+              <CreatedDate>0001-01-01T00:00:00Z</CreatedDate>
+              <LastModifiedBy>
+                <Username>Liliana Baron</Username>
+              </LastModifiedBy>
+              <LastModifiedDate>2022-07-19T11:37:35.4180732+02:00</LastModifiedDate>
+            </Info>
+            <ComplexCustomFields />
+            <BinaryData>
+              <DataItem>
+                <Name>20220718 MOR47_1.dx</Name>
+                <OriginalFilePath>20220718 MOR47_1.dx</OriginalFilePath>
+                <Data>
+                  <DataFileReference>
+                    <Path>20220718 MOR47_1.dx</Path>
+                  </DataFileReference>
+                </Data>
+              </DataItem>
+            </BinaryData>
+            <Name>FID1A</Name>
+            <Description>FID1A</Description>
+            <Type>Chromatogram</Type>
+            <YAxisScalingFactor val="1" unit="Minutes" />
+            <TraceID>43b1d181-f3d7-4db8-8b5c-c53d8870283a</TraceID>
+            <UserGenerated>false</UserGenerated>
+            <AutomationGenerated>false</AutomationGenerated>
+            <DetectorName>FID</DetectorName>
+            <DetectorInstance>1</DetectorInstance>
+            <ChannelName>A</ChannelName>
+            <PeakDeletions />
+            <InstrumentModule_ID id="d9f08b60-aaac-43e5-9c5a-072589d067fc" />
+          </Signal>
+          <InjectionSeparationMedium>
+            <AutoDetect>false</AutoDetect>
+            <Position>Unknown</Position>
+            <InjectionCount val="0" />
+            <UsedForInjection>true</UsedForInjection>
+            <SeparationMedium_ID id="cc37d892-506f-42c7-9464-20596e9f7324" ver="0" />
+          </InjectionSeparationMedium>
+          <InjectionSeparationMedium>
+            <AutoDetect>false</AutoDetect>
+            <Position>Unknown</Position>
+            <InjectionCount val="0" />
+            <UsedForInjection>true</UsedForInjection>
+            <SeparationMedium_ID id="0d12a2a7-3163-47bf-92e1-f22feda8ffae" ver="0" />
+          </InjectionSeparationMedium>
+          <InjectionSeparationMedium>
+            <AutoDetect>false</AutoDetect>
+            <Position>Unknown</Position>
+            <InjectionCount val="0" />
+            <UsedForInjection>true</UsedForInjection>
+            <SeparationMedium_ID id="b17bbbb0-4c55-455c-b47b-a1842a5b8602" ver="0" />
+          </InjectionSeparationMedium>
+          <InjectionVolume val="1" unit="μL" />
+          <DiagnosticData>
+            <Item Name="ADVANCED_RUN_INFORMATION">
+              <CustomField Name="Agilent 7890B : 1" Description="Agilent 7890B">
+                <CustomField Name="Column1" Description="Column 1">
+                  <Value>122-5532 : </Value>
+                </CustomField>
+                <CustomField Name="Column2" Description="Column 2">
+                  <Value>Installed but not present in local inventory.</Value>
+                </CustomField>
+                <CustomField Name="Column3" Description="Column 3">
+                  <Value>Installed but not present in local inventory.</Value>
+                </CustomField>
+                <CustomField Name="FrontLiner" Description="Front Liner">
+                  <Value>5190-2295 : </Value>
+                </CustomField>
+              </CustomField>
+            </Item>
+          </DiagnosticData>
+          <AcquisitionApplication>
+            <AgilentApp>
+              <Name>OpenLabCDS</Name>
+              <Version>2.5 - Build  2.5.0-REL_2.5.7.4</Version>
+            </AgilentApp>
+          </AcquisitionApplication>
+          <AcquisitionSoftware>Agilent OpenLab Acquisition Version 2.5 - Build  2.5.0-REL_2.5.7.4 </AcquisitionSoftware>
+          <AcquisitionMethodVersion>2022-0718-1402-43414</AcquisitionMethodVersion>
+          <ExternalResultPath>20220718 MOR47_1.rx</ExternalResultPath>
+        </MeasData>
+      </Injections>
+      <Actions />
+    </Content>
+  </Doc>
+</ACAML>

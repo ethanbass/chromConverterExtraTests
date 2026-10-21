@@ -42,7 +42,8 @@ Other Agilent OpenLab files:
 \code{\link{minimal.acaml}},
 \code{\link{openlab.sirslt}},
 \code{\link{openlab_131.uv}},
-\code{\link{openlab_179.ch}}
+\code{\link{openlab_179.ch}},
+\code{\link{openlab_gcms.sirslt}}
 }
 \concept{Agilent OpenLab files}
 \keyword{data}
